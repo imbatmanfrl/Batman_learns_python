@@ -3,7 +3,7 @@ bias = input("LONG or SHORT?: ").upper()
 #and if it were a jpy pair it would multiply by 100 I just need where ill store pair, maybe inside a 2D list
 
 fav_pairs = ["GBPUSD","EURUSD","GBPJPY","ES"]
-pair = input("What pair?: ")
+pair = input("What pair?: ").upper()
 account_balance = float (input ("Account Balance?: "))
 lots = float (input("Lots?: "))
 profit = ""
@@ -19,16 +19,28 @@ if bias == "LONG":
     if pair == "GBPJPY" in fav_pairs:
         pips = pips*100
         print("Total pips: " + str(pips))
-    elif
+    elif pair == "GBPUSD" in fav_pairs:
+        pips = pips * 10000
+        print("Total pips: " + str(pips))
+    elif pair == "EURUSD" in fav_pairs:
+        pips = pips * 10000
+        print("Total pips: " + str(pips))
     print("Your profit is: "+ str(profit))
     print("You earned: "+ str (percentage_gain))
 
 elif bias == "SHORT":
-    pips = entry_price - entry_price
+    pips =int(entry_price - entry_price)
+    if pair == "GBPJPY" in fav_pairs:
+        actual_pips = pips * 100
+        print("Total pips: " + str(actual_pips))
+    elif pair == "GBPUSD" in fav_pairs:
+        actual_pips = pips * 10000
+        print("Total pips: " + str(actual_pips))
+    elif pair == "EURUSD" in fav_pairs:
+        actual_pips = pips * 10000
+        print("Total pips: " + str(actual_pips))
     profit = lots * pips
     percentage_gain = (profit / account_balance) * 100
-    print("Total pips: " + str(pips))
-    print("Your profit is: $" + str(profit))
-    print("You earned: " + str(percentage_gain)+"%")
-
+    print("Your profit is: " + str(profit))
+    print("You earned: " + str(percentage_gain))
 
