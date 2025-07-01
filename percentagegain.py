@@ -14,8 +14,6 @@ percentage_gain = ""
 
 if bias == "LONG":
     pips = exit_Price - entry_price
-    profit = lots * pips
-    percentage_gain = (profit/account_balance)*100
     if pair == "GBPJPY" in fav_pairs:
         pips = pips*100
         print("Total pips: " + str(pips))
@@ -25,11 +23,13 @@ if bias == "LONG":
     elif pair == "EURUSD" in fav_pairs:
         pips = pips * 10000
         print("Total pips: " + str(pips))
+    profit = lots * pips * 10
+    percentage_gain = (profit / account_balance) * 100
     print("Your profit is: "+ str(profit))
-    print("You earned: "+ str (percentage_gain))
+    print("You earned: "+ str (percentage_gain)+"%")
 
 elif bias == "SHORT":
-    pips =int(entry_price - entry_price)
+    pips = entry_price - exit_Price
     if pair == "GBPJPY" in fav_pairs:
         actual_pips = pips * 100
         print("Total pips: " + str(actual_pips))
@@ -39,8 +39,8 @@ elif bias == "SHORT":
     elif pair == "EURUSD" in fav_pairs:
         actual_pips = pips * 10000
         print("Total pips: " + str(actual_pips))
-    profit = lots * pips
+    profit = lots * pips * 10
     percentage_gain = (profit / account_balance) * 100
     print("Your profit is: " + str(profit))
-    print("You earned: " + str(percentage_gain))
+    print("You earned: "+ str (percentage_gain)+"%")
 
