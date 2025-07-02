@@ -1,16 +1,36 @@
-bias = input("LONG or SHORT?: ").upper()
+def bias():
+    direction = input("LONG or SHORT?: ").upper()
+    return direction
+#(----------------------------------------)
+def pair():
+    traded_asset = input("What Asset Pair?: ").upper()
+    return traded_asset
+#(------------------------------------------)
+def account_balance():
+    value = float (input ("Account Balance?: "))
+    return value
+#(-------------------------------------------)
+lots = float (input("Lots?: "))
+entry_price = float(input("Entry Price?: "))
+exit_Price = float(input("Exit Price?: "))
+#(--------------------------------------------)
+def output():
+#    pip_value
+    profit =
+    pips
+    percentage_gain
+
+
+
+
+#if "usd" in pair
 # I want to modify the program in a way where it asks for what pair, and based on what pair for usd it will mulitply pips by 10,000
 #and if it were a jpy pair it would multiply by 100 I just need where ill store pair, maybe inside a 2D list
 
 fav_pairs = ["GBPUSD","EURUSD","GBPJPY","ES"]
-pair = input("What pair?: ").upper()
-account_balance = float (input ("Account Balance?: "))
-lots = float (input("Lots?: "))
-profit = ""
-entry_price = float(input("Entry Price?: "))
-exit_Price = float(input("Exit Price?: "))
 
 
+#currently having trouble with the while loop but im going to try and shorten the code by breaking some parts into functions!
 while True:
     if bias == "LONG":
         pips = exit_Price - entry_price
