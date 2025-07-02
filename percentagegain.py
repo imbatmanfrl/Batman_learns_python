@@ -16,31 +16,31 @@ if bias == "LONG":
     pips = exit_Price - entry_price
     if pair == "GBPJPY" in fav_pairs:
         pips = pips*100
-        print("Total pips: " + str(pips))
+        print("Total pips: " + str(round (pips,2)))#this will round pps up to 2 decimal places
     elif pair == "GBPUSD" in fav_pairs:
         pips = pips * 10000
-        print("Total pips: " + str(pips))
+        print("Total pips: " + str(round (pips,2)))
     elif pair == "EURUSD" in fav_pairs:
         pips = pips * 10000
-        print("Total pips: " + str(pips))
+        print("Total pips: " + str(round (pips,2)))
     profit = lots * pips * 10
     percentage_gain = (profit / account_balance) * 100
-    print("Your profit is: "+ str(profit))
-    print("You earned: "+ str (percentage_gain)+"%")
+    print("Your profit is: " + str(round(profit, 2)))
+    print("You earned: " + str(round(percentage_gain, 2)) + "%")
 
 elif bias == "SHORT":
     pips = entry_price - exit_Price
     if pair == "GBPJPY" in fav_pairs:
-        actual_pips = pips * 100
-        print("Total pips: " + str(actual_pips))
+        pips = pips * 100
+        print("Total pips: " + str(round (pips,2)))
     elif pair == "GBPUSD" in fav_pairs:
-        actual_pips = pips * 10000
-        print("Total pips: " + str(actual_pips))
+        pips = pips * 10000
+        print("Total pips: " + str(round (pips,2)))
     elif pair == "EURUSD" in fav_pairs:
-        actual_pips = pips * 10000
-        print("Total pips: " + str(actual_pips))
+        pips = pips * 10000
+        print("Total pips: " + str(round(pips, 2)))
     profit = lots * pips * 10
     percentage_gain = (profit / account_balance) * 100
-    print("Your profit is: " + str(profit))
-    print("You earned: "+ str (percentage_gain)+"%")
+    print("Your profit is: " + str(round(profit,2)))
+    print("You earned: "+ str (round(percentage_gain,2))+"%")
 
