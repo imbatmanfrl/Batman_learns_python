@@ -15,10 +15,10 @@ entry_price = float(input("Entry Price?: "))
 exit_Price = float(input("Exit Price?: "))
 #(--------------------------------------------)
 def output():
-#    pip_value
-    profit =
-    pips
-    percentage_gain
+    if bias() == "LONG":
+
+
+
 
 
 
