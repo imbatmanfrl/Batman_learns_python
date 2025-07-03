@@ -2,14 +2,17 @@
 def pair():
     traded_asset = input("What Asset Pair?: ").upper()
     return traded_asset
+print(pair())
 #(----------------------------------------)
 def bias():
     direction = input("LONG or SHORT?: ").upper()
     return direction
+print(bias())
 #(------------------------------------------)
 def account_balance():
     value = float (input ("Account Balance?: "))
     return value
+print(account_balance())
 #(-------------------------------------------)
 lots = float (input("Lots?: "))
 entry_price = float(input("Entry Price?: "))
@@ -57,6 +60,20 @@ def output():
 #(-----------------------------------------------------------------------------------------------)
 #our code has been written with separate functions performing different task as in modular programming
 #now we just need a body of code that would actually carry out this whole code
+while True:
+    print(pair())
+    print(bias())
+    print(account_balance())
+
+
+
+
+
+
+
+
+
+
 
 #currently having trouble with the while loop but im going to try and shorten the code by breaking some parts into functions!
 #while True:
