@@ -69,6 +69,8 @@ def output():
 #our code has been written with separate functions performing different task as in modular programming
 #now we just need a body of code that would actually carry out this whole code
 #while statement should come before the declaring functions so the program can ask for new inputs
+#"I learnt alot tonight, It's important to practice what you learn and gather data yourself,
+# i wish i'm able to gather this much data and info in forex too"
 
 
 
