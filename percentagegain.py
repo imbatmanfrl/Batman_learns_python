@@ -71,18 +71,20 @@ while True:
         percentage_gain = percentage_gainf()
         # (--------------------------------------------)
         def output():
-            trade_details = ("The Pair you traded is: " + pair + " and you entered a " + bias + " position")
+            trade_details = (" The Pair you traded is: " + pair + " and you entered a " + bias + " position")
 
-            trade_execution = ("Lots Traded: " + str(round(lots, 2)) + " Entry Price: " +
+            trade_execution = (" Lots Traded: " + str(round(lots, 2)) + "\n Entry Price: " +
                                str(round(entry_price, 2)) +
-                               " Exit Price: " + str(round(exit_Price, 2)))
+                               "\n Exit Price: " + str(round(exit_Price, 2)))
 
-            trade_outcome = ("Pips Traded: " + str(round(pips, 2)) +
-                             "\n Profit made: " + str(round(profit, 2)) +
-                             "\n Percentage gain: " + str(round(percentage_gain, 2)))
-            return trade_details and trade_execution and trade_outcome
+            trade_outcome = (" Pips Traded: " + str(round(pips, 2)) + " pips"
+                             "\n Profit made: $" + str(round(profit, 2)) +
+                             "\n Percentage gain: " + str(round(percentage_gain, 2))+"%")
+            print(trade_details)
+            print(trade_execution)
+            print(trade_outcome)
         # (-----------------------------------------------------------------------------------------------)
-        print(output())
+        output()
         again = input("Do you want to continue?").lower()
         if again == "no":
             break
