@@ -2,44 +2,40 @@ while True:
 #The try blocks should be inside the function
 #Try blocks are not needed, use an if statement instead
         def pairf():
-# now the code only moves if I enter usdjpy, if I enter usdcad,gbpjpy,
-# it just tells me enter a valid pair don't show me any example code at allllll
-# just explain don't write anything code at all
             while True:
                 traded_asset = input("What Asset Pair?: ").upper()
-                if "USD" in traded_asset and  "JPY" in traded_asset:
+                if "USD" in traded_asset or  "JPY" in traded_asset:
                     return traded_asset
-                if "USD" not in traded_asset and "JPY" not in traded_asset:
-                    print("Enter a valid USD or JPY Pair!")
-                    continue
+                else:
+                    print("Enter a valid pair")
         pair = pairf()
         # (----------------------------------------)
         def biasf():
             while True:
                 direction = input("LONG or SHORT?: ").upper()
-                if direction != "LONG" or "SHORT":
-                    continue
+                if "LONG" not in direction and "SHORT" not in direction:
+                    print("Enter Long or Short")
                 else:
                     return direction
-
-
-
         bias = biasf()
-
-
         # (------------------------------------------)
         def account_balancef():
-            value = float(input("Account Balance?: "))
-            return value
-
-
+            while True:
+                try:
+                    value = float(input("Account Balance?: "))
+                    return value
+                except ValueError:
+                    print('Enter "1,2,3..." not "A,B,C..."')
         account_balance = account_balancef()
         # (-------------------------------------------)
-        lots = float(input("Lots?: "))
-        entry_price = float(input("Entry Price?: "))
-        exit_Price = float(input("Exit Price?: "))
-
-
+        while True:
+            try:
+                lots = float(input("Lots?: "))
+                entry_price = float(input("Entry Price?: "))
+                exit_Price = float(input("Exit Price?: "))
+                break
+            except ValueError:
+                print("Enter Numbers not letters!")
         # (--------------------------------------------)
         def pipsf():
             if bias == "LONG":
@@ -48,51 +44,31 @@ while True:
             elif bias == "SHORT":
                 calc_pips = (entry_price - exit_Price)
                 return calc_pips
-
-
         pips = pipsf()
-
-
         # (--------------------------------------------)
         def pip_valuef():
             value_or_pip = lots * 10
             return value_or_pip
-
-
         pip_value = pip_valuef()
-
-
         # (--------------------------------------------)
         def asset_typef():
             if "USD" in pair:
-                asset_value = pair * 10000
+                asset_value = pips * 10000
                 return asset_value
             elif "JPY" in pair:
-                asset_value = pair * 100
+                asset_value = pips * 100
                 return asset_value
-
-
         asset_type = asset_typef()
-
-
         # (--------------------------------------------)
         def profitf():
-            your_prof = pips * pip_value
+            your_prof = asset_type * pip_value
             return your_prof
-
-
         profit = profitf()
-
-
         # (--------------------------------------------)
         def percentage_gainf():
             gain = (profit / account_balance) * 100
             return gain
-
-
         percentage_gain = percentage_gainf()
-
-
         # (--------------------------------------------)
         def output():
             trade_details = ("The Pair you traded is: " + pair + " and you entered a " + bias + " position")
@@ -106,6 +82,18 @@ while True:
                              "\n Percentage gain: " + str(round(percentage_gain, 2)))
             return trade_details and trade_execution and trade_outcome
         # (-----------------------------------------------------------------------------------------------)
+        print(output())
+        again = input("Do you want to continue?").lower()
+        if again == "no":
+            break
+
+# blueprint
+#while True:  👈🏾 The main gate. Start here.
+#    1. Ask for input (call functions)
+#    2. Do the calculations
+#    3. Show the results
+#    4. Ask: “Do you want to continue?”
+#    5. If user says “no” → break
 
 #I ust found out that everytime I call a function within another function it will always ask for input, functions are maily just
 #used to print functions multiple times without repeating too much lines of code

@@ -18,6 +18,9 @@ from logging import exception
 #except Exception as e:
 #    print("caught an error:", e)
 
+
+
+
 try:
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by:"))
