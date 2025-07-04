@@ -2,14 +2,19 @@ while True:
 #The try blocks should be inside the function
 #Try blocks are not needed, use an if statement instead
         def pairf():
-                traded_asset = input("What Asset Pair?: ").upper()
-                if "USD" or "JPY" not in pairf():
-                    print("Enter a valid USD or JPY Pair!")
-                else:
-                    return traded_asset
+# now the code only moves if I enter usdjpy, if I enter usdcad,gbpjpy,
+# it just tells me enter a valid pair don't show me any example code at allllll
+# just explaid donr write anything code at all
 
-#                if "usd" or "jpy" not in pairf():
-#                      print("Enter a valid pair")
+
+
+            while True:
+                traded_asset = input("What Asset Pair?: ").upper()
+                if "USD" not in traded_asset or "JPY" not in traded_asset:
+                    print("Enter a valid USD or JPY Pair!")
+                    continue
+                elif "USD" in traded_asset or "JPY"  in traded_asset:
+                    return traded_asset
         pair = pairf()
         # (----------------------------------------)
         def biasf():
