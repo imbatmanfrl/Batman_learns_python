@@ -1,12 +1,15 @@
 while True:
 #The try blocks should be inside the function
+#Try blocks are not needed, use an if statement instead
         def pairf():
-            try:
                 traded_asset = input("What Asset Pair?: ").upper()
-                return traded_asset
-            except str(ValueError) in pairf():
-                if "usd" or "jpy" not in traded_asset:
-                      print("Enter a valid pair")
+                if "USD" or "JPY" not in pairf():
+                    print("Enter a valid USD or JPY Pair!")
+                else:
+                    return traded_asset
+
+#                if "usd" or "jpy" not in pairf():
+#                      print("Enter a valid pair")
         pair = pairf()
         # (----------------------------------------)
         def biasf():
