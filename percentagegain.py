@@ -4,22 +4,24 @@ while True:
         def pairf():
 # now the code only moves if I enter usdjpy, if I enter usdcad,gbpjpy,
 # it just tells me enter a valid pair don't show me any example code at allllll
-# just explaid donr write anything code at all
-
-
-
+# just explain don't write anything code at all
             while True:
                 traded_asset = input("What Asset Pair?: ").upper()
-                if "USD" not in traded_asset or "JPY" not in traded_asset:
+                if "USD" in traded_asset and  "JPY" in traded_asset:
+                    return traded_asset
+                if "USD" not in traded_asset and "JPY" not in traded_asset:
                     print("Enter a valid USD or JPY Pair!")
                     continue
-                elif "USD" in traded_asset or "JPY"  in traded_asset:
-                    return traded_asset
         pair = pairf()
         # (----------------------------------------)
         def biasf():
-            direction = input("LONG or SHORT?: ").upper()
-            return direction
+            while True:
+                direction = input("LONG or SHORT?: ").upper()
+                if direction != "LONG" or "SHORT":
+                    continue
+                else:
+                    return direction
+
 
 
         bias = biasf()
