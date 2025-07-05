@@ -36,7 +36,7 @@ cheetah.run()"""
 
 #Multilevel Inheritance- when a derived class (child class) inherits from another derived class
 
-class Organism:
+"""class Organism:
 
     alive = True
 
@@ -54,4 +54,37 @@ class Owl(Animal):
 owl = Owl()
 print(owl.alive)
 print(owl.eat())
-print(owl.hoot())
+print(owl.hoot())"""
+
+#Multiple Inheritance- A child class is derived from more than one parent class
+
+class Prey:
+
+    def flee(self):
+        print("This Animal is fleeing!")
+
+
+class Predator:
+
+    def hunt(self):
+        print("This animal is hunting!")
+
+
+class Rabbit(Prey):
+    pass
+
+class Owl(Predator):
+    pass
+
+class Fish(Predator,Prey):
+    pass
+
+rabbit = Rabbit()
+owl =Owl()
+fish = Fish()
+
+
+rabbit.flee()
+owl.hunt()
+fish.hunt()
+fish.flee()
