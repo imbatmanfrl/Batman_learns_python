@@ -15,3 +15,9 @@ car_2 = Car("Pagani","Zonda","2018","Black")
 
 car_1.drive()
 car_2.stop()
+
+Car.wheels = 2
+"""If you rewrite the value of you class variable, it will affect all instance variables in that class as well"""
+car_2.wheels = 8
+"""it's allowed to explicitly list the number of wheels a particular object has"""
+print(car_1.wheels)
