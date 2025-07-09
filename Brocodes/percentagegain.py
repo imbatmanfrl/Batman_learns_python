@@ -1,10 +1,16 @@
 """A trade as an object,it will have attributes(what it has) and methods(what it can do)
 question is what will be in the parent class and what would be in the abstract class or do I even need an abstract class
 
+# since I want my program to be able to validate input, I had to create a method before creating attribute which
+ # i didn't even know was allowed impressive, it's much easier that the shit i had going on in my head
 On second thought fuck it, i dont yet understand enough to create a huge program like that
  so instead let it work on fx trades only """
-class Trade:#this will be a parent class as a trade could be stock, forex or crypto or even futures, they all have this feature
+#this will be a parent class as a trade could be stock, forex or crypto or even futures, they all have this feature
 
+
+
+class Trade:
+# Attributes
     def __init__(self):
         def fxasset():
             while True:
@@ -14,9 +20,8 @@ class Trade:#this will be a parent class as a trade could be stock, forex or cry
                 else:
                     print("Enter a valid pair")
         self.asset = fxasset()
-# since I want my program to be able to validate input, I had to create a method before creating attribute which
- # i didn't even know was allowed impressive, it's much easier that the shit i had going on in my head
-        # (----------------------------------------)
+
+# (----------------------------------------------------------------)
         def fxbias():
             while True:
                 direction = input("LONG or SHORT?: ").upper()
@@ -25,7 +30,7 @@ class Trade:#this will be a parent class as a trade could be stock, forex or cry
                 else:
                     return direction
         self.bias = fxbias()
-        # (----------------------------------------)
+# (-------------------------------------------------------)
         def fxaccount_balance():
             while True:
                 try:
@@ -34,6 +39,7 @@ class Trade:#this will be a parent class as a trade could be stock, forex or cry
                 except ValueError:
                     print('Enter "1,2,3..." not "A,B,C..."')
         self.account_balance = fxaccount_balance()
+# (-----------------------------------------------------)
         while True:
             try:
                 lots = float(input("Lots?: "))
@@ -45,7 +51,7 @@ class Trade:#this will be a parent class as a trade could be stock, forex or cry
         self.entry_price = entry_price
         self.exit_price = exit_price
         self.lots = lots
-        # (----------------------------------------)
+# (------------------------------------------------------)
         def fxpips():
             if self.bias == "LONG":
                 calc_pips = (self.exit_price - self.entry_price)
@@ -54,28 +60,46 @@ class Trade:#this will be a parent class as a trade could be stock, forex or cry
                 calc_pips = (self.entry_price - self.exit_price)
                 return calc_pips
         self.pips = fxpips()
+# Methods
 
-"""from abc import ABC, abstractmethod
-class TradeCalcs:
+    def fxpip_value(self):
+        value_or_pip = self.lots * 10
+        return value_or_pip
+# (----------------------------------------)
+    def fxassetvalue(self):
+        if "USD" in self.asset:
+            asset_value = self.pips * 10000
+            return asset_value
+        elif "JPY" in self.asset:
+            asset_value = self.pips * 100
+            return asset_value
+# (----------------------------------------)
+    def fxprofit(self):
+        your_prof = self.fxassetvalue() * self.fxpip_value()
+        return your_prof
+# (--------------------------------------------)
+    def fxpercentage_gain(self):
+        gain = (self.fxprofit() / self.account_balance)* 100
+        return gain
+# (--------------------------------------------)
+    def output(self):
+        trade_details =f"The pair you traded is {self.asset} and you entered a {self.bias} position"
 
-    def pips(self):
-        pass
+        trade_execution = (f"Lots Traded: {round(self.lots,2)} \n Entry Price: {self.entry_price}"
+                           f"\n Exit Price: {self.exit_price}")
 
-    def pip_value(self):
-        pass
-
-    def asset_type(self):
-        pass
-
-    def profit(self):
-        pass
-
-    def percentage_gain(self):
-        pass
+        trade_outcome = (f" Pips Traded: {self.pips} pips"
+                         f"\n Profit made: $ {round(self.fxprofit(),2)}"
+                         f"\n Percentage gain {round(self.fxpercentage_gain(),2)} %")
+        print(trade_details)
+        print(trade_execution)
+        print(trade_outcome)
+# (-----------------------------------------------------------------------------------------------)
 
 
-class ForexTrades(Trade,TradeCalcs):
-    pass"""
+
+
+
 
 
 #trade = ForexTrades
