@@ -88,7 +88,7 @@ class Trade:
         trade_execution = (f"Lots Traded: {round(self.lots,2)} \n Entry Price: {self.entry_price}"
                            f"\n Exit Price: {self.exit_price}")
 
-        trade_outcome = (f" Pips Traded: {self.pips} pips"
+        trade_outcome = (f" Pips Traded: {round(self.fxassetvalue(),0)} pips"
                          f"\n Profit made: $ {round(self.fxprofit(),2)}"
                          f"\n Percentage gain {round(self.fxpercentage_gain(),2)} %")
         print(trade_details)
