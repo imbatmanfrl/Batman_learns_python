@@ -1,4 +1,4 @@
-from percentagegain import Trade
+from MiniAmaterasuBase.percentagegain import Trade
 
 while True:
     trade = Trade()
