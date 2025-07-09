@@ -5,8 +5,10 @@
 
 from car import Car
 
-car_1 = Car("Ferrari","LaFerrari","2015","Silver")
-car_2 = Car("Pagani","Zonda","2018","Black")
+car_1 = Car()
+car_2 = Car()
+#car_1 = Car("","LaFerrari","2015","Silver")
+#car_2 = Car("Pagani","Zonda","2018","Black")
 
 #print(car_2.make)
 #print(car_2.model)

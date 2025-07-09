@@ -1,4 +1,85 @@
-while True:
+"""A trade as an object,it will have attributes(what it has) and methods(what it can do)
+question is what will be in the parent class and what would be in the abstract class or do I even need an abstract class
+
+On second thought fuck it, i dont yet understand enough to create a huge program like that
+ so instead let it work on fx trades only """
+class Trade:#this will be a parent class as a trade could be stock, forex or crypto or even futures, they all have this feature
+
+    def __init__(self):
+        def fxasset():
+            while True:
+                traded_asset = input("What Asset Pair?: ").upper()
+                if "USD" in traded_asset or "JPY" in traded_asset:
+                    return traded_asset
+                else:
+                    print("Enter a valid pair")
+        self.asset = fxasset()
+# since I want my program to be able to validate input, I had to create a method before creating attribute which
+ # i didn't even know was allowed impressive, it's much easier that the shit i had going on in my head
+        # (----------------------------------------)
+        def fxbias():
+            while True:
+                direction = input("LONG or SHORT?: ").upper()
+                if "LONG" not in direction and "SHORT" not in direction:
+                    print("Enter Long or Short")
+                else:
+                    return direction
+        self.bias = fxbias()
+        # (----------------------------------------)
+        def fxaccount_balance():
+            while True:
+                try:
+                    value = float(input("Account Balance?: "))
+                    return value
+                except ValueError:
+                    print('Enter "1,2,3..." not "A,B,C..."')
+        self.account_balance = fxaccount_balance()
+        while True:
+            try:
+                lots = float(input("Lots?: "))
+                entry_price = float(input("Entry Price?: "))
+                exit_price = float(input("Exit Price?: "))
+                break
+            except ValueError:
+                print("Enter Numbers not letters!")
+        self.entry_price = entry_price
+        self.exit_price = exit_price
+        self.lots = lots
+        # (----------------------------------------)
+        def fxpips():
+            if self.bias == "LONG":
+                calc_pips = (self.exit_price - self.entry_price)
+                return calc_pips
+            elif self.bias == "SHORT":
+                calc_pips = (self.entry_price - self.exit_price)
+                return calc_pips
+        self.pips = fxpips()
+
+"""from abc import ABC, abstractmethod
+class TradeCalcs:
+
+    def pips(self):
+        pass
+
+    def pip_value(self):
+        pass
+
+    def asset_type(self):
+        pass
+
+    def profit(self):
+        pass
+
+    def percentage_gain(self):
+        pass
+
+
+class ForexTrades(Trade,TradeCalcs):
+    pass"""
+
+
+#trade = ForexTrades
+"""while True:
 #The try blocks should be inside the function
 #Try blocks are not needed, use an if statement instead
         def pairf():
@@ -87,7 +168,7 @@ while True:
         output()
         again = input("Do you want to continue?").lower()
         if again == "no":
-            break
+            break"""
 
 # blueprint
 #while True:  👈🏾 The main gate. Start here.

@@ -1,4 +1,4 @@
-"""A function is written in one lien using the lambda keyword
+"""A function is written in one line using the lambda keyword
 accepts any number of arguments, but on;y has one expression (It's more like a shortcut, useful if needed for a short period of time, Throwaway
 
  Lambda parameters:expression
