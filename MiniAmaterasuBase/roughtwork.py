@@ -44,31 +44,19 @@ print(budget.expense_list)"""
 import datetime
 class WeeksPassed:
 
-    """def __init__(self,weeks):
-# this is used to receive the week you think it is since you started using the budget model
-the constructor is not needed
-        self.weeks = weeks
-"""
     def last_saved(self):
         saved_date = self.time_since_last_update()
         return saved_date
 
-    def current_date(self):
-#this is used to display the days current date
-        date = datetime.date.today()
-        return date
-# now the program should be structured in a way that the stored function doesnt run,
-    # until someone has successfully logged in a budget
-#I can turn current_date and updt into one block of code that san read todyas date and save it into an external file
+#I can turn current_date and updt into one block of code that san read today's date and save it into an external file
     def updt(self):
         update = input("Do you want to update your Budget?(YES/NO): ").lower()
         if update != "no":
-            def store(self):
-                # this stores that date in an external txt file
-                stored = self.current_date()
-                with open("last_update.txt", "w") as file:
-                    file.write(str(stored))
-            print(self.current_date())
+            # this stores that date in an external txt file
+            stored = datetime.date.today()
+            with open("last_update.txt", "w") as file:
+                file.write(str(stored))
+                print(stored)
 
     def time_since_last_update(self):
 #this now turns the date of that external txt file into a data type which can be subtracted from todays date to show
