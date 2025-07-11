@@ -14,6 +14,20 @@ class BudgetModel:
         self.weekly_expenditure = weekly_expenditure
         self.weekly_savings = weekly_savings
         self.weekly_investments = weekly_investments
+import datetime
+
+class WeeksPassed:
+
+    def __init__(self,weeks):
+        self.weeks = weeks
+
+    def last_saved(self):
+        date = datetime.date.today()
+
+    def last_updated(self):
+        past_weeks = self.weeks
+        update = f"You last Updated your budget {past_weeks}weeks ago"
+
 
     expense_list = []
 
@@ -30,13 +44,13 @@ class BudgetModel:
 #Methods, Actions that the budget model can do like the prediction after x number of months, total saved, total invested,
 # total expenditure, a method function that counts weeks
 
-class Calc(BudgetModel):
+class Calc(BudgetModel,WeeksPassed):
     def weekly_leftover(self):
         earnings_left = f"You have {self.weekly_earnings - (self.weekly_expenditure + self.weekly_savings + self.weekly_investments)} left!"
         return earnings_left
 
-    def weeks_since_start(self,weeks_passed):
-        current_week = f"{weeks_passed + 1} week(s) has passed since you started!"
+    def weeks_since_start(self,):
+        current_week = f"{self.weeks} week(s) has passed since you started!"
         return current_week
 
     def total_earned(self,weeks_passed):
