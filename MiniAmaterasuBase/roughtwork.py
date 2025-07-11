@@ -9,6 +9,7 @@ object as arguments
 python oriented programming
 Method Overriding and chaining
 assigning functions to variables"""
+
 """class BudgetModel:
 
 # Attributes, What a budget has like to get a budget you need like income/earnings, expenditures, monthly finances/bills
@@ -39,7 +40,6 @@ print(budget.total_earned(1))
 budget.expense_list.append("Spotify")
 print(budget.expense_list)"""
 
-from budgetModel import BudgetModel
 
 import datetime
 class WeeksPassed:
@@ -50,25 +50,25 @@ the constructor is not needed
         self.weeks = weeks
 """
     def last_saved(self):
+        saved_date = self.time_since_last_update()
+        return saved_date
+
+    def current_date(self):
 #this is used to display the days current date
         date = datetime.date.today()
         return date
-# now the program should be structures=d in a way that the stored function doesnt run,
+# now the program should be structured in a way that the stored function doesnt run,
     # until someone has successfully logged in a budget
-
-    class BudgetModel:
-        def __init__(self, weekly_earnings, weekly_expenditure, weekly_savings, weekly_investments, ):
-            self.weekly_earnings = weekly_earnings
-            self.weekly_expenditure = weekly_expenditure
-            self.weekly_savings = weekly_savings
-            self.weekly_investments = weekly_investments
-    def store(self):
-#this stores that date in an external txt file
-        stored = self.last_saved()
-        with open("last_update.txt", "w") as file:
-            file.write(str(stored))
-        print(self.last_saved())
-
+#I can turn current_date and updt into one block of code that san read todyas date and save it into an external file
+    def updt(self):
+        update = input("Do you want to update your Budget?(YES/NO): ").lower()
+        if update != "no":
+            def store(self):
+                # this stores that date in an external txt file
+                stored = self.current_date()
+                with open("last_update.txt", "w") as file:
+                    file.write(str(stored))
+            print(self.current_date())
 
     def time_since_last_update(self):
 #this now turns the date of that external txt file into a data type which can be subtracted from todays date to show
@@ -79,14 +79,15 @@ the constructor is not needed
                 stored_date = datetime.datetime.strptime(stored_date_str,"%Y-%m-%d").date()
                 today = datetime.date.today()
                 days_passed = (today - stored_date)//7
-                return f"{days_passed} days has passed since you last budgeted!"
+                print(f"{days_passed} days has passed since you last budgeted!")
+
         except FileNotFoundError:
             print("No saved date appeared yet!")
 #all that is left now is for the user program to be able to update the last_saved function,
 # as it is it'll be using the current date of every day as the last saved.
 # we want to be able to append that file or idk i think im right
 
-budget = BudgetModel(10000,2000,5000,3000)
+#budget = BudgetModel(10000,2000,5000,3000)
 weeks_passed = WeeksPassed()
-weeks_passed.store()
-weeks_passed.time_since_last_update()
+weeks_passed.last_saved()
+weeks_passed.updt()
