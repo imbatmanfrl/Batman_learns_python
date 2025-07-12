@@ -14,48 +14,45 @@ class BudgetModel:
         self.weekly_expenditure = weekly_expenditure
         self.weekly_savings = weekly_savings
         self.weekly_investments = weekly_investments
-import datetime
 
+import datetime
 class WeeksPassed:
 
-    def __init__(self,weeks):
-        self.weeks = weeks
+    def time_since_last_update(self):
+        # this now turns the date of that external txt file into a data type which can be subtracted from todays date to show
+        # you how ong it has been since you logged in a budget
+        try:
+            with open("last_update.txt", "r") as file:
+                stored_date_str = file.read().strip()
+                stored_date = datetime.datetime.strptime(stored_date_str, "%Y-%m-%d").date()
+                today = datetime.date.today()
+                days_passed = (today - stored_date) // 7
+                print(f"{days_passed} weeks has passed since you last budgeted!")
 
-    def last_saved(self):
-        date = datetime.date.today()
+        except FileNotFoundError:
+            print("No saved date appeared yet!")
 
-    def last_updated(self):
-        past_weeks = self.weeks
-        update = f"You last Updated your budget {past_weeks}weeks ago"
-
-
-    expense_list = []
-
-"""class Expenditure:
-
-    def __init__(self,expenditure,cost,interval):
-        self.expenditure = expenditure
-        self.cost = cost
-        self.interval = interval
-
-    def total_expenditure(self):
-        pass"""
+#I can turn current_date and updt into one block of code that san read today's date and save it into an external file
+    def store(self):
+        update = input("Do you want to update your Budget?(YES/NO): ").lower()
+        if update != "no":
+            # this stores that date in an external txt file
+            stored = datetime.date.today()
+            with open("last_update.txt", "w") as file:
+                file.write(str(stored))
+                print(stored)
+        elif update == "no":
+            print("Have a great day then!")
 
 #Methods, Actions that the budget model can do like the prediction after x number of months, total saved, total invested,
 # total expenditure, a method function that counts weeks
 
 class Calc(BudgetModel,WeeksPassed):
     def weekly_leftover(self):
-        earnings_left = f"You have {self.weekly_earnings - (self.weekly_expenditure + self.weekly_savings + self.weekly_investments)} left!"
-        return earnings_left
-
-    def weeks_since_start(self,):
-        current_week = f"{self.weeks} week(s) has passed since you started!"
-        return current_week
+        pass
 
     def total_earned(self,weeks_passed):
-        earned = f"You earned #{self.weekly_earnings*weeks_passed} after {weeks_passed} week(s)!"
-        return earned
+        pass
 
     def total_saved(self):
         pass

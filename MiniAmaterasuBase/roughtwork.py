@@ -39,43 +39,37 @@ budget.weeks_since_start(1)
 print(budget.total_earned(1))
 budget.expense_list.append("Spotify")
 print(budget.expense_list)"""
-from budgetModel import BudgetModel
+from miniPerformanceModel import BudgetModel
 
-import datetime
-class WeeksPassed:
+class Spending:
+    investments = [("Forex",3500)]
 
-    def time_since_last_update(self):
-        # this now turns the date of that external txt file into a data type which can be subtracted from todays date to show
-        # you how ong it has been since you logged in a budget
-        try:
-            with open("last_update.txt", "r") as file:
-                stored_date_str = file.read().strip()
-                stored_date = datetime.datetime.strptime(stored_date_str, "%Y-%m-%d").date()
-                today = datetime.date.today()
-                days_passed = (today - stored_date) // 7
-                print(f"{days_passed} weeks has passed since you last budgeted!")
+    necessities = [("Data",1500),
+                   ("Transport",800)]
 
-        except FileNotFoundError:
-            print("No saved date appeared yet!")
+    must_have = [("Spotify Premium",2000)]
 
-#I can turn current_date and updt into one block of code that san read today's date and save it into an external file
-    def store(self):
-        update = input("Do you want to update your Budget?(YES/NO): ").lower()
-        if update != "no":
-            # this stores that date in an external txt file
-            stored = datetime.date.today()
-            with open("last_update.txt", "w") as file:
-                file.write(str(stored))
-                print(stored)
-        elif update == "no":
-            print("Have a great day then!")
+    re_occurring = {"Investments":investments,
+                    "Necessities":necessities,
+                    "Must Have": must_have}
+    """re_occurring = [investments, necessities, must_have]"""
+
+    one_time_purchases = []
+
+    occurrence = input("Did all this happen this week?(YES/NO): ").lower()
+    if occurrence == "no":
+
+        skipped_items = []
+        left_spent_on = []
+        """for i in re_occurring:
+            print(f"Which of these did you alter {i}")"""
 
 
 #all that is left now is for the user program to be able to update the last_saved function,
 # as it is it'll be using the current date of every day as the last saved.
 # we want to be able to append that file or idk i think im right
 
-budget = BudgetModel(10000,2000,5000,3000)
+"""budget = BudgetModel(10000,2000,5000,3000)
 weeks_passed = WeeksPassed()
 weeks_passed.time_since_last_update()
-weeks_passed.store()
+weeks_passed.store()"""

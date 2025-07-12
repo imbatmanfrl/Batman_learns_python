@@ -10,4 +10,4 @@ know_me_well = [anime,personalities,shows]
 
 anime.append("Demon slayer")
 
-print(anime)
+print(know_me_well)
