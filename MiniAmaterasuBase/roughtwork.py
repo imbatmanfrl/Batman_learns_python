@@ -21,21 +21,30 @@ from miniPerformanceModel import BudgetModel
 
 class Spending:
 
-    re_occurring = ["Forex","Transport","Data","Spotify"]
+    re_occurring = ["F","Transport","Data","Spotify"]
     """re_occurring = [investments, necessities, must_have]"""
 
     one_time_purchases = []
+    """How do i say "did you invest in x this week? if yes how much " for each item in the list but i dont want to have to type it 
+    manually for each item oin the list, it'll be a block of code that will iterate and loop through all the elements in the list 
+    using their respective indexes"""
 
     print(re_occurring)
     occurrence = input("Did all this happen this week?(YES/NO): ").lower()
     if occurrence == "no":
-        """How do i say "did you invest in x this week? if yes how much " for each item in the list but i dont want to have to type it 
-manually for each item oin the list, it'll be a block of code that will iterate and loop through all the elements in the list 
-using their respective indexes"""
-        ask = f"did you invest in {re_occurring} this week? if yes how much "
 
-        for i in ask:
-            print(i)
+        confirmed_expense = []
+
+        for item in re_occurring:
+            response = input(f"did you spend on {item} this week?(YES/NO): ").lower()
+            if response == "yes":
+                try:
+                    price = int(input(f"How much did you spend on {item}?: "))
+                    confirmed_expense[int(item)]= price
+
+                except ValueError:
+                    print("Enter Number not values!")
+
 
     else:
         print(f"All re_occurring expenses were made")
