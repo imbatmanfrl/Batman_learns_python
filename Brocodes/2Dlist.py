@@ -6,7 +6,7 @@ shows = ["south park", "family guy", "american dad", "inside job"]
 
 know_me_well = [anime,personalities,shows]
 
-#print(know_me_well[2][0])
+print(know_me_well[2])
 
 anime.append("Demon slayer")
 
