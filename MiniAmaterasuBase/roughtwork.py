@@ -29,11 +29,13 @@ class Spending:
     print(re_occurring)
     occurrence = input("Did all this happen this week?(YES/NO): ").lower()
     if occurrence == "no":
-       """How do i say "did you invest in x this week? if yes how much " for each item in the list but i dont want to have to type it 
-       manually for each item oin the list, it'll be a block of code that will iterate and loop through all the elements in the list 
-       using their respective indexes"""
-       while True:
-           loop = re_occurring
+        """How do i say "did you invest in x this week? if yes how much " for each item in the list but i dont want to have to type it 
+manually for each item oin the list, it'll be a block of code that will iterate and loop through all the elements in the list 
+using their respective indexes"""
+        ask = f"did you invest in {re_occurring} this week? if yes how much "
+
+        for i in ask:
+            print(i)
 
     else:
         print(f"All re_occurring expenses were made")
