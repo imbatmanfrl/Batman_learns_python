@@ -46,9 +46,6 @@ class Spending:
                 except ValueError:
                    print("Enter Number not values!")
 
-        """as the program is, it keeps giving value error even after you enter numbers and also even i you enter letters instead of 
-        numbers, it would continue as well """
-
 
     else:
         print(f"All re_occurring expenses were made")
