@@ -55,6 +55,8 @@ class Spending:
         one_time_purchases.append(others)
         print(one_time_purchases)
 
+"""one time purchase could be multiple purchases, so I'll need a while loop and a way to break out of the loop"""
+
 spending = Spending()
 
 
