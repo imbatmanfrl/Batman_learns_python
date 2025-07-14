@@ -21,50 +21,56 @@ from miniPerformanceModel import BudgetModel
 
 class Spending:
 #I want to spend this night changing from accepting input to accepting arguments
-    re_occurring = ["F","Transport","Data","Spotify"]
-    """re_occurring = [investments, necessities, must_have]"""
 
+    def re_occuring(self, *args):
+        self.weekly = [*args]
+        print(self.weekly)
+
+    print(f"Did all these happen this week?")
+
+    def yes_or_no(self,answer):
+        self.answer = answer
+    confirmed_expense = []
     one_time_purchases = []
-    """How do i say "did you invest in x this week? if yes how much " for each item in the list but i dont want to have to type it 
-    manually for each item oin the list, it'll be a block of code that will iterate and loop through all the elements in the list 
-    using their respective indexes"""
 
-    print(re_occurring)
-    occurrence = input("Did all this happen this week?(YES/NO): ").lower()
-    if occurrence == "no":
+    def confirm(self,response):
+        self.response = response
+        if self.answer == "yes":
+            for item in self.weekly:
+                print(f"did you spend on {item} this week?")
+                if self.response == "yes":
+                    try:
+                        price = float(input(f"How much did you spend on {item}?: "))
+                        confirmed_expense = {item, price}
+                        return confirmed_expense
+                    except ValueError:
+                        print("Enter Number not values!")
 
+        else:
+            print(f"All re_occurring expenses were made")
 
-        confirmed_expense = []
-#the issue here is that the program can't check if you spelt yes or no wrongly, and theres no way to know if items were paired to
-#prie and stuff, and why are we receiving input from the terminak i thought for a gui we pass in arguments in a block of code, this program
-#has flaws i don't know what i'm doing anymore
-        for item in re_occurring:
-            response = input(f"did you spend on {item} this week?(YES/NO): ").lower()
-            if response == "yes":
-                try:
-                    price = float(input(f"How much did you spend on {item}?: "))
-                    confirmed_expense= {item,price}
-                except ValueError:
-                   print("Enter Number not values!")
-
-
-    else:
-        print(f"All re_occurring expenses were made")
-        """one time purchases could be more than one in number, so i created a while loop to ask repeatedly so far the user saids yes, 
-        bu i also need a ways to collect he cost and make it into a dictionary or something, wtf am i even building ??!"""
     while True:
         anything_else = input("Did yoy make any one time purchase?").lower()
         if anything_else == "yes":
             others = (input("What else?: "))
             for items in others:
-                cost=input(f"How much is {items}?: ")
-            one_time_purchases.append(others,cost)
+                cost = input(f"How much is {items}?: ")
+                one_time_purchases.append(others)
             print(one_time_purchases)
         elif anything_else != "yes":
             break
+"""one time purchases could be more than one in number, so i created a while loop to ask repeatedly so far the user saids yes, 
+bu i also need a ways to collect he cost and make it into a dictionary or something, wtf am i even building ??!"""
+
+#the issue here is that the program can't check if you spelt yes or no wrongly, and theres no way to know if items were paired to
+#prie and stuff, and why are we receiving input from the terminak i thought for a gui we pass in arguments in a block of code, this program
+#has flaws i don't know what i'm doing anymore
 
 
-spending = Spending()
+
+
+spending = Spending("Forex","Fifa","Transport","Food","Data",answer="yes")
+spending.response("yes")
 
 
 
