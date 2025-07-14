@@ -20,7 +20,7 @@ print(budget.expense_list)"""
 from miniPerformanceModel import BudgetModel
 
 class Spending:
-
+#I want to spend this night changing from accepting input to accepting arguments
     re_occurring = ["F","Transport","Data","Spotify"]
     """re_occurring = [investments, necessities, must_have]"""
 
@@ -32,6 +32,7 @@ class Spending:
     print(re_occurring)
     occurrence = input("Did all this happen this week?(YES/NO): ").lower()
     if occurrence == "no":
+
 
         confirmed_expense = []
 #the issue here is that the program can't check if you spelt yes or no wrongly, and theres no way to know if items were paired to
