@@ -34,26 +34,37 @@ class Spending:
     if occurrence == "no":
 
         confirmed_expense = []
-
+#the issue here is that the program can't check if you spelt yes or no wrongly, and theres no way to know if items were paired to
+#prie and stuff, and why are we receiving input from the terminak i thought for a gui we pass in arguments in a block of code, this program
+#has flaws i don't know what i'm doing anymore
         for item in re_occurring:
             response = input(f"did you spend on {item} this week?(YES/NO): ").lower()
             if response == "yes":
                 try:
-                    price = int(input(f"How much did you spend on {item}?: "))
-                    confirmed_expense[int(item)]= price
-
+                    price = float(input(f"How much did you spend on {item}?: "))
+                    confirmed_expense= {item,price}
                 except ValueError:
-                    print("Enter Number not values!")
+                   print("Enter Number not values!")
+
+        """as the program is, it keeps giving value error even after you enter numbers and also even i you enter letters instead of 
+        numbers, it would continue as well """
 
 
     else:
         print(f"All re_occurring expenses were made")
+        """one time purchases could be more than one in number, so i created a while loop to ask repeatedly so far the user saids yes, 
+        bu i also need a ways to collect he cost and make it into a dictionary or something, wtf am i even building ??!"""
+    while True:
+        anything_else = input("Did yoy make any one time purchase?").lower()
+        if anything_else == "yes":
+            others = (input("What else?: "))
+            for items in others:
+                cost=input(f"How much is {items}?: ")
+            one_time_purchases.append(others,cost)
+            print(one_time_purchases)
+        elif anything_else != "yes":
+            break
 
-    anything_else = input("Did yoy make any one time purchase?").lower()
-    if anything_else == "yes":
-        others = (input("What else?:"))
-        one_time_purchases.append(others)
-        print(one_time_purchases)
 
 spending = Spending()
 
