@@ -49,7 +49,7 @@ class Spending:
     else:
         print(f"All re_occurring expenses were made")
 
-    anything_else = input("Did yoy make any one time purchase?").lower()
+    anything_else = input("Did you make any one time purchase?").lower()
     if anything_else == "yes":
         others = (input("What else?:"))
         one_time_purchases.append(others)
