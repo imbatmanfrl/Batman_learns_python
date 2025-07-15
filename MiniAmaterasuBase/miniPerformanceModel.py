@@ -3,12 +3,8 @@ based on the input and current performance and the projection changes as the per
 Alright this program will need a couple of things, what should a financial budget have
 I'm starting to see the importance of flowchart and pseudocode"""
 
-#First will be all the input needed to be able to generate output
-
 class BudgetModel:
 
-# Attributes, What a budget has like to get a budget you need like income/earnings, expenditures, monthly finances/bills
-#This program we're trying something different, we're going to be passing input as parameters not passing it through the terminal
     def __init__(self,weekly_earnings,weekly_expenditure,weekly_savings,weekly_investments,):
         self.weekly_earnings = weekly_earnings
         self.weekly_expenditure = weekly_expenditure
@@ -32,7 +28,6 @@ class WeeksPassed:
         except FileNotFoundError:
             print("No saved date appeared yet!")
 
-#I can turn current_date and updt into one block of code that san read today's date and save it into an external file
     def store(self):
         update = input("Do you want to update your Budget?(YES/NO): ").lower()
         if update != "no":
@@ -44,25 +39,18 @@ class WeeksPassed:
         elif update == "no":
             print("Have a great day then!")
 
-#Methods, Actions that the budget model can do like the prediction after x number of months, total saved, total invested,
-# total expenditure, a method function that counts weeks
-
 class Spending:
-#I want to spend this night changing from accepting input to accepting arguments
 
     def re_occurring(self, *args):
         self.weekly = list(args)
         print(self.weekly)
 
-
     def price(self, *args):
         self.cost = list(args)
-
 
     def expenses(self):
         compiled = dict(zip(self.weekly, self.cost))
         print(compiled)
-
 
     def one_time_purchases(self, random=None, cost=None):
         random = list(random)
