@@ -20,20 +20,15 @@ print(budget.expense_list)"""
 
 from miniPerformanceModel import BudgetModel,WeeksPassed,Spending
 
-class Calc(BudgetModel,WeeksPassed,Spending):
+class Calc(BudgetModel,Spending,WeeksPassed):
 #now we want to calculate how much we have at the end of each week, how much we've saved so far,
 # how much money we actually earned before expenses
 #how much money we've spent on expenses up until now
 #how much we'll have earned after x number of years, only problem is
 # i want this part to be dynamic as spending and earning frequency may vary
     def weekly_leftover(self):
-#I want to combine both re_occurring expenses and one_time_purchase into one list
-    value = (lambda values: self.compiled[1] +
-                            self.compiled[3] + self.compiled[5] +
-                            self.compiled[7])
-    the_value = list(map(value, self.compiled))
-    print(the_value)
-        #whats_left = self.weekly_earnings -
+# I want to combine both re_occurring expenses and one_time_purchase into one list
+        pass
 
     def total_spent(self):
         pass
@@ -48,7 +43,8 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         pass
 
 #append
-
+"""calc = Calc
+calc.weekly_leftover()"""
 spend = Spending()
 spend.re_occurring("Data","Transport","Spotify","F")
 spend.price(1500,800,2000,3500)

@@ -53,11 +53,24 @@ class Spending:
         print(self.compiled)
 
     def one_time_purchases(self, random=None, cost=None):
-        random = list(random)
-        tag = list(cost)
-        the_zip = zip(random, tag)
-        self.miscelieous = dict(the_zip)
-        print(f"one-time purchases {self.miscelieous}")
+        self.random = list(random)
+        self.tag = list(cost)
+        the_zip = zip(self.random, self.tag)
+        miscelieous = dict(the_zip)
+        print(f"one-time purchases {miscelieous}")
+        weekly_value = None
+        once_value = None
+
+        for item in self.cost:
+            weekly_value = sum(item)
+            print(f"You spent #{weekly_value} on {self.weekly} this week")
+        for item in self.tag:
+            once_value = sum(item)
+            print(f"You spent #{once_value} on {self.random} this week")
+        combined_total = weekly_value + once_value
+        whats_left = int(self.weekly_earnings) - combined_total
+        print(f"You have #{whats_left} left this week")
+
 
 
 class Calc(BudgetModel,WeeksPassed,Spending):
