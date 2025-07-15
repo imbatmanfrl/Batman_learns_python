@@ -19,22 +19,22 @@ class Spending:
 #I want to spend this night changing from accepting input to accepting arguments
 
     def re_occurring(self,*args):
-        self.weekly = {args}
+        self.weekly = list(args)
         print(self.weekly)
 
     def price(self,*args):
-        self.cost = {args}
+        self.cost = list(args)
         for item in self.weekly:
             try:
                 print(f"How much did you spend on {item}?")
                 for key,values in item,self.cost:
-                    the_price = {key:values}
-                    return the_price
+                    the_price =dict(zip(key:values))
+                     print(the_price)
             except ValueError:
                 print("Enter Number not values!")
 
     def one_time_purchases(self,*args):
-        self.random = {args}
+        self.random = None
         print(self.random)
 
 
