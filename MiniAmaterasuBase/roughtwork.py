@@ -22,39 +22,35 @@ from miniPerformanceModel import BudgetModel
 class Spending:
 #I want to spend this night changing from accepting input to accepting arguments
 
-def re_occuring(self, *args):
-    self.weekly = [*args]
-    print(self.weekly)
+    def re_occurring(self,*args):
+        self.weekly = {args}
+        print(self.weekly)
 
-
-print(f"Did all these happen this week?")
-
-
-def yes_or_no(self, answer):
-    self.answer = answer
-
-
-confirmed_expense = []
-one_time_purchases = []
-
-
-def confirm(self, response, price):
-    self.response = response
-    self.price = price
-    if self.answer == "yes":
+    def price(self,*args):
+        self.cost = {args}
         for item in self.weekly:
-            print(f"did you spend on {item} this week?")
-            if self.response == "yes":
-                try:
-                    print(f"How much did you spend on {item}?")
-                    # since were passing keyword arguments, we don't need ambiguity like this, we could just put zero in anything in the budget that
-                    # we didn't spend on for that week
-                    confirmed_expense = {item, price}
-                    return confirmed_expense
-                except ValueError:
-                    print("Enter Number not values!")
+            try:
+                print(f"How much did you spend on {item}?")
+                the_price = {item:self.cost}
+                print(the_price)
+            except ValueError:
+                print("Enter Number not values!")
 
-    else:
+    def one_time_purchases(self,*args):
+        self.random = {args}
+        print(self.random)
+
+
+
+spend = Spending()
+spend.re_occurring("Data","Transport","Spotify","F")
+spend.price(1500,800,2000,3500)
+#Now we need a way to be able to map the prices to their corresponding expenditure ther than that it looks simple and i lke it.
+#there isn't mcuh questions yet ill create a sperate python file that will run the code while this the engine will be in its own file
+#initialy, I'd have gone for defining functions like must have and necssities then put them in  a recurring function but too ambiguous
+spend.one_time_purchases(None)
+
+"""else:
         print(f"All re_occurring expenses were made")
     while True:
         anything_else = input("Did yoy make any one time purchase?").lower()
@@ -65,7 +61,7 @@ def confirm(self, response, price):
                 one_time_purchases.append(others)
             print(one_time_purchases)
         elif anything_else != "yes":
-            break
+            break"""
 """one time purchases could be more than one in number, so i created a while loop to ask repeatedly so far the user saids yes, 
 bu i also need a ways to collect he cost and make it into a dictionary or something, wtf am i even building ??!"""
 
