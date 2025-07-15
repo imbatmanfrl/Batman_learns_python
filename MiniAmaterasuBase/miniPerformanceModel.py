@@ -50,35 +50,43 @@ class WeeksPassed:
 class Spending:
 #I want to spend this night changing from accepting input to accepting arguments
 
-    def re_occurring(self,*args):
+    def re_occurring(self, *args):
         self.weekly = list(args)
         print(self.weekly)
 
-    def price(self,*args):
+
+    def price(self, *args):
         self.cost = list(args)
 
+
     def expenses(self):
-        compiled = dict(zip(self.weekly,self.cost))
+        compiled = dict(zip(self.weekly, self.cost))
         print(compiled)
 
-    def one_time_purchases(self,random= None ,cost=None):
-        self.random = list(random)
-        self.cost = list(cost)
-        the_zip = zip(self.random,self.cost)
+
+    def one_time_purchases(self, random=None, cost=None):
+        random = list(random)
+        tag = list(cost)
+        the_zip = zip(random, tag)
         miscelieous = dict(the_zip)
-        print(miscelieous)
+        print(f"one-time purchases {miscelieous}")
 
 class Calc(BudgetModel,WeeksPassed,Spending):
+#now we want to calculate how much we have at the end of each week, how much we've saved so far,
+# how much money we actually earned before expenses
+#how much money we've spent on expenses up until now
+#how much we'll have earned after x number of years, only problem is
+# i want this part to be dynamic as spending and earning frequency may vary
     def weekly_leftover(self):
+        pass
+
+    def total_spent(self):
         pass
 
     def total_earned(self,weeks_passed):
         pass
 
     def total_saved(self):
-        pass
-
-    def total_inested(self):
         pass
 
     def projections(self):

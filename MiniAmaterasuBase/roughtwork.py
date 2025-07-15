@@ -33,11 +33,11 @@ class Spending:
         print(compiled)
 
     def one_time_purchases(self,random= None ,cost=None):
-        self.random = list(random)
-        self.cost = list(cost)
-        the_zip = zip(self.random,self.cost)
+        random = list(random)
+        tag = list(cost)
+        the_zip = zip(random,tag)
         miscelieous = dict(the_zip)
-        print(miscelieous)
+        print(f"one-time purchases {miscelieous}")
 
 #append
 
