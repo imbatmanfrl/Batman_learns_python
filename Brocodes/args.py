@@ -24,26 +24,24 @@ class Spending:
 
     def price(self,*args):
         self.cost = list(args)
-        for item in self.weekly:
-            try:
-                print(f"How much did you spend on {item}?")
-                for key,values in item,self.cost:
-                    the_price =dict(zip(key:values))
-                     print(the_price)
-            except ValueError:
-                print("Enter Number not values!")
 
-    def one_time_purchases(self,*args):
-        self.random = None
-        print(self.random)
+    def expenses(self):
+        compiled = dict(zip(self.weekly,self.cost))
+        print(compiled)
+
+    def one_time_purchases(self,random=None,cost=None):
+        self.random = list[cost]
+        self.cost = list[cost]
+        full_list = dict(zip(self.random,self.cost))
+        print(f"Your one time purchases are {full_list}")
 
 
 
 spend = Spending()
 spend.re_occurring("Data","Transport","Spotify","F")
-print(spend.price(1500,800,2000,3500))
-
+spend.price(1500,800,2000,3500)
+spend.expenses()
+spend.one_time_purchases(random="FIFA, Workbook, Bread",cost="500, 4250, 500")
 #Now we need a way to be able to map the prices to their corresponding expenditure ther than that it looks simple and i lke it.
 #there isn't mcuh questions yet ill create a sperate python file that will run the code while this the engine will be in its own file
 #initialy, I'd have gone for defining functions like must have and necssities then put them in  a recurring function but too ambiguous
-spend.one_time_purchases(None)
