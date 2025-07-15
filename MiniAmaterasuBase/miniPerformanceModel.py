@@ -47,7 +47,28 @@ class WeeksPassed:
 #Methods, Actions that the budget model can do like the prediction after x number of months, total saved, total invested,
 # total expenditure, a method function that counts weeks
 
-class Calc(BudgetModel,WeeksPassed):
+class Spending:
+#I want to spend this night changing from accepting input to accepting arguments
+
+    def re_occurring(self,*args):
+        self.weekly = list(args)
+        print(self.weekly)
+
+    def price(self,*args):
+        self.cost = list(args)
+
+    def expenses(self):
+        compiled = dict(zip(self.weekly,self.cost))
+        print(compiled)
+
+    def one_time_purchases(self,random= None ,cost=None):
+        self.random = list(random)
+        self.cost = list(cost)
+        the_zip = zip(self.random,self.cost)
+        miscelieous = dict(the_zip)
+        print(miscelieous)
+
+class Calc(BudgetModel,WeeksPassed,Spending):
     def weekly_leftover(self):
         pass
 

@@ -13,6 +13,9 @@ to_dollars = lambda euros: (euros[0],euros[1]/0.82)
 store_dollars = list(map(to_dollars,store))
 store_euros = list(map(to_euros,store))
 
+
+
+
 for i in store_euros:
     print(i)
 
