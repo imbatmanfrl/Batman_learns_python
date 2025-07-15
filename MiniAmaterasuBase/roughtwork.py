@@ -22,33 +22,40 @@ from miniPerformanceModel import BudgetModel
 class Spending:
 #I want to spend this night changing from accepting input to accepting arguments
 
-    def re_occuring(self, *args):
-        self.weekly = [*args]
-        print(self.weekly)
+def re_occuring(self, *args):
+    self.weekly = [*args]
+    print(self.weekly)
 
-    print(f"Did all these happen this week?")
 
-    def yes_or_no(self,answer):
-        self.answer = answer
-    confirmed_expense = []
-    one_time_purchases = []
+print(f"Did all these happen this week?")
 
-    def confirm(self,response):
-        self.response = response
-        if self.answer == "yes":
-            for item in self.weekly:
-                print(f"did you spend on {item} this week?")
-                if self.response == "yes":
-                    try:
-                        price = float(input(f"How much did you spend on {item}?: "))
-                        confirmed_expense = {item, price}
-                        return confirmed_expense
-                    except ValueError:
-                        print("Enter Number not values!")
 
-        else:
-            print(f"All re_occurring expenses were made")
+def yes_or_no(self, answer):
+    self.answer = answer
 
+
+confirmed_expense = []
+one_time_purchases = []
+
+
+def confirm(self, response, price):
+    self.response = response
+    self.price = price
+    if self.answer == "yes":
+        for item in self.weekly:
+            print(f"did you spend on {item} this week?")
+            if self.response == "yes":
+                try:
+                    print(f"How much did you spend on {item}?")
+                    # since were passing keyword arguments, we don't need ambiguity like this, we could just put zero in anything in the budget that
+                    # we didn't spend on for that week
+                    confirmed_expense = {item, price}
+                    return confirmed_expense
+                except ValueError:
+                    print("Enter Number not values!")
+
+    else:
+        print(f"All re_occurring expenses were made")
     while True:
         anything_else = input("Did yoy make any one time purchase?").lower()
         if anything_else == "yes":
