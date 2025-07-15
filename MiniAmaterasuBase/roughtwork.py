@@ -45,13 +45,16 @@ from miniPerformanceModel import BudgetModel,WeeksPassed,Spending,Calc
 #append
 budget = BudgetModel(10000,2000,5000,3000)
 week =WeeksPassed
-calc = Calc
-calc.weekly_leftover()
 spend = Spending()
 spend.re_occurring("Data","Transport","Spotify","F")
 spend.price(1500,800,2000,3500)
 spend.expenses()
 spend.one_time_purchases(random=["FIFA","Workbook","Bread"],cost=[500,4250,500])
+calc = Calc(1000,2000,5000,3000)
+calc.re_occurring("Data","Transport","Spotify","F")
+calc.price(1500,800,2000,3500)
+calc.one_time_purchases(random=["FIFA","Workbook","Bread"],cost=[500,4250,500])
+calc.weekly_leftover()
 #Now we need a way to be able to map the prices to their corresponding expenditure ther than that it looks simple and i lke it.
 #there isn't mcuh questions yet ill create a sperate python file that will run the code while this the engine will be in its own file
 #initialy, I'd have gone for defining functions like must have and necssities then put them in  a recurring function but too ambiguous
