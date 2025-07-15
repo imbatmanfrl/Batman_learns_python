@@ -18,9 +18,9 @@ print(budget.total_earned(1))
 budget.expense_list.append("Spotify")
 print(budget.expense_list)"""
 
-from miniPerformanceModel import BudgetModel,WeeksPassed,Spending
+from miniPerformanceModel import BudgetModel,WeeksPassed,Spending,Calc
 
-class Calc(BudgetModel,Spending,WeeksPassed):
+"""class Calc(BudgetModel,Spending,WeeksPassed):
 #now we want to calculate how much we have at the end of each week, how much we've saved so far,
 # how much money we actually earned before expenses
 #how much money we've spent on expenses up until now
@@ -40,11 +40,13 @@ class Calc(BudgetModel,Spending,WeeksPassed):
         pass
 
     def projections(self):
-        pass
+        pass"""
 
 #append
-"""calc = Calc
-calc.weekly_leftover()"""
+budget = BudgetModel(10000,2000,5000,3000)
+week =WeeksPassed
+calc = Calc
+calc.weekly_leftover()
 spend = Spending()
 spend.re_occurring("Data","Transport","Spotify","F")
 spend.price(1500,800,2000,3500)

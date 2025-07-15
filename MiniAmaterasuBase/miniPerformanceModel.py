@@ -58,18 +58,11 @@ class Spending:
         the_zip = zip(self.random, self.tag)
         miscelieous = dict(the_zip)
         print(f"one-time purchases {miscelieous}")
-        weekly_value = None
-        once_value = None
 
-        for item in self.cost:
-            weekly_value = sum(item)
-            print(f"You spent #{weekly_value} on {self.weekly} this week")
-        for item in self.tag:
-            once_value = sum(item)
-            print(f"You spent #{once_value} on {self.random} this week")
-        combined_total = weekly_value + once_value
-        whats_left = int(self.weekly_earnings) - combined_total
-        print(f"You have #{whats_left} left this week")
+
+
+
+
 
 
 
@@ -80,7 +73,14 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 #how much we'll have earned after x number of years, only problem is
 # i want this part to be dynamic as spending and earning frequency may vary
     def weekly_leftover(self):
-        pass
+
+        weekly_value = sum(self.cost)
+        print(f"You spent #{weekly_value} on {self.weekly} this week")
+        once_value = sum(self.tag)
+        print(f"You spent #{once_value} on {self.random} this week")
+        combined_total = weekly_value + once_value
+        whats_left = int(self.weekly_earnings) - combined_total
+        print(f"You have #{whats_left} left this week")
 
     def total_spent(self):
         pass
