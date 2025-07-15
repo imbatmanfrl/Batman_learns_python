@@ -49,15 +49,16 @@ class Spending:
         self.cost = list(args)
 
     def expenses(self):
-        compiled = dict(zip(self.weekly, self.cost))
-        print(compiled)
+        self.compiled = dict(zip(self.weekly, self.cost))
+        print(self.compiled)
 
     def one_time_purchases(self, random=None, cost=None):
         random = list(random)
         tag = list(cost)
         the_zip = zip(random, tag)
-        miscelieous = dict(the_zip)
-        print(f"one-time purchases {miscelieous}")
+        self.miscelieous = dict(the_zip)
+        print(f"one-time purchases {self.miscelieous}")
+
 
 class Calc(BudgetModel,WeeksPassed,Spending):
 #now we want to calculate how much we have at the end of each week, how much we've saved so far,
@@ -71,6 +72,7 @@ class Calc(BudgetModel,WeeksPassed,Spending):
     def total_spent(self):
         pass
 
+
     def total_earned(self,weeks_passed):
         pass
 
@@ -79,6 +81,5 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 
     def projections(self):
         pass
-
 
 

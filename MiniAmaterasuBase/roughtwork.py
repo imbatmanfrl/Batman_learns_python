@@ -18,26 +18,34 @@ print(budget.total_earned(1))
 budget.expense_list.append("Spotify")
 print(budget.expense_list)"""
 
-class Spending:
-#I want to spend this night changing from accepting input to accepting arguments
+from miniPerformanceModel import BudgetModel,WeeksPassed,Spending
 
-    def re_occurring(self,*args):
-        self.weekly = list(args)
-        print(self.weekly)
+class Calc(BudgetModel,WeeksPassed,Spending):
+#now we want to calculate how much we have at the end of each week, how much we've saved so far,
+# how much money we actually earned before expenses
+#how much money we've spent on expenses up until now
+#how much we'll have earned after x number of years, only problem is
+# i want this part to be dynamic as spending and earning frequency may vary
+    def weekly_leftover(self):
+#I want to combine both re_occurring expenses and one_time_purchase into one list
+    value = (lambda values: self.compiled[1] +
+                            self.compiled[3] + self.compiled[5] +
+                            self.compiled[7])
+    the_value = list(map(value, self.compiled))
+    print(the_value)
+        #whats_left = self.weekly_earnings -
 
-    def price(self,*args):
-        self.cost = list(args)
+    def total_spent(self):
+        pass
 
-    def expenses(self):
-        compiled = dict(zip(self.weekly,self.cost))
-        print(compiled)
+    def total_earned(self,weeks_passed):
+        pass
 
-    def one_time_purchases(self,random= None ,cost=None):
-        random = list(random)
-        tag = list(cost)
-        the_zip = zip(random,tag)
-        miscelieous = dict(the_zip)
-        print(f"one-time purchases {miscelieous}")
+    def total_saved(self):
+        pass
+
+    def projections(self):
+        pass
 
 #append
 
