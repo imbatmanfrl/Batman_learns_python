@@ -16,6 +16,7 @@
 
 
 class Spending:
+#I want to spend this night changing from accepting input to accepting arguments
 
     def re_occurring(self,*args):
         self.weekly = {args}
@@ -26,8 +27,9 @@ class Spending:
         for item in self.weekly:
             try:
                 print(f"How much did you spend on {item}?")
-                the_price = {item:self.cost}
-                print(the_price)
+                for key,values in item,self.cost:
+                    the_price = {key:values}
+                    return the_price
             except ValueError:
                 print("Enter Number not values!")
 
@@ -39,7 +41,8 @@ class Spending:
 
 spend = Spending()
 spend.re_occurring("Data","Transport","Spotify","F")
-spend.price(1500,800,2000,3500)
+print(spend.price(1500,800,2000,3500))
+
 #Now we need a way to be able to map the prices to their corresponding expenditure ther than that it looks simple and i lke it.
 #there isn't mcuh questions yet ill create a sperate python file that will run the code while this the engine will be in its own file
 #initialy, I'd have gone for defining functions like must have and necssities then put them in  a recurring function but too ambiguous

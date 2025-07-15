@@ -31,8 +31,9 @@ class Spending:
         for item in self.weekly:
             try:
                 print(f"How much did you spend on {item}?")
-                the_price = {item:self.cost}
-                print(the_price)
+                for key,values in item,self.cost:
+                    the_price = {key:values}
+                    print(the_price)
             except ValueError:
                 print("Enter Number not values!")
 
