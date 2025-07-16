@@ -100,21 +100,18 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 
     def total_earned(self):
         with open("TotalEarned.txt", "a") as file:
-            lines = file.readlines()
-            earnss = [float(line.strip()) for line in lines if line.strip()]
-            file.write(str(earnss) + "\n")
+            file.write(str(self.weekly_earnings)+"\n")
         with open("TotalEarned.txt", "r") as file:
-            liness = file.readline()
-            earns = [float(line.strip()) for line in liness if line.strip()]
+            lines = file.readlines()
+            earns = [float(line.strip()) for line in lines if line.strip()]
             self.earned_total = sum(earns)
             print(f"You have earned #{self.earned_total} since {self.beginning_date}")
 
 
     def total_spent(self):
-    # I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
-    # I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
-
-        with open("WeeklySpent.txt", "r") as file:
+        with open("TotalSaved.txt","a") as file:
+            file.write(str(self.weekly_savings)+"\n")
+        with open("TotalSaved.txt", "r") as file:
             lines = file.readline()  # reads each line file into a list
             weekly_values = [float(line.strip()) for line in lines if line.strip()]  # turns all lines into numbers
             self.tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
@@ -134,10 +131,12 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 
     def projections(self, duration):  # in weeks
         self.duration = duration
-        projected_spending = (self.tottal_spent/self.how_long_weeks)*self.duration
-        projected_earning = (self.earned_total/self.how_long_weeks)*self.duration
-        projected_savings = (self.saved_total/self.how_long_weeks)*self.duration
-        # all these are based on previous performance I guess
-        print(f"{duration} weeks from now, you would have earned #{projected_earning},spent #{projected_spending} and saved #{projected_savings}")
-
+        try:
+            projected_spending = (self.tottal_spent / self.how_long_weeks) * self.duration
+            projected_earning = (self.earned_total / self.how_long_weeks) * self.duration
+            projected_savings = (self.saved_total / self.how_long_weeks) * self.duration
+            # all these are based on previous performance I guess
+            print(f"{duration} weeks from now, you would have earned #{projected_earning},spent #{projected_spending} and saved #{projected_savings}")
+        except ZeroDivisionError:
+            print(f"Zero weeks has passed since you started")
 
