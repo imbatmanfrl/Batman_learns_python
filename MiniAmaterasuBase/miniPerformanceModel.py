@@ -16,9 +16,9 @@ class BudgetModel:
 import datetime
 class WeeksPassed:
 
-    def starting_date(self,start):
+    def starting_date(self):
         try:
-            self.beginning_date = start #maybe I should write this date manually
+            self.beginning_date = datetime.date(2025,7,16) #maybe I should write this date manually
             with open("StartDate.txt","w")as file:
                 file.write(str(self.beginning_date))
                 print(self.beginning_date)

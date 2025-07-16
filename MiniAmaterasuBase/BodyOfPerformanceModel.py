@@ -4,7 +4,7 @@ calc = Calc(1000,2000,5000,3000)
 calc.re_occurring("Data","Transport","Spotify","F")
 calc.price(1500,800,2000,3500)
 calc.one_time_purchases(random=["FIFA","Workbook","Bread"],cost=[500,4250,500])
-calc.starting_date(2025-7-16)
+calc.starting_date()
 calc.time_since_last_update()
 calc.store()
 calc.weekly_leftover()
@@ -13,15 +13,18 @@ calc.total_spent()
 calc.total_saved()
 calc.projections(6)
 
-"""error: Traceback (most recent call last):
-  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasuBase\BodyOfPerformanceModel.py", line 7, in <module>
-    calc.starting_date(2025-7-16)
-  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasuBase\miniPerformanceModel.py", line 27, in starting_date
-    self.get_how_long = datetime.datetime.strptime(self.the_date,"%Y-%m-%d").date()
-                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 554, in _strptime_datetime
-    tt, fraction, gmtoff_fraction = _strptime(data_string, format)
-                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "C:\Users\HP\AppData\Local\Programs\Python\Python312\Lib\_strptime.py", line 333, in _strptime
-    raise ValueError("time data %r does not match format %r" %
-ValueError: time data '2002' does not match format '%Y-%m-%d'"""
+"""['Data', 'Transport', 'Spotify', 'F']
+one-time purchases {'FIFA': 500, 'Workbook': 4250, 'Bread': 500}
+2025-07-16
+You've been budgeting for 3:25:42.857142 weeks
+20:34:17.142857 weeks has passed since you last budgeted!
+Do you want to update your Budget?(YES/NO): no
+Have a great day then!
+You spent #7800 on ['Data', 'Transport', 'Spotify', 'F'] this week
+You spent #5250 on ['FIFA', 'Workbook', 'Bread'] this week
+You've spent a total of #13050 this week
+You have #-12050 left this week
+You have earned #1.0 since 2025-07-16
+So far, you have spent #0 since 2025-07-16
+You have earned #1.0 since 2025-07-16
+6 weeks from now, you would have earned #6.0,spent #0 and saved #6.0"""
