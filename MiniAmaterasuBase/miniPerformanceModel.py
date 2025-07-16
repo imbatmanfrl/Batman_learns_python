@@ -108,8 +108,20 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         whats_left = int(self.weekly_earnings) - self.combined_total
         print(f"You have #{whats_left} left this week")
 
+
     def total_spent(self):
-        pass
+        # I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
+        # I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
+
+        with open("WeeklySpent.xtx", "r") as file:
+            lines = file.readline()  # reads each line file into a list
+            weekly_values = [float(line.strip()) for line in lines if line.strip()]  # turns all lines into numbers
+            """weekly_spent_str = file.read().strip()
+            summm = sum(weekly_spent_str)
+            converted = float(summm)"""
+            tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
+            # into a file line by line
+            print(f"So far, you have spent #{tottal_spent} since you started budgeting")
 
 
     def total_earned(self,weeks_passed):
