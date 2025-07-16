@@ -26,7 +26,8 @@ class WeeksPassed:
                 self.the_date = file.read().strip()
                 self.get_how_long = datetime.datetime.strptime(self.the_date,"%Y-%m-%d").date()
                 self.latest_date = datetime.date.today()
-                self.how_long_weeks = (self.latest_date - self.get_how_long)//7
+                delta = self.latest_date - self.get_how_long
+                self.how_long_weeks = delta.days //7
                 print(f"You've been budgeting for {self.how_long_weeks} weeks")
         except FileNotFoundError:
             print(f"StartDate.txt does not exist")
@@ -39,7 +40,8 @@ class WeeksPassed:
                 stored_date_str = file.read().strip()
                 stored_date = datetime.datetime.strptime(stored_date_str, "%Y-%m-%d").date()
                 today = datetime.date.today()
-                days_passed = (today - stored_date) // 7
+                beta = today - stored_date
+                days_passed = beta.days // 7
                 print(f"{days_passed} weeks has passed since you last budgeted!")
 
         except FileNotFoundError:
@@ -92,11 +94,15 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         print(f"You've spent a total of #{combined_total} this week")
         whats_left = int(self.weekly_earnings) - combined_total
         print(f"You have #{whats_left} left this week")
+        with open("WeeklySpent.txt","a") as file:
+            file.write(str(combined_total))
 
 
     def total_earned(self):
         with open("TotalEarned.txt", "a") as file:
-            file.write(str(self.weekly_earnings) + "\n")
+            lines = file.readlines()
+            earnss = [float(line.strip()) for line in lines if line.strip()]
+            file.write(str(earnss) + "\n")
         with open("TotalEarned.txt", "r") as file:
             liness = file.readline()
             earns = [float(line.strip()) for line in liness if line.strip()]
@@ -108,21 +114,18 @@ class Calc(BudgetModel,WeeksPassed,Spending):
     # I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
     # I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
 
-        with open("WeeklySpent.xtx", "r") as file:
+        with open("WeeklySpent.txt", "r") as file:
             lines = file.readline()  # reads each line file into a list
             weekly_values = [float(line.strip()) for line in lines if line.strip()]  # turns all lines into numbers
-            """weekly_spent_str = file.read().strip()
-            summm = sum(weekly_spent_str)
-            converted = float(summm)"""
             self.tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
              # into a file line by line
             print(f"So far, you have spent #{self.tottal_spent} since {self.beginning_date}")
 
 
     def total_saved(self):
-        with open("TotalEarned.txt", "a") as file:
+        with open("TotalSaved.txt", "a") as file:
             file.write(str(self.weekly_savings) + "\n")
-        with open("TotalEarned.txt", "r") as file:
+        with open("TotalSaved.txt", "r") as file:
             linesss = file.readline()
             savedd = [float(line.strip()) for line in linesss if line.strip()]
             self.saved_total = sum(savedd)
@@ -131,9 +134,9 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 
     def projections(self, duration):  # in weeks
         self.duration = duration
-        projected_spending = self.duration * self.tottal_spent
-        projected_earning = self.duration * self.earned_total
-        projected_savings = self.duration * self.saved_total
+        projected_spending = (self.tottal_spent/self.how_long_weeks)*self.duration
+        projected_earning = (self.earned_total/self.how_long_weeks)*self.duration
+        projected_savings = (self.saved_total/self.how_long_weeks)*self.duration
         # all these are based on previous performance I guess
         print(f"{duration} weeks from now, you would have earned #{projected_earning},spent #{projected_spending} and saved #{projected_savings}")
 
