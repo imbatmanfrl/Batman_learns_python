@@ -38,6 +38,12 @@ class Calc(BudgetModel,Spending,WeeksPassed):
 
     def total_spent(self):
 #this method calculated how much i've spent sine i started using the model
+#write the date of which we started inside of  file,
+#read read the contents for that file and turn it into like an int or float value
+#append multiply by recent weekly spending and append back into the file
+#then the following week ou start with read
+#or better yet, since we now have a function that can tell us how long its been since weve started, all we need now is for this total_spent
+#funcoin to be able to store how much we spend each week since start into a file and multiply it by weeks that have passed since strat
         pass
 
     def total_earned(self,weeks_passed):
