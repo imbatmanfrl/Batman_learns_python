@@ -41,11 +41,14 @@ class Calc(BudgetModel,Spending,WeeksPassed):
 #I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
 
         with open ("WeeklySpent.xtx","r") as file:
-            weekly_spent_str = file.read().strip()
+            lines = file.readline()#reads each line file into a list
+            weekly_values = [float(line.strip()) for line in lines if line.strip()]#turns all lines into numbers
+            """weekly_spent_str = file.read().strip()
             summm = sum(weekly_spent_str)
-            converted = float(summm)
-        tottal_spent = converted * self.how_long_weeks
-        print(f"So far, you have spent #{tottal_spent} since you strted budgetting")
+            converted = float(summm)"""
+            tottal_spent = sum(weekly_values)#I dont need to multiply by weeks_passes since im appending the spending of every week
+            #into a file line by line
+            print(f"So far, you have spent #{tottal_spent} since you started budgeting")
 
 #this method calculated how much i've spent sine i started using the model
 #write the date of which we started inside of  file,
