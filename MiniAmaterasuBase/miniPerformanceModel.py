@@ -31,8 +31,6 @@ class WeeksPassed:
         except FileNotFoundError:
             print(f"StartDate.txt does not exist")
 
-#7-16-2025
-
     def time_since_last_update(self):
         # this now turns the date of that external txt file into a data type which can be subtracted from todays date to show
         # you how ong it has been since you logged in a budget
@@ -85,33 +83,30 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 #how much money we've spent on expenses up until now
 #how much we'll have earned after x number of years, only problem is
 # i want this part to be dynamic as spending and earning frequency may vary
-    def weekly_spending(self):
-#Here I had to pass in first_week= Nonee as an argument cuz if i said that the compter should write sel.combined_total in one block of code
-#then im telling it to append in another i dont think it'll work the way i want, so one block of code where the user manually enters how much
-#they spent the first time they used this model which is saved into a file and another block where the saved file is appended with the
-#most recent week's spending
+    def weekly_leftover(self):
         weekly_value = sum(self.cost)
         print(f"You spent #{weekly_value} on {self.weekly} this week")
         once_value = sum(self.tag)
         print(f"You spent #{once_value} on {self.random} this week")
-        self.combined_total = weekly_value + once_value
-        print(f'You spent #{self.combined_total} this week')
-#        first_week_spending = first_week
-#        with open ("WeeklySpent.xtx","w") as file:
-#            file.write(str(first_week_spending))
-        with open("WeeklySpent.xtx","a") as file:
-            file.write(str(self.combined_total)+ "\n")
-
-
-    def weekly_leftover(self):
-
-        whats_left = int(self.weekly_earnings) - self.combined_total
+        combined_total = weekly_value + once_value
+        print(f"You've spent a total of #{combined_total} this week")
+        whats_left = int(self.weekly_earnings) - combined_total
         print(f"You have #{whats_left} left this week")
 
 
+    def total_earned(self):
+        with open("TotalEarned.txt", "a") as file:
+            file.write(str(self.weekly_earnings) + "\n")
+        with open("TotalEarned.txt", "r") as file:
+            liness = file.readline()
+            earns = [float(line.strip()) for line in liness if line.strip()]
+            self.earned_total = sum(earns)
+            print(f"You have earned #{self.earned_total} since {self.beginning_date}")
+
+
     def total_spent(self):
-        # I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
-        # I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
+    # I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
+    # I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
 
         with open("WeeklySpent.xtx", "r") as file:
             lines = file.readline()  # reads each line file into a list
@@ -119,18 +114,27 @@ class Calc(BudgetModel,WeeksPassed,Spending):
             """weekly_spent_str = file.read().strip()
             summm = sum(weekly_spent_str)
             converted = float(summm)"""
-            tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
-            # into a file line by line
-            print(f"So far, you have spent #{tottal_spent} since you started budgeting")
+            self.tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
+             # into a file line by line
+            print(f"So far, you have spent #{self.tottal_spent} since {self.beginning_date}")
 
-
-    def total_earned(self,weeks_passed):
-        pass
 
     def total_saved(self):
-        pass
+        with open("TotalEarned.txt", "a") as file:
+            file.write(str(self.weekly_savings) + "\n")
+        with open("TotalEarned.txt", "r") as file:
+            linesss = file.readline()
+            savedd = [float(line.strip()) for line in linesss if line.strip()]
+            self.saved_total = sum(savedd)
+            print(f"You have earned #{self.saved_total} since {self.beginning_date}")
 
-    def projections(self):
-        pass
+
+    def projections(self, duration):  # in weeks
+        self.duration = duration
+        projected_spending = self.duration * self.tottal_spent
+        projected_earning = self.duration * self.earned_total
+        projected_savings = self.duration * self.saved_total
+        # all these are based on previous performance I guess
+        print(f"{duration} weeks from now, you would have earned #{projected_earning},spent #{projected_spending} and saved #{projected_savings}")
 
 
