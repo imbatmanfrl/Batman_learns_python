@@ -2,7 +2,7 @@
 based on the input and current performance and the projection changes as the performance changes
 Alright this program will need a couple of things, what should a financial budget have
 I'm starting to see the importance of flowchart and pseudocode"""
-from time import strptime
+#from time import strptime
 
 
 class BudgetModel:
@@ -24,7 +24,7 @@ class WeeksPassed:
                 print(self.beginning_date)
             with open("StartDate.txt","r") as file:
                 self.the_date = file.read().strip()
-                self.get_how_long = datetime.datetime,strptime(self.the_date,"%Y-%m-%d").date()
+                self.get_how_long = datetime.datetime.strptime(self.the_date,"%Y-%m-%d").date()
                 self.latest_date = datetime.date.today()
                 self.how_long_weeks = (self.latest_date - self.get_how_long)//7
                 print(f"You've been budgeting for {self.how_long_weeks} weeks")
