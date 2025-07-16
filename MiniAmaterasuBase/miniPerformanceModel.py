@@ -85,14 +85,27 @@ class Calc(BudgetModel,WeeksPassed,Spending):
 #how much money we've spent on expenses up until now
 #how much we'll have earned after x number of years, only problem is
 # i want this part to be dynamic as spending and earning frequency may vary
-    def weekly_leftover(self):
-
+    def weekly_spending(self,first_week=None):
+#Here I had to pass in first_week= Nonee as an argument cuz if i said that the compter should write sel.combined_total in one block of code
+#then im telling it to append in another i dont think it'll work the way i want, so one block of code where the user manually enters how much
+#they spent the first time they used this model which is saved into a file and another block where the saved file is appended with the
+#most recent week's spending
         weekly_value = sum(self.cost)
         print(f"You spent #{weekly_value} on {self.weekly} this week")
         once_value = sum(self.tag)
         print(f"You spent #{once_value} on {self.random} this week")
-        combined_total = weekly_value + once_value
-        whats_left = int(self.weekly_earnings) - combined_total
+        self.combined_total = weekly_value + once_value
+        print(f'You spent #{self.combined_total} this week')
+        first_week_spending = first_week
+        with open ("WeeklySpent.xtx","w") as file:
+            file.write(str(first_week_spending))
+        with open("WeeklySpent.xtx","a") as file:
+            file.write(str(self.combined_total))
+
+
+    def weekly_leftover(self):
+
+        whats_left = int(self.weekly_earnings) - self.combined_total
         print(f"You have #{whats_left} left this week")
 
     def total_spent(self):

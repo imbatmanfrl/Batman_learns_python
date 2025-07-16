@@ -37,6 +37,16 @@ class Calc(BudgetModel,Spending,WeeksPassed):
         print(f"You have #{whats_left} left this week")
 
     def total_spent(self):
+#I dont know if this code I wrote works 😅😂 what i did was from the Weekly spent txt file i created,
+#I got like all the amount i spent each week then I used summ to add everything and then multiplied by how many weeks passed since start
+
+        with open ("WeeklySpent.xtx","r") as file:
+            weekly_spent_str = file.read().strip()
+            summm = sum(weekly_spent_str)
+            converted = float(summm)
+        tottal_spent = converted * self.how_long_weeks
+        print(f"So far, you have spent #{tottal_spent} since you strted budgetting")
+
 #this method calculated how much i've spent sine i started using the model
 #write the date of which we started inside of  file,
 #read read the contents for that file and turn it into like an int or float value
@@ -44,7 +54,8 @@ class Calc(BudgetModel,Spending,WeeksPassed):
 #then the following week ou start with read
 #or better yet, since we now have a function that can tell us how long its been since weve started, all we need now is for this total_spent
 #funcoin to be able to store how much we spend each week since start into a file and multiply it by weeks that have passed since strat
-        pass
+#        with open("StartDate.txt","r")as file:
+#            start_week = file.read()
 
     def total_earned(self,weeks_passed):
         pass
