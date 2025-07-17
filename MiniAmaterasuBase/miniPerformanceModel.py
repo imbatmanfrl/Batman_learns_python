@@ -18,7 +18,7 @@ class WeeksPassed:
 
     def starting_date(self):
         try:
-            self.beginning_date = datetime.date(2025,7,16) #maybe I should write this date manually
+            self.beginning_date = datetime.date(2025,7,7) #maybe I should write this date manually
             with open("StartDate.txt","w")as file:
                 file.write(str(self.beginning_date))
                 print(self.beginning_date)
@@ -28,7 +28,7 @@ class WeeksPassed:
                 self.latest_date = datetime.date.today()
                 delta = self.latest_date - self.get_how_long
                 self.how_long_weeks = delta.days //7
-                print(f"You've been budgeting for {self.how_long_weeks} weeks")
+                print(f"You've been budgeting for {self.how_long_weeks} week(s)")
         except FileNotFoundError:
             print(f"StartDate.txt does not exist")
 
@@ -95,7 +95,7 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         whats_left = int(self.weekly_earnings) - combined_total
         print(f"You have #{whats_left} left this week")
         with open("WeeklySpent.txt","a") as file:
-            file.write(str(combined_total))
+            file.write(str(combined_total)+"\n")
 
 
     def total_earned(self):
@@ -112,7 +112,7 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         with open("TotalSaved.txt","a") as file:
             file.write(str(self.weekly_savings)+"\n")
         with open("TotalSaved.txt", "r") as file:
-            lines = file.readline()  # reads each line file into a list
+            lines = file.readlines()  # reads each line file into a list
             weekly_values = [float(line.strip()) for line in lines if line.strip()]  # turns all lines into numbers
             self.tottal_spent = sum(weekly_values)  # I dont need to multiply by weeks_passes since im appending the spending of every week
              # into a file line by line
@@ -123,10 +123,10 @@ class Calc(BudgetModel,WeeksPassed,Spending):
         with open("TotalSaved.txt", "a") as file:
             file.write(str(self.weekly_savings) + "\n")
         with open("TotalSaved.txt", "r") as file:
-            linesss = file.readline()
+            linesss = file.readlines()
             savedd = [float(line.strip()) for line in linesss if line.strip()]
             self.saved_total = sum(savedd)
-            print(f"You have earned #{self.saved_total} since {self.beginning_date}")
+            print(f"You have saved #{self.saved_total} since {self.beginning_date}")
 
 
     def projections(self, duration):  # in weeks
