@@ -47,15 +47,15 @@ class WeeksPassed:
         except FileNotFoundError:
             print("No saved date appeared yet!")
 
-    def store(self):
-        update = input("Do you want to update your Budget?(YES/NO): ").lower()
-        if update != "no":
+    def store(self,update):
+        self.update = update
+        if self.update != "no":
             # this stores that date in an external txt file
             stored = datetime.date.today()
             with open("last_update.txt", "w") as file:
                 file.write(str(stored))
                 print(stored)
-        elif update == "no":
+        elif self.update == "no":
             print("Have a great day then!")
 
 class Spending:
