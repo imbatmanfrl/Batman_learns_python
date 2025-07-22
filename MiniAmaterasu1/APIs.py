@@ -27,10 +27,10 @@ def get_latest_dexs(chainId,pairId):
         print(f"Failed to retrieve data {response.status_code}")
 
 asset_chainId = "solana"
-asset_pairId = "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+asset_pairId = "5CPeLVN1XdrEjLhhP2jPUZgAiQAPVEfq2uK5WyCj8ZxM"
 asset_info = get_latest_dexs(asset_chainId,asset_pairId)
 
 if asset_info:
-    print(f"{asset_info}")
+    print(f"{asset_info["pair"]}")
 
 #{'schemaVersion': '1.0.0', 'pairs': None, 'pair': None}
