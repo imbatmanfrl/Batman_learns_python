@@ -1,0 +1,21 @@
+📌 Description:
+A time-sensitive crypto scanner bot that:
+
+Detects new meme coins within minutes of launch
+
+Filters based on:
+
+Reputation of devs (wallet analysis)
+
+Backers or early buyers
+
+Social traction (Twitter, Telegram engagement)
+
+Trending narratives (AI, politics, celeb, etc.)
+
+Sends alerts within first 3–10 minutes of token creation
+
+Goal is to snipe high-potential coins early, before they go viral
+
+🧠 Purpose: To help you front-run the altcoin cycle by entering ultra-early into meme coins with serious upside potential—and avoid rugs.
+
