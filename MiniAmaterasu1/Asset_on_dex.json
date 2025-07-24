@@ -1,0 +1,533 @@
+[
+  {
+    "url": "https://dexscreener.com/solana/45ptgybm3fuctjxqzawgmakdmqe7idikzgtqif38bonk",
+    "chainId": "solana",
+    "tokenAddress": "45PtgYBM3FucTJXQZaWgmaKDMqe7iDikzgtQif38bonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/45PtgYBM3FucTJXQZaWgmaKDMqe7iDikzgtQif38bonk.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/45PtgYBM3FucTJXQZaWgmaKDMqe7iDikzgtQif38bonk?timestamp=1753314300000",
+    "description": "No Com , No ticker , No banner , No icon!"
+  },
+  {
+    "url": "https://dexscreener.com/solana/blz4hn5rfm5abhclmqe4hfjaqxyqc7jtvdk73ajqbonk",
+    "chainId": "solana",
+    "tokenAddress": "BLZ4Hn5RFm5ABhCLmQe4hfJAqXYqc7jtVDK73ajQbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BLZ4Hn5RFm5ABhCLmQe4hfJAqXYqc7jtVDK73ajQbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BLZ4Hn5RFm5ABhCLmQe4hfJAqXYqc7jtVDK73ajQbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BLZ4Hn5RFm5ABhCLmQe4hfJAqXYqc7jtVDK73ajQbonk?timestamp=1753314300000",
+    "description": "wut? wut.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948154023749582912"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/ethereum/0x8d013b4aad9ca79075d282d4c542566bb90d4f77",
+    "chainId": "ethereum",
+    "tokenAddress": "0x8d013b4AaD9ca79075D282D4c542566BB90d4F77",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x8d013b4aad9ca79075d282d4c542566bb90d4f77.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x8d013b4aad9ca79075d282d4c542566bb90d4f77/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x8d013b4aad9ca79075d282d4c542566bb90d4f77?timestamp=1753314300000",
+    "description": "Bunny The Sheepadoodle",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/bunnycoinerc"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/bunnycoineth"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/base/0x275492f3c3b39249d4d733982e95809577bc61a2",
+    "chainId": "base",
+    "tokenAddress": "0x275492f3c3b39249d4d733982e95809577bc61a2",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x275492f3c3b39249d4d733982e95809577bc61a2.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x275492f3c3b39249d4d733982e95809577bc61a2/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x275492f3c3b39249d4d733982e95809577bc61a2?timestamp=1753314300000",
+    "description": "The shadow to Base God\u2019s light. Born from greed and sustained by cope, $FYBD is the manifestation of every bad trade on Base. He is the reason you held too long. The whisper in your ear saying \u201cdouble down.\u201d A dark presence lurking behind every candle, waiting to flip your green to red. He is the one who watches when hope enters the chart. The one who preys on FOMO, poor entries, and max leverage. Every rug, every failed presale, every 'just wait for the bounce' that\u2019s him. \"Fuck You, Base Devil.\" Chanted by the broken. Sung by the dumped on. Screamed by the max pained.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.baseddevil.xyz/"
+      },
+      {
+        "label": "Apestore",
+        "url": "https://ape.store/base/0x275492f3c3b39249d4d733982e95809577bc61a2"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/fybasedevil"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/FuckYouBaseDevil"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/4clv3p5ulm24isps6butes6rfgqznwamcexpjgusbonk",
+    "chainId": "solana",
+    "tokenAddress": "4cLV3P5uLM24isPS6butEs6rFGQZNwAMcEXPjgUsbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4cLV3P5uLM24isPS6butEs6rFGQZNwAMcEXPjgUsbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4cLV3P5uLM24isPS6butEs6rFGQZNwAMcEXPjgUsbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4cLV3P5uLM24isPS6butEs6rFGQZNwAMcEXPjgUsbonk?timestamp=1753314300000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948160671222313255"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/gqtgvzze1bkjr6xfellvif6sg8sauazejzujyt4dbonk",
+    "chainId": "solana",
+    "tokenAddress": "GQtGVZzE1bKJr6XfeLLviF6Sg8sAuAZejZUJYt4dbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GQtGVZzE1bKJr6XfeLLviF6Sg8sAuAZejZUJYt4dbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GQtGVZzE1bKJr6XfeLLviF6Sg8sAuAZejZUJYt4dbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GQtGVZzE1bKJr6XfeLLviF6Sg8sAuAZejZUJYt4dbonk?timestamp=1753314300000",
+    "description": "what if?",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948159049700405500"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/cqfgj2es6wf8sz9kzomymizpu332t8wuprfgqtzlpump",
+    "chainId": "solana",
+    "tokenAddress": "CqfgJ2eS6Wf8SZ9KzoMYmizpU332t8wuPRFGqTZLpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/CqfgJ2eS6Wf8SZ9KzoMYmizpU332t8wuPRFGqTZLpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CqfgJ2eS6Wf8SZ9KzoMYmizpU332t8wuPRFGqTZLpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CqfgJ2eS6Wf8SZ9KzoMYmizpU332t8wuPRFGqTZLpump?timestamp=1753314300000",
+    "description": "Stay cocky",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1947755094025638303"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/tcmeqqpyvgvkz6pgzcdhqfgzlksomcyv2prajorbonk",
+    "chainId": "solana",
+    "tokenAddress": "tCMEqqPyVgvKz6pgzCdhQFgzLksoMCYv2PRaJorbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/tCMEqqPyVgvKz6pgzCdhQFgzLksoMCYv2PRaJorbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/tCMEqqPyVgvKz6pgzCdhQFgzLksoMCYv2PRaJorbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/tCMEqqPyVgvKz6pgzCdhQFgzLksoMCYv2PRaJorbonk?timestamp=1753314300000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948153726645989578"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/hrzwcvelqvh672ajpkkvvkq59nshweezefxbrhxhnmmb",
+    "chainId": "solana",
+    "tokenAddress": "HrZWcVeLQVh672ajpkkvvKQ59NSHWEezEfxBrHxHnMmB",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HrZWcVeLQVh672ajpkkvvKQ59NSHWEezEfxBrHxHnMmB.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HrZWcVeLQVh672ajpkkvvKQ59NSHWEezEfxBrHxHnMmB/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HrZWcVeLQVh672ajpkkvvKQ59NSHWEezEfxBrHxHnMmB?timestamp=1753314300000",
+    "description": "In KissCam we trust. Hodl and kiss!",
+    "links": [
+      {
+        "type": "telegram",
+        "url": "https://t.me/kisscam4k"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/bsc/0x2e7a2359bfdd5460a1ddc0c1093fb601087d90eb",
+    "chainId": "bsc",
+    "tokenAddress": "0x2e7a2359bfdd5460a1ddc0c1093fb601087d90eb",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x2e7a2359bfdd5460a1ddc0c1093fb601087d90eb.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0x2e7a2359bfdd5460a1ddc0c1093fb601087d90eb/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0x2e7a2359bfdd5460a1ddc0c1093fb601087d90eb?timestamp=1753314300000",
+    "description": "AgriBase (AGB) is a Real-World Asset (RWA) token designed to connect blockchain innovation with the agricultural economy. With decentralized liquidity locked for 1,000 days and a transparent holder-based reward system, AgriBase promotes sustainable value creation and long-term trust.\n\nBacked by a committed team and a growing community, AGB introduces a gamified structure of \u201cPatrimonial Blocks\u201d \u2014 rewarding top holders weekly. AgriBase is more than a token: it's a decentralized ecosystem focused on real productivity and financial inclusion.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://sites.google.com/view/agribase-oficial/contact-us"
+      },
+      {
+        "label": "Docs",
+        "url": "https://github.com/AgribaseAGB/agribase-whitepaper/raw/main/Agribase%20(AGB)%20Whitepaper.pdf"
+      },
+      {
+        "label": "\ud83d\udd17 Lock verification",
+        "url": "https://www.pinksale.finance/pinklock/bsc/record/1333681"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/AgriBase_AGB"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/AgribaseAGB  "
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/3wyrbddvnjpq4m4rvdkud2ungw52cplmzknazkaubonk",
+    "chainId": "solana",
+    "tokenAddress": "3WyRBDDVnjpQ4m4RVdkUd2ungW52CPLmzkNAzkaubonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3WyRBDDVnjpQ4m4RVdkUd2ungW52CPLmzkNAzkaubonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3WyRBDDVnjpQ4m4RVdkUd2ungW52CPLmzkNAzkaubonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3WyRBDDVnjpQ4m4RVdkUd2ungW52CPLmzkNAzkaubonk?timestamp=1753314300000",
+    "description": "Crowdfund your dreams and raise the capital you need.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://infinitecrowdfunding.com/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/infcrowdfund"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/bkqo5rzu1qgpu349ztg68nitw2dp2m1yo9fqre4sbonk",
+    "chainId": "solana",
+    "tokenAddress": "BKQo5RZu1QGPU349ztg68Nitw2Dp2m1yo9FQrE4Sbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BKQo5RZu1QGPU349ztg68Nitw2Dp2m1yo9FQrE4Sbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BKQo5RZu1QGPU349ztg68Nitw2Dp2m1yo9FQrE4Sbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BKQo5RZu1QGPU349ztg68Nitw2Dp2m1yo9FQrE4Sbonk?timestamp=1753314300000",
+    "description": "The memestock for gooners.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/investor_nick_/status/1948128852619800810?s=46"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/74t4evw5za6i378d7ed4e6p6q38oxr1ttjz4pqctj8pk",
+    "chainId": "solana",
+    "tokenAddress": "74t4eVw5zA6i378d7Ed4e6p6Q38oXr1ttJZ4pQCtj8pk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/74t4eVw5zA6i378d7Ed4e6p6Q38oXr1ttJZ4pQCtj8pk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/74t4eVw5zA6i378d7Ed4e6p6Q38oXr1ttJZ4pQCtj8pk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/74t4eVw5zA6i378d7Ed4e6p6Q38oXr1ttJZ4pQCtj8pk?timestamp=1753314300000",
+    "description": "Debt coin a memecoin dedicated to paying off the national debt",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://x.statusx.it.com/aeyakovenko/948152638551593199"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948154861423366148"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/perpswgw3mjrnrnramw8dbdjdycxwsuskgj8vrmb2eu",
+    "chainId": "solana",
+    "tokenAddress": "perPSWgW3mJrnRNRAMw8DBDjDYcXWsuSkGJ8VRmb2eu",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/perPSWgW3mJrnRNRAMw8DBDjDYcXWsuSkGJ8VRmb2eu.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/perPSWgW3mJrnRNRAMw8DBDjDYcXWsuSkGJ8VRmb2eu/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/perPSWgW3mJrnRNRAMw8DBDjDYcXWsuSkGJ8VRmb2eu?timestamp=1753314300000",
+    "description": "Earn $SOL rewards from Perpetual Trading profits and just for holding !\n\nHow does Perpetual Rewards work ? \n\nOur team consists of professional and highly experienced Forex traders with 15 years in the industry! Strategically utilizing Solana as the blockchain to leverage assets onchain with long positions opened on $SOL with a low risk approach ensuring gains and stability with funding . \n\n50% of fees earned on $PERPS will be used to fund our Perps Treasury which will be used to open strategic positions on $SOL. These profits are then used to Add Liquidity, Buyback & Burn $PERPS increasing the floor and creating deflationary tokenomics.\n\n50% of fees earned on $PERPS will be used to pay all holders in $SOL , this incentives investors to hold .\n\nHold $PERPS , Earn $SOL even with no trading volume.\n\nOur Long term goals are to accumulate 45,000 $SOL to become a validator on Solana and open up a MEV service which the fees generated will be used for buying $PERPS",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://perps.vip"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/perps_solana"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/PerpetualRewards_SOL"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/fvz4hkqnjza91jkuabbirapweglqnk8hsaqj3zokbonk",
+    "chainId": "solana",
+    "tokenAddress": "FVz4HKqnJZa91JkUAbBiRapwEgLQNk8hsaqj3ZoKbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/FVz4HKqnJZa91JkUAbBiRapwEgLQNk8hsaqj3ZoKbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/FVz4HKqnJZa91JkUAbBiRapwEgLQNk8hsaqj3ZoKbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/FVz4HKqnJZa91JkUAbBiRapwEgLQNk8hsaqj3ZoKbonk?timestamp=1753314300000",
+    "description": "YOLO stands for You Only Live Once. In trading, a YOLO trade is where you go all in hoping to make a substantial return. YOLO trades can be highly profitable.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948133730830180582"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/6ytvmz7kr1aych1rafnahzvukxursarur1v5cju9bonk",
+    "chainId": "solana",
+    "tokenAddress": "6YtvmZ7kr1AyCH1RAfNAhzVUkxuRsARUR1v5CJu9bonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6YtvmZ7kr1AyCH1RAfNAhzVUkxuRsARUR1v5CJu9bonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6YtvmZ7kr1AyCH1RAfNAhzVUkxuRsARUR1v5CJu9bonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6YtvmZ7kr1AyCH1RAfNAhzVUkxuRsARUR1v5CJu9bonk?timestamp=1753314300000",
+    "description": "Decentralized marketplace built on the Solana blockchain",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.dealr.store/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/dealr_store"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/6hxxjxekg9ljjl5hkzw7ut4w1yv2h53dd21nxobtbonk",
+    "chainId": "solana",
+    "tokenAddress": "6HxXJXEKg9LJJL5hkZW7uT4W1yV2H53dd21nxobTbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6HxXJXEKg9LJJL5hkZW7uT4W1yV2H53dd21nxobTbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6HxXJXEKg9LJJL5hkZW7uT4W1yV2H53dd21nxobTbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6HxXJXEKg9LJJL5hkZW7uT4W1yV2H53dd21nxobTbonk?timestamp=1753314300000",
+    "description": "",
+    "links": [
+      {
+        "label": "\u0130nstagram",
+        "url": "https://www.instagram.com/balltze/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/Balltze_Bonk"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/8sg24zccvvznzqcfs8rr7fmsuwemtmbrcjxxz7eybonk",
+    "chainId": "solana",
+    "tokenAddress": "8sg24zCcvvzNzqcFs8rr7fMsUwemtMBrCJXXZ7eYbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8sg24zCcvvzNzqcFs8rr7fMsUwemtMBrCJXXZ7eYbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8sg24zCcvvzNzqcFs8rr7fMsUwemtMBrCJXXZ7eYbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8sg24zCcvvzNzqcFs8rr7fMsUwemtMBrCJXXZ7eYbonk?timestamp=1753314300000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948146245912142222"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/5yfen7jwjjhiztqwhkwzx5pq8ecz32n3sxvsegbxbonk",
+    "chainId": "solana",
+    "tokenAddress": "5yFeN7JWjJHiZTqwhKwzx5Pq8Ecz32n3sXVSEgbXbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5yFeN7JWjJHiZTqwhKwzx5Pq8Ecz32n3sXVSEgbXbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5yFeN7JWjJHiZTqwhKwzx5Pq8Ecz32n3sXVSEgbXbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5yFeN7JWjJHiZTqwhKwzx5Pq8Ecz32n3sXVSEgbXbonk?timestamp=1753314300000",
+    "description": "Lil $Meech",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.meech.fun/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948151712843206887"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/mfskmrj8npuo8ugd2tfw9m9tnprtfegr9owyrtgbonk",
+    "chainId": "solana",
+    "tokenAddress": "mFSKmrj8NPUo8UGd2Tfw9M9tnPRtFegr9owyrTgbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/mFSKmrj8NPUo8UGd2Tfw9M9tnPRtFegr9owyrTgbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/mFSKmrj8NPUo8UGd2Tfw9M9tnPRtFegr9owyrTgbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/mFSKmrj8NPUo8UGd2Tfw9M9tnPRtFegr9owyrTgbonk?timestamp=1753314300000",
+    "description": "Lassie is a turn-based multiplayer artillery game with anime-style vehicles",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.lassie.vip/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/lassiegamesol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/lassiegame"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/3rbwaj1g4zrzpahxk5jotcyafbpunvvxjq8shxtxbonk",
+    "chainId": "solana",
+    "tokenAddress": "3RbWAJ1G4ZRzpAhXk5JotCYAFbpunvVXJq8shxTxbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3RbWAJ1G4ZRzpAhXk5JotCYAFbpunvVXJq8shxTxbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3RbWAJ1G4ZRzpAhXk5JotCYAFbpunvVXJq8shxTxbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3RbWAJ1G4ZRzpAhXk5JotCYAFbpunvVXJq8shxTxbonk?timestamp=1753314300000",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://letsbonk.fun/token/3RbWAJ1G4ZRzpAhXk5JotCYAFbpunvVXJq8shxTxbonk"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/rileyfitn/status/1948139046099927355"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/base/0xaa26754dd0c8310cb70f3b66daeab52c8cff3c30",
+    "chainId": "base",
+    "tokenAddress": "0xaa26754dD0C8310cB70F3B66DAeAb52c8cFf3c30",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0xaa26754dd0c8310cb70f3b66daeab52c8cff3c30.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xaa26754dd0c8310cb70f3b66daeab52c8cff3c30/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xaa26754dd0c8310cb70f3b66daeab52c8cff3c30?timestamp=1753314300000",
+    "description": "H420 is an omni-chain (OFT) ERC20 token derived from HLX, allowing seamless cross-chain movement. Anyone can mint H420 at a 1:1 ratio with HLX, keeping its supply limited by the total HLX available. Every mint redistributes HLX to strengthen the ecosystem: 37% is burned, 28% goes to buy & burn H420, 28% adds liquidity (HLX/ELMNT & H420/E280)",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://helios.win/"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.helios-hlx.win/helios/h420"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/Helios_HLX"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/Helios_HLX/1"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/dumhbkvzvcrrz51sfya6cfkgwqkzzk8jomfnqzdlbonk",
+    "chainId": "solana",
+    "tokenAddress": "DuMhBKVzVcRrz51sfYA6CfkGWQKZzk8jomfNqzdLbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DuMhBKVzVcRrz51sfYA6CfkGWQKZzk8jomfNqzdLbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DuMhBKVzVcRrz51sfYA6CfkGWQKZzk8jomfNqzdLbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DuMhBKVzVcRrz51sfYA6CfkGWQKZzk8jomfNqzdLbonk?timestamp=1753314300000",
+    "description": "Cobus Van Wyk",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://kick.com/cobusvanwyk"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/cobus984356"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/htqczj9bbrylbemd5xndmz1nm2thc78n8vicmsvdnray",
+    "chainId": "solana",
+    "tokenAddress": "HtQcZj9bbrYLbEmD5xNdmz1nM2tHC78n8ViCMSvDnray",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/HtQcZj9bbrYLbEmD5xNdmz1nM2tHC78n8ViCMSvDnray.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HtQcZj9bbrYLbEmD5xNdmz1nM2tHC78n8ViCMSvDnray/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HtQcZj9bbrYLbEmD5xNdmz1nM2tHC78n8ViCMSvDnray?timestamp=1753314300000",
+    "description": "New Movie,\nNew token,\nNew COMMUNITY!\n#Soltastic4",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://soltasticfour.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948103854869893329"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/8di9vrapagyksxwcbgv7x6rhwpyscahopycj7dazbonk",
+    "chainId": "solana",
+    "tokenAddress": "8di9VrAPaGyKsXwcbGV7X6rHWPyscaHoPYCj7DAZbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8di9VrAPaGyKsXwcbGV7X6rHWPyscaHoPYCj7DAZbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8di9VrAPaGyKsXwcbGV7X6rHWPyscaHoPYCj7DAZbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8di9VrAPaGyKsXwcbGV7X6rHWPyscaHoPYCj7DAZbonk?timestamp=1753314300000",
+    "description": "Banjo on bonk",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948126322536091874"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/ma2npgczsrnjx5omlutwt1jdg11a5qjbwmajvjlbonk",
+    "chainId": "solana",
+    "tokenAddress": "ma2npGCZSRNjX5omLUTwt1jDg11A5QJbWmajvJLbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/ma2npGCZSRNjX5omLUTwt1jDg11A5QJbWmajvJLbonk.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/ma2npGCZSRNjX5omLUTwt1jDg11A5QJbWmajvJLbonk?timestamp=1753314300000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/SolportTom/status/1948123605541290418"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/3enrddbztesyg8mnwitdysnfmtcnxsoukuy4sijqbonk",
+    "chainId": "solana",
+    "tokenAddress": "3enRdDBZTesyg8MnWiTDySNfmtCNXsoukUy4sijQbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3enRdDBZTesyg8MnWiTDySNfmtCNXsoukUy4sijQbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3enRdDBZTesyg8MnWiTDySNfmtCNXsoukUy4sijQbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3enRdDBZTesyg8MnWiTDySNfmtCNXsoukUy4sijQbonk?timestamp=1753314300000",
+    "description": "CSTR is the largest Charizard Treasury Company and the leading independent provider of Charizard solutions."
+  },
+  {
+    "url": "https://dexscreener.com/solana/2magqte5png7q8jgumpb5uaedsq6wkl8jlrf2cbtbonk",
+    "chainId": "solana",
+    "tokenAddress": "2MagQtE5PNg7q8JgUmPb5UaedsQ6WKL8JLrF2CBTbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/2MagQtE5PNg7q8JgUmPb5UaedsQ6WKL8JLrF2CBTbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/2MagQtE5PNg7q8JgUmPb5UaedsQ6WKL8JLrF2CBTbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/2MagQtE5PNg7q8JgUmPb5UaedsQ6WKL8JLrF2CBTbonk?timestamp=1753314300000",
+    "description": "Your Daily AI-Powered Waifu Vlogs Companion \ud83d\udc95 \ud83c\udfa5 Ara Ara ~ You\u2019ve fallen for me already?",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.aravlogs.cam"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/waifuvlogs"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/base/0x048faeb6ef57f5710e315160f9135e11fca16d74",
+    "chainId": "base",
+    "tokenAddress": "0x048faEB6Ef57F5710E315160f9135e11fca16D74",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x048faeb6ef57f5710e315160f9135e11fca16d74.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x048faeb6ef57f5710e315160f9135e11fca16d74/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x048faeb6ef57f5710e315160f9135e11fca16d74?timestamp=1753314300000",
+    "description": "Unsinkable Sam is a legendary cat famous for surviving the sinking of three different warships during World War II. We are here to spread good vibes in Sam's name on Base",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/sam_on_base"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/basedunsinkablesam"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/87hb9fmxawysnvn6i43ureiybwevxs2bu99gp6avgg2f",
+    "chainId": "solana",
+    "tokenAddress": "87hb9FmXaWYSnVn6i43uReiyBwEvXs2bU99GP6AVGG2f",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/87hb9FmXaWYSnVn6i43uReiyBwEvXs2bU99GP6AVGG2f.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/87hb9FmXaWYSnVn6i43uReiyBwEvXs2bU99GP6AVGG2f/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/87hb9FmXaWYSnVn6i43uReiyBwEvXs2bU99GP6AVGG2f?timestamp=1753314300000",
+    "description": "The last pump. RIP ALON",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948146182544666889"
+      }
+    ]
+  }
+]
