@@ -22,22 +22,20 @@ class Api:
     def get_tokens(self):
         url = f"{latest_tokens}"
         response = requests.get(url)
-        return response.json()
+        data = response.json()
+
+        with open("latest_dex.json", "w") as file:
+            json.dump(data, file, indent=2)
+        return data
 
     def orders(self):
         url = f"https://api.dexscreener.com/orders/v1/{self.chainId}/{self.tokenAddress}"
         response = requests.get(url)
-        return response.json()
+        data =response.json()
 
-    get = get_tokens()
-
-    ordr =orders()
-
-    with open("latest_dex.json", "w") as file:
-        json.dump(get, file, indent=2)
-
-    with open("orders.json", "w") as file:
-        json.dump(ordr, file, indent=2)
+        with open("orders.json", "w") as file:
+            json.dump(data, file, indent=2)
+        return data
 
     def loading(self):
         #    url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
@@ -52,22 +50,17 @@ class Api:
     def evil_laugh(self):
         url = f"https://api.dexscreener.com/token-pairs/v1/{self.the_ID}/{self.the_addy}"
         response = requests.get(url)
-        return response.json()
+        data = response.json()
 
-    evil = evil_laugh()
+        with open("pool.json", "w") as file:
+            json.dump(data, file, indent=2)
+        return data
 
-    with open("pool.json", "w") as file:
-        json.dump(evil, file, indent=2)
-
+    def run_all(self):
+        self.get_tokens()
+        self.orders()
+        self.loading()
+        self.evil_laugh()
 
 api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
-api.get_tokens()
-
-#C:\Users\HP\PycharmProjects\BatmanLearnsPython\.venv\Scripts\python.exe C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py
-#Traceback (most recent call last):
-#  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py", line 23, in <module>
-#    class Api:
-#  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py", line 35, in Api
-#    ordr =orders()
-#          ^^^^^^^^
-#TypeError: Api.orders() missing 1 required positional argument: 'self'
+api.run_all()

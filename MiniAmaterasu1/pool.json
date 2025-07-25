@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "chainId": "solana",
+    "dexId": "raydium",
+    "url": "https://dexscreener.com/solana/4xtzyxd1vip5vqfst7daqbox1vm3b7mtjhzsspxvgdib",
+    "pairAddress": "4xtzyXD1viP5vqfSt7daQboX1vM3b7MtjHzSsPxvgdib",
+    "labels": [
+      "CPMM"
+    ],
+    "baseToken": {
+      "address": "8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk",
+      "name": "Bibo Claude Companion",
+      "symbol": "Bibo"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.00000002836",
+    "priceUsd": "0.000005257",
+    "txns": {
+      "m5": {
+        "buys": 2,
+        "sells": 1
+      },
+      "h1": {
+        "buys": 141,
+        "sells": 131
+      },
+      "h6": {
+        "buys": 754,
+        "sells": 656
+      },
+      "h24": {
+        "buys": 754,
+        "sells": 656
+      }
+    },
+    "volume": {
+      "h24": 143656.43,
+      "h6": 143656.43,
+      "h1": 15076.6,
+      "m5": 273.52
+    },
+    "priceChange": {
+      "m5": 9.52,
+      "h1": -70.26,
+      "h6": -90.8,
+      "h24": -90.8
+    },
+    "liquidity": {
+      "usd": 8394.31,
+      "base": 798368602,
+      "quote": 22.642
+    },
+    "fdv": 5257,
+    "marketCap": 5257,
+    "pairCreatedAt": 1753477368000,
+    "info": {
+      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk.png?key=e3d59b",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk/header.png?key=e3d59b",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk?timestamp=1753482300000",
+      "websites": [],
+      "socials": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/laniassaf/status/1948850569721901098"
+        }
+      ]
+    }
+  },
+  {
+    "chainId": "solana",
+    "dexId": "launchlab",
+    "url": "https://dexscreener.com/solana/ftdchmrgzd2rix6knzo2b3rf2ntnctfntuluypuj4dpo",
+    "pairAddress": "FtdchmrgZD2rix6KNzo2b3Rf2NtNcTfNtuLuYpUJ4Dpo",
+    "baseToken": {
+      "address": "8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk",
+      "name": "Bibo Claude Companion",
+      "symbol": "Bibo"
+    },
+    "quoteToken": {
+      "address": "So11111111111111111111111111111111111111112",
+      "name": "Wrapped SOL",
+      "symbol": "SOL"
+    },
+    "priceNative": "0.0000004108",
+    "priceUsd": "0.00007571",
+    "txns": {
+      "m5": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h1": {
+        "buys": 0,
+        "sells": 0
+      },
+      "h6": {
+        "buys": 50,
+        "sells": 2
+      },
+      "h24": {
+        "buys": 50,
+        "sells": 2
+      }
+    },
+    "volume": {
+      "h24": 17289.37,
+      "h6": 17289.37,
+      "h1": 0,
+      "m5": 0
+    },
+    "priceChange": {
+      "h6": 1196,
+      "h24": 1196
+    },
+    "fdv": 75711.21,
+    "marketCap": 75711.21,
+    "pairCreatedAt": 1753477308000,
+    "info": {
+      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk.png?key=e3d59b",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk/header.png?key=e3d59b",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk?timestamp=1753482300000",
+      "websites": [],
+      "socials": [
+        {
+          "type": "twitter",
+          "url": "https://x.com/laniassaf/status/1948850569721901098"
+        }
+      ]
+    }
+  }
+]
