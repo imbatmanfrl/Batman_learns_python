@@ -2,131 +2,76 @@
   {
     "chainId": "solana",
     "dexId": "raydium",
-    "url": "https://dexscreener.com/solana/4xtzyxd1vip5vqfst7daqbox1vm3b7mtjhzsspxvgdib",
-    "pairAddress": "4xtzyXD1viP5vqfSt7daQboX1vM3b7MtjHzSsPxvgdib",
-    "labels": [
-      "CPMM"
-    ],
+    "url": "https://dexscreener.com/solana/8b9xr1dz9jq3iedgtsmgigube93eggd7zlhnrycconh3",
+    "pairAddress": "8B9xR1dz9JQ3iEdGTsMGiguBE93eggd7zLHnRyCcoNH3",
     "baseToken": {
-      "address": "8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk",
-      "name": "Bibo Claude Companion",
-      "symbol": "Bibo"
+      "address": "CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump",
+      "name": "Looby by Stephen Bliss",
+      "symbol": "LOOBY"
     },
     "quoteToken": {
       "address": "So11111111111111111111111111111111111111112",
       "name": "Wrapped SOL",
       "symbol": "SOL"
     },
-    "priceNative": "0.00000002836",
-    "priceUsd": "0.000005257",
+    "priceNative": "0.000002713",
+    "priceUsd": "0.0005046",
     "txns": {
       "m5": {
-        "buys": 2,
-        "sells": 1
+        "buys": 8,
+        "sells": 6
       },
       "h1": {
-        "buys": 141,
-        "sells": 131
+        "buys": 20,
+        "sells": 18
       },
       "h6": {
-        "buys": 754,
-        "sells": 656
+        "buys": 88,
+        "sells": 71
       },
       "h24": {
-        "buys": 754,
-        "sells": 656
+        "buys": 108,
+        "sells": 84
       }
     },
     "volume": {
-      "h24": 143656.43,
-      "h6": 143656.43,
-      "h1": 15076.6,
-      "m5": 273.52
+      "h24": 7545.31,
+      "h6": 1702.16,
+      "h1": 202.06,
+      "m5": 74.89
     },
     "priceChange": {
-      "m5": 9.52,
-      "h1": -70.26,
-      "h6": -90.8,
-      "h24": -90.8
+      "m5": 0.14,
+      "h1": 0.29,
+      "h6": 3.38,
+      "h24": 1.78
     },
     "liquidity": {
-      "usd": 8394.31,
-      "base": 798368602,
-      "quote": 22.642
+      "usd": 116007.85,
+      "base": 114799528,
+      "quote": 312.2478
     },
-    "fdv": 5257,
-    "marketCap": 5257,
-    "pairCreatedAt": 1753477368000,
+    "fdv": 504628,
+    "marketCap": 480899,
+    "pairCreatedAt": 1731949276000,
     "info": {
-      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk.png?key=e3d59b",
-      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk/header.png?key=e3d59b",
-      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk?timestamp=1753482300000",
-      "websites": [],
-      "socials": [
+      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump.png?key=ee0c62",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump/header.png?key=ee0c62",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump?timestamp=1753484700000",
+      "websites": [
         {
-          "type": "twitter",
-          "url": "https://x.com/laniassaf/status/1948850569721901098"
+          "label": "Website",
+          "url": "https://www.looby.love/"
         }
-      ]
-    }
-  },
-  {
-    "chainId": "solana",
-    "dexId": "launchlab",
-    "url": "https://dexscreener.com/solana/ftdchmrgzd2rix6knzo2b3rf2ntnctfntuluypuj4dpo",
-    "pairAddress": "FtdchmrgZD2rix6KNzo2b3Rf2NtNcTfNtuLuYpUJ4Dpo",
-    "baseToken": {
-      "address": "8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk",
-      "name": "Bibo Claude Companion",
-      "symbol": "Bibo"
-    },
-    "quoteToken": {
-      "address": "So11111111111111111111111111111111111111112",
-      "name": "Wrapped SOL",
-      "symbol": "SOL"
-    },
-    "priceNative": "0.0000004108",
-    "priceUsd": "0.00007571",
-    "txns": {
-      "m5": {
-        "buys": 0,
-        "sells": 0
-      },
-      "h1": {
-        "buys": 0,
-        "sells": 0
-      },
-      "h6": {
-        "buys": 50,
-        "sells": 2
-      },
-      "h24": {
-        "buys": 50,
-        "sells": 2
-      }
-    },
-    "volume": {
-      "h24": 17289.37,
-      "h6": 17289.37,
-      "h1": 0,
-      "m5": 0
-    },
-    "priceChange": {
-      "h6": 1196,
-      "h24": 1196
-    },
-    "fdv": 75711.21,
-    "marketCap": 75711.21,
-    "pairCreatedAt": 1753477308000,
-    "info": {
-      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk.png?key=e3d59b",
-      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk/header.png?key=e3d59b",
-      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8AgowwsUCukMPiMrdJGdoNbcwjTLexpXgTb7EXPKbonk?timestamp=1753482300000",
-      "websites": [],
+      ],
       "socials": [
         {
           "type": "twitter",
-          "url": "https://x.com/laniassaf/status/1948850569721901098"
+          "url": "https://x.com/loobyonsol?s=21"
+        },
+        {
+          "type": "telegram",
+          "url": "https://t.me/LoobyOnSol"
         }
       ]
     }

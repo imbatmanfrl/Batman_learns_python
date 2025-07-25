@@ -38,7 +38,6 @@ class Api:
         return data
 
     def loading(self):
-        #    url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
         with open("latest_dex.json", "r") as file:
             self.data = json.load(file)
 
@@ -56,11 +55,26 @@ class Api:
             json.dump(data, file, indent=2)
         return data
 
+    def pair_name(self):
+        with open("pool.json", "r") as file:
+            data = json.load(file)
+            for pairs in data:
+                self.name = pairs["baseToken"]["name"]
+                self.symbol = pairs ["baseToken"]["symbol"]
+                self.mc = pairs["fdv"]
+                self.price = pairs["priceUsd"]
+
+                data = self.name,self.symbol,self.mc,self.price
+        with open("pair_info.json","w") as file:
+            json.dump(data,file,indent=2)
+
     def run_all(self):
         self.get_tokens()
         self.orders()
         self.loading()
         self.evil_laugh()
+        self.pair_name()
+
 
 api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
 api.run_all()
