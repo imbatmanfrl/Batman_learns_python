@@ -8,11 +8,11 @@ import json
 
 latest_tokens = "https://api.dexscreener.com/token-profiles/latest/v1"
 
-#check_orders = "https://api.dexscreener.com/orders/v1/{chainId}/{tokenAddress}"
-
 #get_pair_using_pair_address = "https://api.dexscreener.com/latest/dex/pairs/{chainId}/{pairId}"
 
-#search_for_specific_pairs = "https://api.dexscreener.com/latest/dex/search"
+pair = "https://api.dexscreener.com/latest/dex/search"
+
+pool = "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
 
 def get_tokens():
     url = f"{latest_tokens}"
@@ -24,6 +24,10 @@ def orders(chainId,tokenAddress):
     response = requests.get(url)
     return response.json()
 
+def loading():
+#    url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
+    with open("latest_dex.json","r") as file:
+        json.load(file)
 
 
 get = get_tokens()
