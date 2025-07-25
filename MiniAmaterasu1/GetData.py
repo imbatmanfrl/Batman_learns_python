@@ -14,32 +14,60 @@ pair = "https://api.dexscreener.com/latest/dex/search"
 
 pool = "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
 
-def get_tokens():
-    url = f"{latest_tokens}"
-    response = requests.get(url)
-    return response.json()
+class Api:
+    def __init__(self,chainId,tokenAddress):
+        self.chainId = chainId
+        self.tokenAddress = tokenAddress
 
-def orders(chainId,tokenAddress):
-    url = f"https://api.dexscreener.com/orders/v1/{chainId}/{tokenAddress}"
-    response = requests.get(url)
-    return response.json()
+    def get_tokens(self):
+        url = f"{latest_tokens}"
+        response = requests.get(url)
+        return response.json()
 
-def loading():
-#    url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
-    with open("latest_dex.json","r") as file:
-        json.load(file)
+    def orders(self):
+        url = f"https://api.dexscreener.com/orders/v1/{self.chainId}/{self.tokenAddress}"
+        response = requests.get(url)
+        return response.json()
+
+    get = get_tokens()
+
+    ordr =orders()
+
+    with open("latest_dex.json", "w") as file:
+        json.dump(get, file, indent=2)
+
+    with open("orders.json", "w") as file:
+        json.dump(ordr, file, indent=2)
+
+    def loading(self):
+        #    url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
+        with open("latest_dex.json", "r") as file:
+            self.data = json.load(file)
+
+            for item in self.data:
+                self.the_ID = item["chainId"]
+                self.the_addy = item["tokenAddress"]
+                print(self.the_ID, self.the_addy)
+
+    def evil_laugh(self):
+        url = f"https://api.dexscreener.com/token-pairs/v1/{self.the_ID}/{self.the_addy}"
+        response = requests.get(url)
+        return response.json()
+
+    evil = evil_laugh()
+
+    with open("pool.json", "w") as file:
+        json.dump(evil, file, indent=2)
 
 
-get = get_tokens()
-ord = orders("solana","A55XjvzRU4KtR3Lrys8PpLZQvPojPqvnv5bJVHMYy3Jv")
+api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
+api.get_tokens()
 
-
-with open ("latest_dex.json","w") as file:
-    json.dump(get,file,indent=2)
-
-with open ("orders.json","w")as file:
-    json.dump(ord,file,indent=2)
-
-
-#for item in get:
-#    print(get)
+#C:\Users\HP\PycharmProjects\BatmanLearnsPython\.venv\Scripts\python.exe C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py
+#Traceback (most recent call last):
+#  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py", line 23, in <module>
+#    class Api:
+#  File "C:\Users\HP\PycharmProjects\BatmanLearnsPython\MiniAmaterasu1\GetData.py", line 35, in Api
+#    ordr =orders()
+#          ^^^^^^^^
+#TypeError: Api.orders() missing 1 required positional argument: 'self'
