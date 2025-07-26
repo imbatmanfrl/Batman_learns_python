@@ -53,16 +53,18 @@ class Api:
 
         with open("pool.json", "w") as file:
             json.dump(data, file, indent=2)
-        return data
+            for item in data:
+                return item
 
     def pair_name(self):
         with open("pool.json", "r") as file:
             data = json.load(file)
             for pairs in data:
-                self.name = pairs["baseToken"]["name"]
-                self.symbol = pairs ["baseToken"]["symbol"]
-                self.mc = pairs["fdv"]
-                self.price = pairs["priceUsd"]
+                self.name = f"Pair name: {pairs["baseToken"]["name"]}"
+                self.symbol = f"Pair symbol: {pairs["baseToken"]["symbol"]}"
+                self.mc = f"Pair MarketCap: ${pairs["fdv"]}"
+                #self.liquidity = f"Pair liquidity: {pairs["liquidity"]["usd"]}"
+                self.price = f"Pair Current Price: ${pairs["priceUsd"]}"
 
                 data = self.name,self.symbol,self.mc,self.price
         with open("pair_info.json","w") as file:
@@ -78,3 +80,12 @@ class Api:
 
 api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
 api.run_all()
+
+#problem im having now is that pool.json isn't getting the tokenomics of all the pairs in latest_dex.json
+#and if that happens, pair.info will onnly generate the info on one crypto token
+#I need it to be able to do it for all the pairs in latest_dex.json
+#and also sometimes in pool.json, it'll pull the token's liquidity, sometimes it wont
+#and i'm also not able to get pair age, just 24hr volume,
+# like alot of these pairs might be real old already and i've missed out on early buys
+#I can't also tell who's the dev yet but im thinking we can use the twitter api to see that,
+# also one of these API can check if a token has been bought by CTO but im guessing it can only do it for one pair as well

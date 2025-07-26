@@ -1,77 +1,63 @@
 [
   {
     "chainId": "solana",
-    "dexId": "raydium",
-    "url": "https://dexscreener.com/solana/8b9xr1dz9jq3iedgtsmgigube93eggd7zlhnrycconh3",
-    "pairAddress": "8B9xR1dz9JQ3iEdGTsMGiguBE93eggd7zLHnRyCcoNH3",
+    "dexId": "launchlab",
+    "url": "https://dexscreener.com/solana/dv6wcexnfwjqcjxkb1deknt695eg14lfv6znwnxiecqs",
+    "pairAddress": "DV6WCExNFwJqCjxkB1dEKnt695Eg14LFv6zNWNxieCQs",
     "baseToken": {
-      "address": "CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump",
-      "name": "Looby by Stephen Bliss",
-      "symbol": "LOOBY"
+      "address": "HkfiXb8NBNjMReGzUoPSttTEhLMrw6piZteoKBsYbonk",
+      "name": "Ultimate Useless Coin",
+      "symbol": "EMPTINESS"
     },
     "quoteToken": {
       "address": "So11111111111111111111111111111111111111112",
       "name": "Wrapped SOL",
       "symbol": "SOL"
     },
-    "priceNative": "0.000002713",
-    "priceUsd": "0.0005046",
+    "priceNative": "0.00000006308",
+    "priceUsd": "0.00001177",
     "txns": {
       "m5": {
-        "buys": 8,
-        "sells": 6
+        "buys": 1,
+        "sells": 1
       },
       "h1": {
-        "buys": 20,
-        "sells": 18
+        "buys": 12,
+        "sells": 6
       },
       "h6": {
-        "buys": 88,
-        "sells": 71
+        "buys": 144,
+        "sells": 97
       },
       "h24": {
-        "buys": 108,
-        "sells": 84
+        "buys": 163,
+        "sells": 107
       }
     },
     "volume": {
-      "h24": 7545.31,
-      "h6": 1702.16,
-      "h1": 202.06,
-      "m5": 74.89
+      "h24": 32167.71,
+      "h6": 30120.57,
+      "h1": 1712.66,
+      "m5": 209.82
     },
     "priceChange": {
-      "m5": 0.14,
-      "h1": 0.29,
-      "h6": 3.38,
-      "h24": 1.78
+      "m5": -4,
+      "h1": 9.15,
+      "h6": 24.74,
+      "h24": 53.79
     },
-    "liquidity": {
-      "usd": 116007.85,
-      "base": 114799528,
-      "quote": 312.2478
-    },
-    "fdv": 504628,
-    "marketCap": 480899,
-    "pairCreatedAt": 1731949276000,
+    "fdv": 11774.76,
+    "marketCap": 11774.76,
+    "pairCreatedAt": 1752864687000,
     "info": {
-      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump.png?key=ee0c62",
-      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump/header.png?key=ee0c62",
-      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/CyRbC97yrkUB31sv9PLw5Hw8276zXH4sRoTE1KcDpump?timestamp=1753484700000",
-      "websites": [
-        {
-          "label": "Website",
-          "url": "https://www.looby.love/"
-        }
-      ],
+      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/HkfiXb8NBNjMReGzUoPSttTEhLMrw6piZteoKBsYbonk.png?key=dfe0aa",
+      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/HkfiXb8NBNjMReGzUoPSttTEhLMrw6piZteoKBsYbonk/header.png?key=dfe0aa",
+      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/HkfiXb8NBNjMReGzUoPSttTEhLMrw6piZteoKBsYbonk?timestamp=1753517400000",
+      "websites": [],
       "socials": [
         {
           "type": "twitter",
-          "url": "https://x.com/loobyonsol?s=21"
-        },
-        {
-          "type": "telegram",
-          "url": "https://t.me/LoobyOnSol"
+          "url": "https://x.com/Cto_emptiness"
         }
       ]
     }
