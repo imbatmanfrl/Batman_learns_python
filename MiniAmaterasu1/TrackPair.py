@@ -10,16 +10,13 @@ class Track(Api):
 
         chainId = input(f"Enter the chainId: ")
         tokenAddress = input(f"Enter the tokenAddress: ")
-        all_data = []
-#        for chainId, tokenAddress in track:
         url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
         response = requests.get(url)
         data = response.json()
-        all_data.append(data)
 
         with open("currentTokenomics.json", "w") as file:
-            json.dump(all_data, file, indent=2)
-            for item in all_data:
+            json.dump(data, file, indent=2)
+            for item in data:
                 print(item)
 
     def tracker(self):
@@ -27,8 +24,11 @@ class Track(Api):
         with open("currentTokenomics.json", "r") as file:
             data = json.load(file)
 
-            for group in data:
-                for pairs in group:
+            if isinstance(data,dict) and "pair" in data:
+                for item in data:
+                    pairs = item.get("pair")
+                    if not pairs:
+                        continue
                     tokenomics = {
                         "name": pairs["baseToken"]["name"],
                         "symbol": pairs["baseToken"]["symbol"],
@@ -40,7 +40,7 @@ class Track(Api):
                         "volume": pairs.get("volume")
                     }
 
-                pair_info.append(tokenomics)
+                    pair_info.append(tokenomics)
         with open("pair_info.json", "w") as file:
             json.dump(pair_info, file, indent=2)
 

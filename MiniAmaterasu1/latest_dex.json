@@ -1,11 +1,64 @@
 [
   {
+    "url": "https://dexscreener.com/solana/goeyw6mqh2gc76cdztn4qqm3fxuq3dtefah2p4htbonk",
+    "chainId": "solana",
+    "tokenAddress": "GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk?timestamp=1753582800000",
+    "description": "HAT",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.reddit.com/r/Bitcoin/s/JgHZNZ1CI4"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949279410366169179"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/8pfun4tf2xwqxbnppdvywa5mmfh7frqzfrupzeaubonk",
+    "chainId": "solana",
+    "tokenAddress": "8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk?timestamp=1753582800000",
+    "description": "Most Popular Runescape meme!",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948585634395746347"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/az4n7uzjunkz4ya2t5kytgubvhnopquvs4uhlaembonk",
+    "chainId": "solana",
+    "tokenAddress": "Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk?timestamp=1753582800000",
+    "description": "Born from Ponke. Built to Bonke\u203c\ufe0f",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1948913861005848759"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/bonkeonbonk"
+      }
+    ]
+  },
+  {
     "url": "https://dexscreener.com/base/0x06711756cc4d435196d72762011529c7d94e0f09",
     "chainId": "base",
     "tokenAddress": "0x06711756cc4D435196D72762011529c7D94e0F09",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x06711756cc4d435196d72762011529c7d94e0f09.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x06711756cc4d435196d72762011529c7d94e0f09/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x06711756cc4d435196d72762011529c7d94e0f09?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x06711756cc4d435196d72762011529c7d94e0f09?timestamp=1753582800000",
     "description": "Billy's little bro Milly Show him some Love..... Milly is green because he loves his Cash",
     "links": [
       {
@@ -24,7 +77,7 @@
     "tokenAddress": "F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk?timestamp=1753582800000",
     "description": "Domo Domo Domo \u2757\u2757\u2757",
     "links": [
       {
@@ -43,7 +96,7 @@
     "tokenAddress": "0xF22F7b6F7e71F87a9ab7e4AD4fB8e78A117932Ae",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae?timestamp=1753582800000",
     "description": "Charlie Lou Rogan is Joe Rogans new dog.",
     "links": [
       {
@@ -62,7 +115,7 @@
     "tokenAddress": "42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk?timestamp=1753582800000",
     "description": "for gamers.",
     "links": [
       {
@@ -77,7 +130,7 @@
     "tokenAddress": "EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk?timestamp=1753582800000",
     "description": "$POCHI is the $NEIRO of $BONK",
     "links": [
       {
@@ -92,7 +145,7 @@
     "tokenAddress": "5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk?timestamp=1753582800000",
     "description": "Cunt",
     "links": [
       {
@@ -111,7 +164,7 @@
     "tokenAddress": "BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk?timestamp=1753582800000",
     "description": "The Most Alpha Cat in The World. \ud83d\ude3c",
     "links": [
       {
@@ -130,7 +183,7 @@
     "tokenAddress": "7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk?timestamp=1753582800000",
     "description": "Grand exchange is like the opensea of RuneScape it\u2019s where you spend your GP",
     "links": [
       {
@@ -149,7 +202,7 @@
     "tokenAddress": "BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk?timestamp=1753582800000",
     "description": "Worlds first digital stray dog.\n\nRuneScape launched in 2001 and became the worlds most popular MMORPG with 300m+ active players. The stray dog has been a part of RuneScape for 20+ years and every single player has interacted with it. The $stray dog can be fed and interacted with by players.",
     "links": [
       {
@@ -168,7 +221,7 @@
     "tokenAddress": "7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump?timestamp=1753582800000",
     "description": "Rocks on PUMP",
     "links": [
       {
@@ -183,7 +236,7 @@
     "tokenAddress": "0x39d4d99fcaae7c014f122084ec3230a140163a41",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x39d4d99fcaae7c014f122084ec3230a140163a41.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x39d4d99fcaae7c014f122084ec3230a140163a41/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x39d4d99fcaae7c014f122084ec3230a140163a41?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x39d4d99fcaae7c014f122084ec3230a140163a41?timestamp=1753582800000",
     "description": "Blue is a happy little rhino from the clouds, now stomping around on Base. Curious, bold, and always smiling. He's here to make friends, cause giggles and bring the good vibes wherever he goes.",
     "links": [
       {
@@ -206,7 +259,7 @@
     "tokenAddress": "5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk?timestamp=1753582800000",
     "description": "Trade, list coins and chat with other players in the world of RuneSol.",
     "links": [
       {
@@ -225,7 +278,7 @@
     "tokenAddress": "8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk?timestamp=1753582800000",
     "description": "It's Maxwell the cat. OOOO EeEe Ahhhhhh"
   },
   {
@@ -234,7 +287,7 @@
     "tokenAddress": "EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk?timestamp=1753582800000",
     "description": "Lexapro is the meme",
     "links": [
       {
@@ -248,7 +301,7 @@
     "chainId": "solana",
     "tokenAddress": "DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq?timestamp=1753582800000",
     "description": "\"Hi, I\u2019m Happy! \ud83d\udc36 My owner is useless and never feeds me. I need SOL to fill my tummy \u2013 help me, and I\u2019ll help you bite into those gains!\"",
     "links": [
       {
@@ -271,7 +324,7 @@
     "tokenAddress": "4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk?timestamp=1753582800000",
     "description": "Send This",
     "links": [
       {
@@ -286,7 +339,7 @@
     "tokenAddress": "DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk?timestamp=1753582800000",
     "description": "FROM DEPRESSION TO COMPRESSION",
     "links": [
       {
@@ -304,7 +357,7 @@
     "chainId": "solana",
     "tokenAddress": "4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk?timestamp=1753582800000",
     "description": "Let's send buck to $1",
     "links": [
       {
@@ -319,7 +372,7 @@
     "tokenAddress": "EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk?timestamp=1753582800000",
     "description": "Leaving @believeapp & @pasternak wasn\u2019t easy.\n\nBut relaunching on the same launchpad didn\u2019t make sense. The community voted, and \n@bonk_fun is where we\u2019re planting the flag now.\n\nI genuinely hope @SolportTom and the Bonk gang recognize the power of gooning culture and the energy we bring.\n\nI wasn\u2019t the dev on the original coin, but I want to apologize to everyone for how things played out. That version didn\u2019t get the care it deserved.\n\nWhat we do have is a proven, resilient community. Let\u2019s run it back the right way.\n\nAppreciate all the support.\n\n$GOON",
     "links": [
       {
@@ -338,7 +391,7 @@
     "tokenAddress": "EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk?timestamp=1753582800000",
     "description": "The real Quandale Dingle Coin",
     "links": [
       {
@@ -357,7 +410,7 @@
     "tokenAddress": "BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray?timestamp=1753582800000",
     "description": "Get ready to punch, kick, and crypto-combo your way to victory in Solana Fighter, the classic arcade brawler that packs a pixelated punch! Choose your blockchain-inspired warrior and battle through vibrant arenas, where every K.O. feels like a jackpot win!",
     "links": [
       {
@@ -380,7 +433,7 @@
     "tokenAddress": "0x441349c4F4F547cA38bee67AA63A99c1D7D55757",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757?timestamp=1753582800000",
     "description": "$NODEX is the utility token of Mine AI, a CLI-based Agent for blockchain node deployment, monitoring, and governance, as well as general-purpose automation.\n\nWith a fair launch (no VC, no pre-sale), NODEX fuels node services, offers discounts, buybacks, and hidden perks for token holders.\nOur platform will integrate low-cost Kimi API keys to create sustainable revenue.\n\nThe ecosystem is transparent, scalable, and designed for real users who need efficient and cost-effective node operations.",
     "links": [
       {
@@ -399,7 +452,7 @@
     "tokenAddress": "Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk?timestamp=1753582800000",
     "description": "Buck to $1",
     "links": [
       {
@@ -414,7 +467,7 @@
     "tokenAddress": "7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk?timestamp=1753582800000",
     "description": "",
     "links": [
       {
@@ -433,7 +486,7 @@
     "tokenAddress": "DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk?timestamp=1753582800000",
     "description": "",
     "links": [
       {
@@ -452,7 +505,7 @@
     "tokenAddress": "0x83AC220a109d5CC35DE9EEDc4C2647fb6Df2F884",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884?timestamp=1753582800000",
     "description": "Meet KUNKUN, Dog from Desu Meme.",
     "links": [
       {
@@ -471,7 +524,7 @@
     "tokenAddress": "3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk",
     "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk.png",
     "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk?timestamp=1753582200000",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk?timestamp=1753582800000",
     "description": "just cut my hair gng",
     "links": [
       {
@@ -481,75 +534,6 @@
       {
         "type": "twitter",
         "url": "https://x.com/i/communities/1949037244376809565"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/6wegg9mutxkwqr38dkx2e7bpz5u2wwg5evct2kmjbonk",
-    "chainId": "solana",
-    "tokenAddress": "6weGg9MuTXkwQr38DkX2E7Bpz5U2WwG5eVCt2KmJbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/6weGg9MuTXkwQr38DkX2E7Bpz5U2WwG5eVCt2KmJbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/6weGg9MuTXkwQr38DkX2E7Bpz5U2WwG5eVCt2KmJbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/6weGg9MuTXkwQr38DkX2E7Bpz5U2WwG5eVCt2KmJbonk?timestamp=1753582200000",
-    "description": "Bongo Cat on bonk!",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949248371065262335"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/base/0xdca298f08dc5a433f83aa78a1d4a6c6ea5cd70ba",
-    "chainId": "base",
-    "tokenAddress": "0xdca298F08dc5a433F83aA78a1d4A6c6ea5cD70Ba",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0xdca298f08dc5a433f83aa78a1d4a6c6ea5cd70ba.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xdca298f08dc5a433f83aa78a1d4a6c6ea5cd70ba/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xdca298f08dc5a433f83aa78a1d4a6c6ea5cd70ba?timestamp=1753582200000",
-    "description": "Beast Creator Coin",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/basedbeast2?s=21"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/ethereum/0xb561a16cb03e823ad63e23bd2b5e99c0845e55be",
-    "chainId": "ethereum",
-    "tokenAddress": "0xb561a16cb03e823ad63e23bd2b5e99c0845e55be",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xb561a16cb03e823ad63e23bd2b5e99c0845e55be.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xb561a16cb03e823ad63e23bd2b5e99c0845e55be/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xb561a16cb03e823ad63e23bd2b5e99c0845e55be?timestamp=1753582200000",
-    "description": "A social media influencer, particularly popular on Instagram, and has even worked as a dog model for fashion and film.",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://www.violahusky.wiki/"
-      },
-      {
-        "label": "Youtube",
-        "url": "https://youtube.com/@_violasnow"
-      },
-      {
-        "label": "Instagram",
-        "url": "https://instagram.com/_violasnow"
-      },
-      {
-        "label": "Facebook",
-        "url": "https://facebook.com/_violasnow"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/ViolaHuskyOnETH"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/violahuskyoneth"
-      },
-      {
-        "type": "tiktok",
-        "url": "https://tiktok.com/@_violasnow"
       }
     ]
   }
