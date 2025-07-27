@@ -70,13 +70,18 @@ class Api:
         with open("pool.json", "r") as file:
             data = json.load(file)
 
-            for pairs in data:
-                info = {
-                    "name": pairs["baseToken"]["name"],
-                "symbol" : pairs["baseToken"]["symbol"],
-                "market_cap" : pairs["baseToken"]["fdv"],
-               "price" : pairs["baseToken"]["price"],
-                }
+            for group in data:
+                for pairs in group:
+                    info = {
+                        "name": pairs["baseToken"]["name"],
+                        "symbol": pairs["baseToken"]["symbol"],
+                        "address": pairs.get("pairAddress"),
+                        "price": pairs.get("priceUsd"),
+                        "market_cap": pairs.get("fdv"),
+                        "liquidity": pairs.get("liquidity"),
+                        "volume": pairs.get("volume")
+                    }
+
 
                 pair_info.append(info)
         with open("pair_info.json","w") as file:

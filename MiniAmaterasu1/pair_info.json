@@ -1,1 +1,450 @@
-[]
+[
+  {
+    "name": "Grand Exchange",
+    "symbol": "GE",
+    "address": "ELQrbSfE9J2xPnxDGGfboGchw8QY7ua7NjsDtJYi4qt9",
+    "price": "0.00002809",
+    "market_cap": 28097.4,
+    "liquidity": null,
+    "volume": {
+      "h24": 40278.33,
+      "h6": 40278.33,
+      "h1": 40278.33,
+      "m5": 8044.33
+    }
+  },
+  {
+    "name": "Stray Dog",
+    "symbol": "Stray",
+    "address": "qaHafGzrmf7UuxbLoSxEqD671idh2TcuV6fLkC9hAUN",
+    "price": "0.00002728",
+    "market_cap": 27281.16,
+    "liquidity": null,
+    "volume": {
+      "h24": 35413.74,
+      "h6": 35413.74,
+      "h1": 20387.23,
+      "m5": 3367.53
+    }
+  },
+  {
+    "name": "Pump Rock",
+    "symbol": "pROCK",
+    "address": "4eswu7HXT7Z9FVYweDw9V1iJbb9wtvVBnR6x54CvrFHF",
+    "price": "0.00001697",
+    "market_cap": 16973.25,
+    "liquidity": null,
+    "volume": {
+      "h24": 63418.39,
+      "h6": 63418.39,
+      "h1": 50392.34,
+      "m5": 2692.8
+    }
+  },
+  {
+    "name": "BLUE",
+    "symbol": "BLUE",
+    "address": "0x4791272C42BBe4FB4Da08A63f71f0E9C748B767D",
+    "price": "0.00002280",
+    "market_cap": 22810,
+    "liquidity": {
+      "usd": 14463.29,
+      "base": 406200125,
+      "quote": 1.3795
+    },
+    "volume": {
+      "h24": 14758.37,
+      "h6": 5908.69,
+      "h1": 3593.66,
+      "m5": 1343.78
+    }
+  },
+  {
+    "name": "RuneSol",
+    "symbol": "RUNES",
+    "address": "APcoDGzhZgms66JUMN2sK8ARg2Bd39mRe678otk37eBd",
+    "price": "0.00007597",
+    "market_cap": 75974.14,
+    "liquidity": null,
+    "volume": {
+      "h24": 50019.08,
+      "h6": 50019.08,
+      "h1": 50019.08,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Maxwell The Cat",
+    "symbol": "MAXWELL",
+    "address": "12dKHiSYXjJY6cqhMcwnSRXdx8o99hWvqrfoH76d4Y2c",
+    "price": "0.00004473",
+    "market_cap": 44734.17,
+    "liquidity": null,
+    "volume": {
+      "h24": 9372.65,
+      "h6": 9372.65,
+      "h1": 9372.65,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Lexapro Is The Meme",
+    "symbol": "LEXAPRO",
+    "address": "F3ffwAW9jJwMwDpr9PEVCKVtEMEFoudbd8FsB6NWECvn",
+    "price": "0.00007592",
+    "market_cap": 75928.95,
+    "liquidity": null,
+    "volume": {
+      "h24": 151344.05,
+      "h6": 151344.05,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "HAPPYS",
+    "symbol": "HAPPYS",
+    "address": "DMRxcnkCDnfKNbmtE8MXViXNbbUMTmaYMr6PjUi3cKyE",
+    "price": "0.000001573",
+    "market_cap": 1574,
+    "liquidity": {
+      "usd": 1268.43,
+      "base": 407382289,
+      "quote": 3.3728
+    },
+    "volume": {
+      "h24": 4735.53,
+      "h6": 4735.53,
+      "h1": 2912.25,
+      "m5": 54.27
+    }
+  },
+  {
+    "name": "send this",
+    "symbol": "nudes",
+    "address": "3wmnBZ7iaojtP6iRLE9UiXHi9LAjLU7TcrajSv5Pvzaq",
+    "price": "0.00003846",
+    "market_cap": 38469.93,
+    "liquidity": null,
+    "volume": {
+      "h24": 198078.69,
+      "h6": 198078.69,
+      "h1": 120397.5,
+      "m5": 8140.28
+    }
+  },
+  {
+    "name": "Depressio",
+    "symbol": "Sad Retard",
+    "address": "FNBx2mjkukXas27oi8rXm6gqWqRumDfpHWE6fFQC4o12",
+    "price": "0.000007108",
+    "market_cap": 7108.29,
+    "liquidity": null,
+    "volume": {
+      "h24": 51612.36,
+      "h6": 51612.36,
+      "h1": 51612.36,
+      "m5": 250.59
+    }
+  },
+  {
+    "name": "Buck to $1",
+    "symbol": "Buck",
+    "address": "37fbHzi7erqvCNLwLw3mRLYXEpmELrsKhMt88RLcwuMV",
+    "price": "0.00007609",
+    "market_cap": 76097.39,
+    "liquidity": null,
+    "volume": {
+      "h24": 222245.18,
+      "h6": 222245.18,
+      "h1": 31112.58,
+      "m5": 0
+    }
+  },
+  {
+    "name": "GOONCOIN",
+    "symbol": "GOON",
+    "address": "5t1KANJcthK2r3pt4H2ykPb1v2eu45b4ZAykEaZaXZbS",
+    "price": "0.00007608",
+    "market_cap": 76089.17,
+    "liquidity": null,
+    "volume": {
+      "h24": 73130.8,
+      "h6": 73130.8,
+      "h1": 19807.88,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Quandale Dingle",
+    "symbol": "Quandale",
+    "address": "CXiSCBjmrhAzjzc9mtFypEa9Hs7oNdVybsuurCzy6vr4",
+    "price": "0.000005367",
+    "market_cap": 5367.38,
+    "liquidity": null,
+    "volume": {
+      "h24": 44760.73,
+      "h6": 44760.73,
+      "h1": 100.53,
+      "m5": 0
+    }
+  },
+  {
+    "name": "SOLANA FIGHTER",
+    "symbol": "$FIGHT ",
+    "address": "8KHdit8QXD5SRA3NY32SZ3dNrKBCgXUa5JK59cs7CdrE",
+    "price": "0.00002772",
+    "market_cap": 27723,
+    "liquidity": null,
+    "volume": {
+      "h24": 5606.97,
+      "h6": 5606.97,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "NodeX",
+    "symbol": "NodeX",
+    "address": "0xE5e0160CE9f9556a8e4684748664d7485f072b9F",
+    "price": "0.0005788",
+    "market_cap": 578843,
+    "liquidity": {
+      "usd": 167210.63,
+      "base": 144435186,
+      "quote": 22.1892
+    },
+    "volume": {
+      "h24": 1032077.75,
+      "h6": 1032077.75,
+      "h1": 657589.19,
+      "m5": 36716.17
+    }
+  },
+  {
+    "name": "Buck to $1",
+    "symbol": "Buck",
+    "address": "DLzYFbazmMt5ibs4KDnKRkf51358927tuGK8YBUcWe9w",
+    "price": "0.00007590",
+    "market_cap": 75908.41,
+    "liquidity": null,
+    "volume": {
+      "h24": 85128.4,
+      "h6": 85128.4,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "InternetDogCoin",
+    "symbol": "IDC",
+    "address": "DEBVC9LxR3zc3cXA9CW3sJXgdcYFP2JF5bU6GibwQDxo",
+    "price": "0.000005254",
+    "market_cap": 5254.29,
+    "liquidity": null,
+    "volume": {
+      "h24": 60865.5,
+      "h6": 60865.5,
+      "h1": 83.97,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Stop Loss",
+    "symbol": "Condom",
+    "address": "62Hg1T8t7DtdZkSUF7tPDjfZQFFqfk9KKb84uwcrk7Hh",
+    "price": "0.00001305",
+    "market_cap": 13059.6,
+    "liquidity": null,
+    "volume": {
+      "h24": 167380.2,
+      "h6": 167380.2,
+      "h1": 21885.48,
+      "m5": 352.54
+    }
+  },
+  {
+    "name": "KUNKUN",
+    "symbol": "KUNKUN",
+    "address": "0x5c905d42199216A07d0eC02e8f91D8Ff1b10C47f",
+    "price": "0.00002286",
+    "market_cap": 22869,
+    "liquidity": {
+      "usd": 13049.43,
+      "base": 299572303,
+      "quote": 1.6456
+    },
+    "volume": {
+      "h24": 59479.88,
+      "h6": 59479.88,
+      "h1": 27322.27,
+      "m5": 6974.14
+    }
+  },
+  {
+    "name": "yo barber",
+    "symbol": "barber",
+    "address": "9cy5TVDiML2A9pRrtjCKHHQX7xh3BxC6K6DmzDim548w",
+    "price": "0.00002327",
+    "market_cap": 23277.25,
+    "liquidity": null,
+    "volume": {
+      "h24": 70021.04,
+      "h6": 33455.05,
+      "h1": 1059.44,
+      "m5": 204.59
+    }
+  },
+  {
+    "name": "BONGO CAT",
+    "symbol": "BONGO",
+    "address": "Htidr3Ds1HnDp8NG3Dmh7Q6DPNv1Jms4ES5CSrz1u8XZ",
+    "price": "0.00007592",
+    "market_cap": 75928.95,
+    "liquidity": null,
+    "volume": {
+      "h24": 64549.92,
+      "h6": 63441.24,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "beastbased",
+    "symbol": "beastbased",
+    "address": "0x387e00be3645f847a379c7d37c1cd8ccce601c811fb44f0ddc0b5494eec13342",
+    "price": "0.00001132",
+    "market_cap": 11320,
+    "liquidity": {
+      "usd": 6748.5,
+      "base": 472287858,
+      "quote": 17300
+    },
+    "volume": {
+      "h24": 30769.49,
+      "h6": 30769.49,
+      "h1": 1001.52,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Siberian Husky",
+    "symbol": "VIOLA",
+    "address": "0xe3aaf1464E3d727C5f3227691f5A690116db66b3",
+    "price": "0.007654",
+    "market_cap": 3220140,
+    "liquidity": {
+      "usd": 223408.53,
+      "base": 14593425,
+      "quote": 29.6668
+    },
+    "volume": {
+      "h24": 595224.68,
+      "h6": 595224.68,
+      "h1": 207949.4,
+      "m5": 33157.11
+    }
+  },
+  {
+    "name": "PVPLESS ",
+    "symbol": "PVPLESS ",
+    "address": "3UkUpY6cFbNeYUbpNt6ES3RDrj8uoKK14sSyoC8VV8gp",
+    "price": "0.00007601",
+    "market_cap": 76015.23,
+    "liquidity": null,
+    "volume": {
+      "h24": 237153.04,
+      "h6": 237153.04,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "BONKGAR.IO",
+    "symbol": "BONKGARIO",
+    "address": "9ttakBQ3KPuWxbEaJfMceAEZmPWabkL5M2fqJQwhq5z7",
+    "price": "0.000005374",
+    "market_cap": 5374.34,
+    "liquidity": null,
+    "volume": {
+      "h24": 39586.33,
+      "h6": 39586.33,
+      "h1": 29.13,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Greek Dream",
+    "symbol": "DREAM",
+    "address": "Et7hhCEqShekHivwRqYdfswTbZh2oY7u3vKprHDWEava",
+    "price": "0.000005611",
+    "market_cap": 5611.89,
+    "liquidity": null,
+    "volume": {
+      "h24": 74839.18,
+      "h6": 74839.18,
+      "h1": 92.4,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Useless Base Coin",
+    "symbol": "USELESS",
+    "address": "0x95e767Bffa01Bc72215771541172f5bB78bC78F5",
+    "price": "0.00004212",
+    "market_cap": 42123,
+    "liquidity": {
+      "usd": 20616.36,
+      "base": 285578529,
+      "quote": 2.279
+    },
+    "volume": {
+      "h24": 136982.8,
+      "h6": 136982.8,
+      "h1": 12831.31,
+      "m5": 1894.85
+    }
+  },
+  {
+    "name": "Suiseiseki",
+    "symbol": "DESU",
+    "address": "0x6807ea5833aa0caf29ba5680dc15737ea70710501ad864d8a067ac44922c996c",
+    "price": "0.000006647",
+    "market_cap": 6647,
+    "liquidity": null,
+    "volume": {
+      "h24": 52.59,
+      "h6": 52.59,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "CHOW",
+    "symbol": "CHOW",
+    "address": "DRHothagxJE8qUqPQTHYBq9jmJscYyBJwfxyamKPaVyo",
+    "price": "0.00007597",
+    "market_cap": 75979.96,
+    "liquidity": null,
+    "volume": {
+      "h24": 138852.08,
+      "h6": 138852.08,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "this coin is rare",
+    "symbol": "rarecoin",
+    "address": "9TmPwR2125TNZAuUgRnHyYxwuTKakTYY5QiXWxRFAkw2",
+    "price": "0.000005223",
+    "market_cap": 5223.66,
+    "liquidity": null,
+    "volume": {
+      "h24": 26283.1,
+      "h6": 26283.1,
+      "h1": 1.15,
+      "m5": 1.15
+    }
+  }
+]
