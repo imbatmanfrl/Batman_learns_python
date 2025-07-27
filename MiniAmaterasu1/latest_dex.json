@@ -1,539 +1,555 @@
 [
   {
-    "url": "https://dexscreener.com/solana/goeyw6mqh2gc76cdztn4qqm3fxuq3dtefah2p4htbonk",
+    "url": "https://dexscreener.com/solana/rgpkbd5dxswafpyfkdmn6dmv8dx1w5r6abfqtyhbonk",
     "chainId": "solana",
-    "tokenAddress": "GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/GoEYW6MQH2Gc76CDZtN4Qqm3fXUq3DTefAh2P4Htbonk?timestamp=1753582800000",
-    "description": "HAT",
+    "tokenAddress": "RGpkBD5dxSWafpYfKdmn6dMV8DX1w5r6ABFqtyHbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/RGpkBD5dxSWafpYfKdmn6dMV8DX1w5r6ABFqtyHbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/RGpkBD5dxSWafpYfKdmn6dMV8DX1w5r6ABFqtyHbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/RGpkBD5dxSWafpYfKdmn6dMV8DX1w5r6ABFqtyHbonk?timestamp=1753632600000",
+    "description": "Mog Coin + Bonk = The best meme coin on sol",
     "links": [
       {
         "label": "Website",
-        "url": "https://www.reddit.com/r/Bitcoin/s/JgHZNZ1CI4"
+        "url": "https://mogbonk.xyz/"
       },
       {
         "type": "twitter",
-        "url": "https://x.com/i/communities/1949279410366169179"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/8pfun4tf2xwqxbnppdvywa5mmfh7frqzfrupzeaubonk",
-    "chainId": "solana",
-    "tokenAddress": "8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8PFUn4tf2xWqxBnPpDvyWA5MMFH7FRqZfRuPzeAUbonk?timestamp=1753582800000",
-    "description": "Most Popular Runescape meme!",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1948585634395746347"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/az4n7uzjunkz4ya2t5kytgubvhnopquvs4uhlaembonk",
-    "chainId": "solana",
-    "tokenAddress": "Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Az4N7UzjuNkz4yA2T5kYtGubVHnoPquvS4UhLAEMbonk?timestamp=1753582800000",
-    "description": "Born from Ponke. Built to Bonke\u203c\ufe0f",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1948913861005848759"
+        "url": "https://x.com/mogbonk"
       },
       {
         "type": "telegram",
-        "url": "https://t.me/bonkeonbonk"
+        "url": "https://t.me/mogbonk"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/base/0x06711756cc4d435196d72762011529c7d94e0f09",
+    "url": "https://dexscreener.com/base/0x1450adbc54fc986b9a4fb207c56384aa6b1d66fa",
     "chainId": "base",
-    "tokenAddress": "0x06711756cc4D435196D72762011529c7D94e0F09",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x06711756cc4d435196d72762011529c7d94e0f09.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x06711756cc4d435196d72762011529c7d94e0f09/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x06711756cc4d435196d72762011529c7d94e0f09?timestamp=1753582800000",
-    "description": "Billy's little bro Milly Show him some Love..... Milly is green because he loves his Cash",
+    "tokenAddress": "0x1450adbc54FC986B9A4fB207C56384Aa6B1D66fA",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x1450adbc54fc986b9a4fb207c56384aa6b1d66fa.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x1450adbc54fc986b9a4fb207c56384aa6b1d66fa/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x1450adbc54fc986b9a4fb207c56384aa6b1d66fa?timestamp=1753632600000",
+    "description": "Bus \nnew perspective just droppeb by - jacob \nbus is on the move",
     "links": [
       {
-        "type": "twitter",
-        "url": "https://x.com/MilliesOnBase"
+        "label": "Website",
+        "url": "https://zora.co/coin/base:0x1450adbc54fc986b9a4fb207c56384aa6b1d66fa?referrer=0x513032cdd10c3678ce1f7a60a3833cde707c137b"
       },
       {
-        "type": "telegram",
-        "url": "https://t.me/BaseddMilly"
+        "type": "twitter",
+        "url": "https://x.com/js_horne?t=EV3O8iLmYCxf66-8w0RDCA&s=09"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/f8yieac9qykpetlqk1yi5qzazsygnwn8jd83dh4mbonk",
+    "url": "https://dexscreener.com/solana/br1vf7nrnnwzfndrzhbqewfpou9n6phborcjcupebonk",
     "chainId": "solana",
-    "tokenAddress": "F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/F8YiEaC9qyKPEtLQK1Yi5QZazsYgNWn8JD83Dh4Mbonk?timestamp=1753582800000",
-    "description": "Domo Domo Domo \u2757\u2757\u2757",
+    "tokenAddress": "BR1VF7nrnnwZfndrzhbQeWFPou9N6PHboRcjcupEbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BR1VF7nrnnwZfndrzhbQeWFPou9N6PHboRcjcupEbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BR1VF7nrnnwZfndrzhbQeWFPou9N6PHboRcjcupEbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BR1VF7nrnnwZfndrzhbQeWFPou9N6PHboRcjcupEbonk?timestamp=1753632600000"
+  },
+  {
+    "url": "https://dexscreener.com/solana/9eh8nw8bypgnqhsqr63n9vr1ohxpwrdx8e5dfhplf8wv",
+    "chainId": "solana",
+    "tokenAddress": "9eh8nw8bypgNqHSQr63n9VR1ohxPwrdX8E5dfhpLF8wv",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/9eh8nw8bypgNqHSQr63n9VR1ohxPwrdX8E5dfhpLF8wv.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9eh8nw8bypgNqHSQr63n9VR1ohxPwrdX8E5dfhpLF8wv/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9eh8nw8bypgNqHSQr63n9VR1ohxPwrdX8E5dfhpLF8wv?timestamp=1753632600000",
+    "description": "CryptoBonkButts :\nThe only butts made to bonk on-chain.",
     "links": [
       {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949288888419156413"
+        "label": "Website",
+        "url": "https://magiceden.io/marketplace/cryptobonkbutts"
       },
       {
-        "type": "telegram",
-        "url": "https://t.me/DOMOONBONK"
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949487156080087108"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae",
+    "url": "https://dexscreener.com/bsc/0xbcb9aa6ebe01e835e0ecc60cbb6318802294006c",
+    "chainId": "bsc",
+    "tokenAddress": "0xBcB9AA6ebe01E835E0ecc60cbb6318802294006c",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xbcb9aa6ebe01e835e0ecc60cbb6318802294006c.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/bsc/0xbcb9aa6ebe01e835e0ecc60cbb6318802294006c/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/bsc/0xbcb9aa6ebe01e835e0ecc60cbb6318802294006c?timestamp=1753632600000",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://wangzaitoken.xyz"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/wangzai_COIN_"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/wangzai_Official"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/hz7meu72bnf9rcwyufawktyccjr6qsjm1jwyehnqjups",
+    "chainId": "solana",
+    "tokenAddress": "Hz7MeU72BNF9rCWyUFAwKTyCcjr6qsJm1jwYehnqjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Hz7MeU72BNF9rCWyUFAwKTyCcjr6qsJm1jwYehnqjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Hz7MeU72BNF9rCWyUFAwKTyCcjr6qsJm1jwYehnqjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Hz7MeU72BNF9rCWyUFAwKTyCcjr6qsJm1jwYehnqjups?timestamp=1753632600000",
+    "description": "Jups fav cat",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.youtube.com/shorts/MhVD3WlxpQ8"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949493633037598862"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/base/0x1c9c855f1acdcbaa0ef052c776143885ebc9800e",
     "chainId": "base",
-    "tokenAddress": "0xF22F7b6F7e71F87a9ab7e4AD4fB8e78A117932Ae",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0xf22f7b6f7e71f87a9ab7e4ad4fb8e78a117932ae?timestamp=1753582800000",
-    "description": "Charlie Lou Rogan is Joe Rogans new dog.",
+    "tokenAddress": "0x1C9C855F1acdcbAA0ef052C776143885EbC9800E",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x1c9c855f1acdcbaa0ef052c776143885ebc9800e.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x1c9c855f1acdcbaa0ef052c776143885ebc9800e/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x1c9c855f1acdcbaa0ef052c776143885ebc9800e?timestamp=1753632600000",
+    "description": "@shibtoken official creator coin on Zora",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://zora.co/@shibtoken"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/Shibtoken"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/ava6p5fq7btshku8zzlueyjjqyblgt7x72japybqjups",
+    "chainId": "solana",
+    "tokenAddress": "AVA6P5fq7btshKU8zZLueyJJqybLGT7x72jaPYBqjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AVA6P5fq7btshKU8zZLueyJJqybLGT7x72jaPYBqjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AVA6P5fq7btshKU8zZLueyJJqybLGT7x72jaPYBqjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AVA6P5fq7btshKU8zZLueyJJqybLGT7x72jaPYBqjups?timestamp=1753632600000",
+    "description": "Meet $MACK, Jupiters mascot, originally launched on #pumpfun and ran to 20M, we thought we would bring $MACK back to his home platform of #Jupiter",
     "links": [
       {
         "type": "twitter",
-        "url": "https://x.com/CHARLIE_OnBase"
+        "url": "https://twitter.com/i/communities/1949478136908808359"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/13tt6czyol9huib5w4p2uecijxddb6q6zshfmrc3bonk",
+    "chainId": "solana",
+    "tokenAddress": "13TT6czyoL9huiB5w4p2UEcijxdDb6Q6zshfmrC3bonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/13TT6czyoL9huiB5w4p2UEcijxdDb6Q6zshfmrC3bonk.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/13TT6czyoL9huiB5w4p2UEcijxdDb6Q6zshfmrC3bonk?timestamp=1753632600000",
+    "description": "First Nyan Dog on YT!",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.youtube.com/watch?v=14HrWPYIfyw"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/ym9vp7cxmqrm3vibeqxn4hojwxxjng17bkqqrpsbonk",
+    "chainId": "solana",
+    "tokenAddress": "Ym9vP7cxmQRM3ViBEQXn4HoJwxxJnG17bKQqrPSbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Ym9vP7cxmQRM3ViBEQXn4HoJwxxJnG17bKQqrPSbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Ym9vP7cxmQRM3ViBEQXn4HoJwxxJnG17bKQqrPSbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Ym9vP7cxmQRM3ViBEQXn4HoJwxxJnG17bKQqrPSbonk?timestamp=1753632600000",
+    "description": "Smart is overrated.\nSend it like a Retard.\n\nretardedBONK is built on pure memetic chaos. It should fail. But that\u2019s why it won\u2019t. In a sea of over-engineered, VC-funded tokens, RBONK thrives on broken brilliance, attracting the most loyal, unhinged, and hilarious community on Solana.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://retardedbonk.xyz"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/Retardedbonksol"
       },
       {
         "type": "telegram",
-        "url": "https://t.me/CHARLIE_Base"
+        "url": "https://t.me/RetardedBonkSol"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/42l4yn8qljxcxmq9ugr9azhamqzzwvvpszogkrhkbonk",
+    "url": "https://dexscreener.com/solana/9xju5acwrnhrbvppzvtxkrekorsvmqtposibpjsqbonk",
     "chainId": "solana",
-    "tokenAddress": "42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/42L4Yn8qLjxCXmq9uGR9AZHamQZZwVVPsZogKRhkbonk?timestamp=1753582800000",
-    "description": "for gamers.",
+    "tokenAddress": "9XjU5ACwrnhrbvPpzvTxkrekorSVmqtposibPjSQbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/9XjU5ACwrnhrbvPpzvTxkrekorSVmqtposibPjSQbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9XjU5ACwrnhrbvPpzvTxkrekorSVmqtposibPjSQbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9XjU5ACwrnhrbvPpzvTxkrekorSVmqtposibPjSQbonk?timestamp=1753632600000",
     "links": [
       {
         "type": "twitter",
-        "url": "https://x.com/i/communities/1949278767492235565"
+        "url": "https://x.com/6ixtyse7ven/status/1949483608798109887"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/ezvqj4bnofdkx5qulukrcbreydrgi2gr4ou6gpg9bonk",
+    "url": "https://dexscreener.com/solana/b4puf4nfkbfqtn69mmx6ns7gsquosfytb9w5etlvjups",
     "chainId": "solana",
-    "tokenAddress": "EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EZVQJ4bNoFDKX5quLuKRCbrEYdRgi2GR4oU6GpG9bonk?timestamp=1753582800000",
-    "description": "$POCHI is the $NEIRO of $BONK",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949282131055620506"
-      }
-    ]
+    "tokenAddress": "B4PUF4nfKBFQtn69MMX6NS7gSqUoSFyTB9W5EtLVjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/B4PUF4nfKBFQtn69MMX6NS7gSqUoSFyTB9W5EtLVjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/B4PUF4nfKBFQtn69MMX6NS7gSqUoSFyTB9W5EtLVjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/B4PUF4nfKBFQtn69MMX6NS7gSqUoSFyTB9W5EtLVjups?timestamp=1753632600000",
+    "description": "Join the intergalactic purr-suit of wealth with Jupiter Nyan Blast, where Nyan Cat in a space suit swaps colors with Jupiter in a cosmic dance of crypto chaos!"
   },
   {
-    "url": "https://dexscreener.com/solana/5ae8ucrn4sxdhlrczt7nywurjyymmffnxpkpygxxbonk",
+    "url": "https://dexscreener.com/solana/egdets1wbcj6kajsx25ixqhmhurdqj7r7yfckevxbonk",
     "chainId": "solana",
-    "tokenAddress": "5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5ae8UcRn4sxdHLrcZT7nYwURjYYMmFFNXPkpygxXbonk?timestamp=1753582800000",
-    "description": "Cunt",
+    "tokenAddress": "EgDEtS1WBcj6KaJsx25ixqhmHuRdQJ7r7yFcKEvxbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EgDEtS1WBcj6KaJsx25ixqhmHuRdQJ7r7yFcKEvxbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EgDEtS1WBcj6KaJsx25ixqhmHuRdQJ7r7yFcKEvxbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EgDEtS1WBcj6KaJsx25ixqhmHuRdQJ7r7yFcKEvxbonk?timestamp=1753632600000",
+    "description": "mental illness is coded in our dna",
     "links": [
       {
         "label": "Website",
-        "url": "https://www.coca-cola.com/us/en/brands/coca-cola"
+        "url": "https://www.facebook.com/groups/251849657970003"
       },
       {
         "type": "twitter",
-        "url": "https://x.com/i/communities/1949248290920493538"
+        "url": "https://x.com/i/communities/1949470349248102754"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/bcdfqj8boqlkytnqec8qxfyvbd1ms9fthovt4vqbonk",
+    "url": "https://dexscreener.com/solana/4iumi7e9ubqsnpsv1f9f7eefu7j6qbkejmerfwzijups",
     "chainId": "solana",
-    "tokenAddress": "BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BcDFqj8BoqLKytNqEC8QxFYVbD1mS9FThoVT4vQbonk?timestamp=1753582800000",
-    "description": "The Most Alpha Cat in The World. \ud83d\ude3c",
+    "tokenAddress": "4iumi7E9ubqsnPSv1F9f7eEFU7j6qBKEJmErfWzijups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4iumi7E9ubqsnPSv1F9f7eEFU7j6qBKEJmErfWzijups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4iumi7E9ubqsnPSv1F9f7eEFU7j6qBKEJmErfWzijups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4iumi7E9ubqsnPSv1F9f7eEFU7j6qBKEJmErfWzijups?timestamp=1753632600000",
     "links": [
       {
         "type": "twitter",
-        "url": "https://x.com/TheGigaCatSOL"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/GigaCatEntryPortal"
+        "url": "https://x.com/i/communities/1949483585963979172"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/7nym2ds5bwblm8cax7msrj9d731zoxp1vrmt6algbonk",
+    "url": "https://dexscreener.com/solana/h8xv7rfwrcnyunmf2zjphrz8yoaxphelb97citbs7wha",
     "chainId": "solana",
-    "tokenAddress": "7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7nYM2ds5bWBLM8CaX7MSRj9d731Zoxp1VrMt6aLGbonk?timestamp=1753582800000",
-    "description": "Grand exchange is like the opensea of RuneScape it\u2019s where you spend your GP",
+    "tokenAddress": "H8xv7RFwRCNyunMf2ZjpHRz8yoaXPhELB97ciTbs7Wha",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/H8xv7RFwRCNyunMf2ZjpHRz8yoaXPhELB97ciTbs7Wha.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/H8xv7RFwRCNyunMf2ZjpHRz8yoaXPhELB97ciTbs7Wha/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/H8xv7RFwRCNyunMf2ZjpHRz8yoaXPhELB97ciTbs7Wha?timestamp=1753632600000",
+    "description": "fag found a gem",
     "links": [
       {
-        "label": "Website",
-        "url": "https://runescape.wiki/w/Grand_Exchange"
-      },
-      {
         "type": "twitter",
-        "url": "https://x.com/i/communities/1949265020652859470"
+        "url": "https://x.com/i/communities/1945530509548765499"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/bzsspfwe6mjalihjkushuwafufkahwmxezna1bt5bonk",
-    "chainId": "solana",
-    "tokenAddress": "BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BzsspfWE6MjaLiHJKUshUwAfUfkAhwmxEZnA1Bt5bonk?timestamp=1753582800000",
-    "description": "Worlds first digital stray dog.\n\nRuneScape launched in 2001 and became the worlds most popular MMORPG with 300m+ active players. The stray dog has been a part of RuneScape for 20+ years and every single player has interacted with it. The $stray dog can be fed and interacted with by players.",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://oldschool.runescape.wiki/w/Stray_dog"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949246438111604801"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/7vfahkvahjdcjjcxutbx7aqozy2m6awjnsaebzefpump",
-    "chainId": "solana",
-    "tokenAddress": "7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7vfaHKvAhjdCjJCxutbx7AQoZY2M6AWJnSAEBzefpump?timestamp=1753582800000",
-    "description": "Rocks on PUMP",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/pumprocknft"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/base/0x39d4d99fcaae7c014f122084ec3230a140163a41",
-    "chainId": "base",
-    "tokenAddress": "0x39d4d99fcaae7c014f122084ec3230a140163a41",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x39d4d99fcaae7c014f122084ec3230a140163a41.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x39d4d99fcaae7c014f122084ec3230a140163a41/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x39d4d99fcaae7c014f122084ec3230a140163a41?timestamp=1753582800000",
-    "description": "Blue is a happy little rhino from the clouds, now stomping around on Base. Curious, bold, and always smiling. He's here to make friends, cause giggles and bring the good vibes wherever he goes.",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://www.bluerhinobase.com"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/bluerhinobase"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/bluerhinoonbase"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/5klfurkwpzdegydxexzq6ezkyssfkfzzctz338nebonk",
-    "chainId": "solana",
-    "tokenAddress": "5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5kLFuRKwPZDEGYDxexZQ6ezKYssFKfzZcTZ338NEbonk?timestamp=1753582800000",
-    "description": "Trade, list coins and chat with other players in the world of RuneSol.",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://runesol.fun"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/runesoldotfun"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/8kdntbrifpubhdreha9gxxpavzactn9ukfrrh1frbonk",
-    "chainId": "solana",
-    "tokenAddress": "8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/8KdNtBriFpUbHDrEha9gxXPavzactn9UkFRRH1fRbonk?timestamp=1753582800000",
-    "description": "It's Maxwell the cat. OOOO EeEe Ahhhhhh"
-  },
-  {
-    "url": "https://dexscreener.com/solana/eqhjdlnlddazfivitkuvlcpsptldgard9nxaygcebonk",
-    "chainId": "solana",
-    "tokenAddress": "EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EQhJDLNLdDaZFiviTKuvLCPSpTLDgARD9nXayGCEbonk?timestamp=1753582800000",
-    "description": "Lexapro is the meme",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949266683518189955"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/djzuuap675hotbdonxhjctxr5ji1t3vh8rjrdw2d6yuq",
-    "chainId": "solana",
-    "tokenAddress": "DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DjzUUaP675HotBdoNXHjcTxR5ji1t3VH8RJRDw2D6yUq?timestamp=1753582800000",
-    "description": "\"Hi, I\u2019m Happy! \ud83d\udc36 My owner is useless and never feeds me. I need SOL to fill my tummy \u2013 help me, and I\u2019ll help you bite into those gains!\"",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://www.happscoin.com/"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/HAPPYS_SOL"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/HAPPYSCOINSOL"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/4tj4tsd4bejtug25vybyj7242n8tvxyqfxncfznwbonk",
-    "chainId": "solana",
-    "tokenAddress": "4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4tj4TsD4BeJTug25vyByJ7242n8tvXYQfXNcFzNwbonk?timestamp=1753582800000",
-    "description": "Send This",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949254512797229159"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/dqdihhqryh8suvmvyxgyczdie2agq5mqk4t4kx9zbonk",
-    "chainId": "solana",
-    "tokenAddress": "DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DQdiHhQRyH8sUVmVYXGYCzDiE2agq5mqk4t4kX9Zbonk?timestamp=1753582800000",
-    "description": "FROM DEPRESSION TO COMPRESSION",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://depressio.dex-ify.org/"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949203255407325390"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/4mrve1fjromsyf5naagz8rjph56bnywkindal7xebonk",
-    "chainId": "solana",
-    "tokenAddress": "4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4mRVE1fJromsyf5nAagZ8rjPh56BNyWKiNDaL7XEbonk?timestamp=1753582800000",
-    "description": "Let's send buck to $1",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949250365007761499"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/exz2e3qnmktnwvhmyusap9vtsxfmq1eamls5treobonk",
-    "chainId": "solana",
-    "tokenAddress": "EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EXz2e3qNMkTnwVhmYusAP9VtSXFMQ1eAmLS5treobonk?timestamp=1753582800000",
-    "description": "Leaving @believeapp & @pasternak wasn\u2019t easy.\n\nBut relaunching on the same launchpad didn\u2019t make sense. The community voted, and \n@bonk_fun is where we\u2019re planting the flag now.\n\nI genuinely hope @SolportTom and the Bonk gang recognize the power of gooning culture and the energy we bring.\n\nI wasn\u2019t the dev on the original coin, but I want to apologize to everyone for how things played out. That version didn\u2019t get the care it deserved.\n\nWhat we do have is a proven, resilient community. Let\u2019s run it back the right way.\n\nAppreciate all the support.\n\n$GOON",
-    "links": [
-      {
-        "label": "Merch",
-        "url": "https://gooncoin-on-solana.printify.me/"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/TheGoonCo"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/euqg9qepzqd4z8q3lhvh9jltxpusrgu9fg2yt68bbonk",
-    "chainId": "solana",
-    "tokenAddress": "EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/EuQg9QepzqD4Z8q3LhVh9jLtXpuSRgU9fg2yT68Bbonk?timestamp=1753582800000",
-    "description": "The real Quandale Dingle Coin",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://www.tiktok.com/@ayeedocc?_t=ZN-8yMURJFWiGs&_r=1"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949253541870305475"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/bjzwlzwhm2aqsnmsa27rbqjxk2oyz5ehddtliuvscray",
-    "chainId": "solana",
-    "tokenAddress": "BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BJzwLzwhM2aqsnmSa27RBqJxk2oyZ5eHDDTLiUVscray?timestamp=1753582800000",
-    "description": "Get ready to punch, kick, and crypto-combo your way to victory in Solana Fighter, the classic arcade brawler that packs a pixelated punch! Choose your blockchain-inspired warrior and battle through vibrant arenas, where every K.O. feels like a jackpot win!",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://www.solanafighter.com/"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/Solana_Fighter"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/SolanaFighterPortal"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757",
-    "chainId": "base",
-    "tokenAddress": "0x441349c4F4F547cA38bee67AA63A99c1D7D55757",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x441349c4f4f547ca38bee67aa63a99c1d7d55757?timestamp=1753582800000",
-    "description": "$NODEX is the utility token of Mine AI, a CLI-based Agent for blockchain node deployment, monitoring, and governance, as well as general-purpose automation.\n\nWith a fair launch (no VC, no pre-sale), NODEX fuels node services, offers discounts, buybacks, and hidden perks for token holders.\nOur platform will integrate low-cost Kimi API keys to create sustainable revenue.\n\nThe ecosystem is transparent, scalable, and designed for real users who need efficient and cost-effective node operations.",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/NodeX_OnBase"
-      },
-      {
-        "type": "telegram",
-        "url": "https://t.me/NodeX_Base"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/hiz8sv9hj3zwfqdmn66ssdg2a7nez1f5r5ejcoh3bonk",
-    "chainId": "solana",
-    "tokenAddress": "Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Hiz8Sv9Hj3zwFQDmn66SsDG2A7nez1f5r5EjcoH3bonk?timestamp=1753582800000",
-    "description": "Buck to $1",
-    "links": [
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949257128390336816"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/7xeztzdij6y7addevqkcx59v5iw9azphzdvythx9bonk",
-    "chainId": "solana",
-    "tokenAddress": "7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7XeZTZdij6Y7aDdevqKCx59v5iw9AzpHZdVYtHX9bonk?timestamp=1753582800000",
-    "description": "",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://internetdogcoin.fun "
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949254794725777617"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/solana/dbesnh4kcf7geohkjguvkzmxfawedd2huabfjvnubonk",
-    "chainId": "solana",
-    "tokenAddress": "DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk?timestamp=1753582800000",
-    "description": "",
-    "links": [
-      {
-        "label": "Website",
-        "url": "https://letsbonk.fun/token/DBEsnH4Kcf7GEohKjguvkZMxfaWEdd2HUAbfjvnubonk"
-      },
-      {
-        "type": "twitter",
-        "url": "https://x.com/i/communities/1949245619052118104"
-      }
-    ]
-  },
-  {
-    "url": "https://dexscreener.com/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884",
+    "url": "https://dexscreener.com/ethereum/0x9f6e6e131ed2f3f0c36f19ea6163ab21add19e11",
     "chainId": "ethereum",
-    "tokenAddress": "0x83AC220a109d5CC35DE9EEDc4C2647fb6Df2F884",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x83ac220a109d5cc35de9eedc4c2647fb6df2f884?timestamp=1753582800000",
-    "description": "Meet KUNKUN, Dog from Desu Meme.",
+    "tokenAddress": "0x9F6e6e131Ed2F3F0c36f19EA6163aB21Add19E11",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x9f6e6e131ed2f3f0c36f19ea6163ab21add19e11.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0x9f6e6e131ed2f3f0c36f19ea6163ab21add19e11/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0x9f6e6e131ed2f3f0c36f19ea6163ab21add19e11?timestamp=1753632600000",
+    "description": "AI-powered dog with a futuristic vision \ud83d\udc15\ud83e\udd16",
     "links": [
       {
+        "label": "Website",
+        "url": "https://artificialinu.club"
+      },
+      {
         "type": "twitter",
-        "url": "https://x.com/kunkundesudog"
+        "url": "https://x.com/ArtificialInuX"
       },
       {
         "type": "telegram",
-        "url": "https://t.me/kunkundesudog"
+        "url": "https://t.me/Artificiallnu"
       }
     ]
   },
   {
-    "url": "https://dexscreener.com/solana/3trth4fnj5qc4jyzditrdnsgmarq4buawzgndfmpbonk",
+    "url": "https://dexscreener.com/solana/41fxz6abdncrrsodnbcbn7k8palfe9pz1pmebx5sjups",
     "chainId": "solana",
-    "tokenAddress": "3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk",
-    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk.png",
-    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk/header.png",
-    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3tRTH4fnj5qc4JyzdiTrdnSGmArQ4bUAwZGndfmpbonk?timestamp=1753582800000",
-    "description": "just cut my hair gng",
+    "tokenAddress": "41fxZ6aBDNcRRsoDNBCBn7k8paLfe9PZ1PmEBx5Sjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/41fxZ6aBDNcRRsoDNBCBn7k8paLfe9PZ1PmEBx5Sjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/41fxZ6aBDNcRRsoDNBCBn7k8paLfe9PZ1PmEBx5Sjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/41fxZ6aBDNcRRsoDNBCBn7k8paLfe9PZ1PmEBx5Sjups?timestamp=1753632600000",
+    "description": "jupiter co founder dog",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949488748653158781"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/5buqrxltawpazykrh4dz1mcimnj4wchiu8zknoedjups",
+    "chainId": "solana",
+    "tokenAddress": "5BuqrxLTaWpazYKrh4dz1mCiMNj4WCHiU8ZKnoEDjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/5BuqrxLTaWpazYKrh4dz1mCiMNj4WCHiU8ZKnoEDjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/5BuqrxLTaWpazYKrh4dz1mCiMNj4WCHiU8ZKnoEDjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/5BuqrxLTaWpazYKrh4dz1mCiMNj4WCHiU8ZKnoEDjups?timestamp=1753632600000",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949483830345142643"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/3l4ekh9htzy8sgxg5dp4u8mcrslbmhbf99dj1t96abyj",
+    "chainId": "solana",
+    "tokenAddress": "3L4Ekh9HtzY8SgxG5DP4u8McRSLBMHBF99dJ1t96AByj",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3L4Ekh9HtzY8SgxG5DP4u8McRSLBMHBF99dJ1t96AByj.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3L4Ekh9HtzY8SgxG5DP4u8McRSLBMHBF99dJ1t96AByj/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3L4Ekh9HtzY8SgxG5DP4u8McRSLBMHBF99dJ1t96AByj?timestamp=1753632600000",
+    "description": "J.A.R.V.I.S. = The theory behind Grok's AI Companions...\n\nJ = ???\nA = Ani\nR = Rudi\nV = Valentine\nI = ???\nS = ???",
     "links": [
       {
         "label": "Website",
-        "url": "https://www.tiktok.com/search?q=yo%20barber&t=1753521876613"
+        "url": "https://grokjarvissquad.tech"
       },
       {
         "type": "twitter",
-        "url": "https://x.com/i/communities/1949037244376809565"
+        "url": "https://x.com/grokjarvis_sol"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/GrokJarvisSquad"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/ethereum/0xe0258b9babecadb111305c8a92112b09c6139f93",
+    "chainId": "ethereum",
+    "tokenAddress": "0xe0258B9bABeCadb111305c8A92112b09C6139F93",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xe0258b9babecadb111305c8a92112b09c6139f93.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xe0258b9babecadb111305c8a92112b09c6139f93/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xe0258b9babecadb111305c8a92112b09c6139f93?timestamp=1753632600000",
+    "description": "A data engine for purpose-built DeFAI, InfoFi, and on-chain analytics tools",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://dexcheckai.xyz/"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.dexcheckai.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/dexcheckworld"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/dexcheck_community"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/byaxyeuc1r4qehwcdksid7gtz9ak37ypr4jr1yccpump",
+    "chainId": "solana",
+    "tokenAddress": "BYAXYeuC1r4QeHwcDKsiD7Gtz9aK37yPR4jR1yCcpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BYAXYeuC1r4QeHwcDKsiD7Gtz9aK37yPR4jR1yCcpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/BYAXYeuC1r4QeHwcDKsiD7Gtz9aK37yPR4jR1yCcpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/BYAXYeuC1r4QeHwcDKsiD7Gtz9aK37yPR4jR1yCcpump?timestamp=1753632600000",
+    "description": "We found a shy APE in Nevada. He wears a mask to hide his goofy face but will dress in any style we tell him \u2014 as long as we keep feeding him memes. $AIM is his new life mission: Ape In, Mask On. He promises NO RUG!",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://apeinmask.framer.website/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/APEinMask"
+      },
+      {
+        "type": "telegram",
+        "url": "http://t.me/apeinmask"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/3njkmugywhceguy1x9wr4ckzq1mauhjngf7cw29lbags",
+    "chainId": "solana",
+    "tokenAddress": "3NJKMugYWHcEgUy1x9WR4Ckzq1mauHJnGf7CW29LBAGS",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/3NJKMugYWHcEgUy1x9WR4Ckzq1mauHJnGf7CW29LBAGS.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/3NJKMugYWHcEgUy1x9WR4Ckzq1mauHJnGf7CW29LBAGS/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/3NJKMugYWHcEgUy1x9WR4Ckzq1mauHJnGf7CW29LBAGS?timestamp=1753632600000",
+    "description": "just a dogwifbag",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://tinyurl.com/dogwifbag"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949312735805870557"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/base/0x2fd6ff12cfac0d22d1e5c52adfedf043cfe8d514",
+    "chainId": "base",
+    "tokenAddress": "0x2fD6FF12cFac0D22D1e5C52adfEDF043cFE8D514",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/base/0x2fd6ff12cfac0d22d1e5c52adfedf043cfe8d514.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/base/0x2fd6ff12cfac0d22d1e5c52adfedf043cfe8d514/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/base/0x2fd6ff12cfac0d22d1e5c52adfedf043cfe8d514?timestamp=1753632600000",
+    "description": "Meet the Based Builder Beaver! $BBB is a new meme coin celebrating the builders on @base . Our moto is We're All Gonna Build It (WAGBI). \ud83e\udda6",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://ape.store/base/0x2fd6ff12cfac0d22d1e5c52adfedf043cfe8d514"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/BaseBeaverCoin"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/ethereum/0xe4a1720eb6575837e47ffcca9c72aea11e94487d",
+    "chainId": "ethereum",
+    "tokenAddress": "0xe4a1720eb6575837e47ffcca9c72aea11e94487d",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xe4a1720eb6575837e47ffcca9c72aea11e94487d.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/ethereum/0xe4a1720eb6575837e47ffcca9c72aea11e94487d/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/ethereum/0xe4a1720eb6575837e47ffcca9c72aea11e94487d?timestamp=1753632600000",
+    "description": "Build and ship AI workflows in minutes for web3 builders, DeFi users, and teams automating on-chain workflows.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://www.ava-protocol.org/"
+      },
+      {
+        "label": "Docs",
+        "url": "https://docs.ava-protocol.org/"
+      },
+      {
+        "label": "Youtube",
+        "url": "https://www.youtube.com/watch?v=bpEtPk0LNcI"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/AvaProtocolEth"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/ava_protocol_eth"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/7qbzm5srglblwpfxycsgftw5vq3sjfrkvra6hxhpbctg",
+    "chainId": "solana",
+    "tokenAddress": "7QbzM5SRGLBLWpFxYcSgFTw5Vq3SJfrKvrA6hXhPbCTg",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/7QbzM5SRGLBLWpFxYcSgFTw5Vq3SJfrKvrA6hXhPbCTg.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/7QbzM5SRGLBLWpFxYcSgFTw5Vq3SJfrKvrA6hXhPbCTg/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/7QbzM5SRGLBLWpFxYcSgFTw5Vq3SJfrKvrA6hXhPbCTg?timestamp=1753632600000",
+    "description": "100x Or 1000X? Depends On Community. A Game That Totally Depends On You Rather Than Your Luck.",
+    "links": [
+      {
+        "label": "Website",
+        "url": "http://riddle.ink"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/therriddle?s=21"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/The_Riddlee"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/ba1vsjkqliw4gkqepgz39zyocfegudso3tpqekxbbonk",
+    "chainId": "solana",
+    "tokenAddress": "Ba1VSJkqLiw4GkqEpGZ39zYocfEgudSo3tpQeKxBbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/Ba1VSJkqLiw4GkqEpGZ39zYocfEgudSo3tpQeKxBbonk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/Ba1VSJkqLiw4GkqEpGZ39zYocfEgudSo3tpQeKxBbonk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/Ba1VSJkqLiw4GkqEpGZ39zYocfEgudSo3tpQeKxBbonk?timestamp=1753632600000",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://coinmarketcap.com/currencies/pump-fun/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/pumpdotfun/status/1942947267436056740"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/j5tqzmcvdie1b9xnkabmxatsjtt69kd8knwpcacfbonk",
+    "chainId": "solana",
+    "tokenAddress": "J5tqzMcVdie1b9XNKABmXATSJtT69KD8KnwPcacfbonk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/J5tqzMcVdie1b9XNKABmXATSJtT69KD8KnwPcacfbonk.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/J5tqzMcVdie1b9XNKABmXATSJtT69KD8KnwPcacfbonk?timestamp=1753632600000",
+    "description": "Symbol Of Freedom",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/i/communities/1949480389988278708"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/awictncsgft2pym732z7tynirzgzpnrppg2pyzrwpump",
+    "chainId": "solana",
+    "tokenAddress": "AWictncsgfT2pym732Z7TyNirZGzpnrPpG2PYZrwpump",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/AWictncsgfT2pym732Z7TyNirZGzpnrPpG2PYZrwpump.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/AWictncsgfT2pym732Z7TyNirZGzpnrPpG2PYZrwpump/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/AWictncsgfT2pym732Z7TyNirZGzpnrPpG2PYZrwpump?timestamp=1753632600000",
+    "description": "Gurt: Yo\n\n$GURT is a meme for now..\nFollow twitter for updates.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/gurt432"
+      },
+      {
+        "type": "telegram",
+        "url": "https://t.me/GurtYoCoin"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/4dgrmievgjc44vfrmy8wsbbp7ewnvbp1mvamjewhjups",
+    "chainId": "solana",
+    "tokenAddress": "4DgRMievGJc44vFrmy8wSBBP7EWnVBp1mVaMJeWHjups",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/4DgRMievGJc44vFrmy8wSBBP7EWnVBp1mVaMJeWHjups.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/4DgRMievGJc44vFrmy8wSBBP7EWnVBp1mVaMJeWHjups/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/4DgRMievGJc44vFrmy8wSBBP7EWnVBp1mVaMJeWHjups?timestamp=1753632600000",
+    "description": "The first Unicorn on Jupiter - JUPICORN",
+    "links": [
+      {
+        "label": "Website",
+        "url": "https://jupicorn.xyz/"
+      },
+      {
+        "type": "twitter",
+        "url": "https://x.com/jupicorn_?s=21"
+      }
+    ]
+  },
+  {
+    "url": "https://dexscreener.com/solana/9uce1bnqtyufrikbk1xugxr8c2gptyxwu6gxqxsf4cpk",
+    "chainId": "solana",
+    "tokenAddress": "9ucE1bNqtYUFriKBk1xugXr8C2GPTyxWu6gxqxsf4Cpk",
+    "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/9ucE1bNqtYUFriKBk1xugXr8C2GPTyxWu6gxqxsf4Cpk.png",
+    "header": "https://dd.dexscreener.com/ds-data/tokens/solana/9ucE1bNqtYUFriKBk1xugXr8C2GPTyxWu6gxqxsf4Cpk/header.png",
+    "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/9ucE1bNqtYUFriKBk1xugXr8C2GPTyxWu6gxqxsf4Cpk?timestamp=1753632600000",
+    "description": "A little girl that likes to make cartoon drawings of the Bonk characters launched the coin.",
+    "links": [
+      {
+        "type": "twitter",
+        "url": "https://x.com/bonkgirlonsol?s=21"
       }
     ]
   }

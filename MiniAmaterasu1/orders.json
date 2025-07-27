@@ -2,6 +2,13 @@
   {
     "chainId": "solana",
     "tokenAddress": "2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk",
+    "type": "tokenAd",
+    "status": "approved",
+    "paymentTimestamp": 1753613028286
+  },
+  {
+    "chainId": "solana",
+    "tokenAddress": "2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk",
     "type": "communityTakeover",
     "status": "cancelled",
     "paymentTimestamp": 1753510076375
