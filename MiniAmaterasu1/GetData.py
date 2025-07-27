@@ -75,6 +75,7 @@ class Api:
                     info = {
                         "name": pairs["baseToken"]["name"],
                         "symbol": pairs["baseToken"]["symbol"],
+                        "chainId": pairs.get("chainId"),
                         "address": pairs.get("pairAddress"),
                         "price": pairs.get("priceUsd"),
                         "market_cap": pairs.get("fdv"),
