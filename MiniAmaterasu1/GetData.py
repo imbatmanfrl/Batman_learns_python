@@ -38,16 +38,25 @@ class Api:
         return data
 
     def loading(self):
+
         with open("latest_dex.json", "r") as file:
             self.data = json.load(file)
 
             for item in self.data:
-                self.the_ID = item["chainId"]
-                self.the_addy = item["tokenAddress"]
-                print(self.the_ID, self.the_addy)
+                self.IDs = []
+                self.IDs.append(item["chainId"])
+            for values in self.data:
+                self.addresses = []
+                self.addresses.append(values["tokenAddress"])
+                self.combined = [item["chainId"],values["tokenAddress"]]
+                print(self.combined)
+
+#        data = [self.IDs,self.addresses]
+#        with open("IDs_&_Addresses","w") as file:
+#            json.dump(data,file,indent=2)
 
     def evil_laugh(self):
-        url = f"https://api.dexscreener.com/token-pairs/v1/{self.the_ID}/{self.the_addy}"
+        url = f"https://api.dexscreener.com/token-pairs/v1/{self.IDs}/{self.addresses}"
         response = requests.get(url)
         data = response.json()
 
@@ -80,12 +89,3 @@ class Api:
 
 api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
 api.run_all()
-
-#problem im having now is that pool.json isn't getting the tokenomics of all the pairs in latest_dex.json
-#and if that happens, pair.info will onnly generate the info on one crypto token
-#I need it to be able to do it for all the pairs in latest_dex.json
-#and also sometimes in pool.json, it'll pull the token's liquidity, sometimes it wont
-#and i'm also not able to get pair age, just 24hr volume,
-# like alot of these pairs might be real old already and i've missed out on early buys
-#I can't also tell who's the dev yet but im thinking we can use the twitter api to see that,
-# also one of these API can check if a token has been bought by CTO but im guessing it can only do it for one pair as well
