@@ -41,43 +41,51 @@ class Api:
 
         with open("latest_dex.json", "r") as file:
             self.data = json.load(file)
+            self.pairs = []
 
             for item in self.data:
-                self.IDs = []
-                self.IDs.append(item["chainId"])
-            for values in self.data:
-                self.addresses = []
-                self.addresses.append(values["tokenAddress"])
-                self.combined = [item["chainId"],values["tokenAddress"]]
-                print(self.combined)
+                chainId = item.get("chainId")
+                tokenAdress = item.get("tokenAddress")
 
-#        data = [self.IDs,self.addresses]
-#        with open("IDs_&_Addresses","w") as file:
-#            json.dump(data,file,indent=2)
+                if chainId and tokenAdress:
+                    self.pairs.append((chainId,tokenAdress))
+                    print(self.pairs)
 
     def evil_laugh(self):
-        url = f"https://api.dexscreener.com/token-pairs/v1/{self.IDs}/{self.addresses}"
-        response = requests.get(url)
-        data = response.json()
+
+        all_data = []
+        for chainId, tokenAddress in self.pairs:
+            url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
+            response = requests.get(url)
+            data = response.json()
+            all_data.append(data)
 
         with open("pool.json", "w") as file:
-            json.dump(data, file, indent=2)
-            for item in data:
+            json.dump(all_data, file, indent=2)
+            for item in all_data:
                 return item
 
     def pair_name(self):
+        pair_info = []
         with open("pool.json", "r") as file:
             data = json.load(file)
-            for pairs in data:
-                self.name = f"Pair name: {pairs["baseToken"]["name"]}"
-                self.symbol = f"Pair symbol: {pairs["baseToken"]["symbol"]}"
-                self.mc = f"Pair MarketCap: ${pairs["fdv"]}"
-                #self.liquidity = f"Pair liquidity: {pairs["liquidity"]["usd"]}"
-                self.price = f"Pair Current Price: ${pairs["priceUsd"]}"
 
-                data = self.name,self.symbol,self.mc,self.price
+            for pairs in data:
+                name = pairs["baseToken"],["name"]
+                symbol = pairs["baseToken"],["symbol"]
+                market_cap = pairs["baseToken"],["fdv"]
+                price = pairs["baseToken"],["price"]
+
+#                self.name = f"Pair name: {pairs["baseToken"]["name"]}"
+#                self.symbol = f"Pair symbol: {pairs["baseToken"]["symbol"]}"
+#                self.mc = f"Pair MarketCap: ${pairs["fdv"]}"
+#                #self.liquidity = f"Pair liquidity: {pairs["liquidity"]["usd"]}"
+#                self.price = f"Pair Current Price: ${pairs["priceUsd"]}"
+
+                data =name,symbol,market_cap,price
+                pair_info.append(data)
         with open("pair_info.json","w") as file:
-            json.dump(data,file,indent=2)
+            json.dump(pair_info,file,indent=2)
 
     def run_all(self):
         self.get_tokens()
