@@ -71,19 +71,14 @@ class Api:
             data = json.load(file)
 
             for pairs in data:
-                name = pairs["baseToken"],["name"]
-                symbol = pairs["baseToken"],["symbol"]
-                market_cap = pairs["baseToken"],["fdv"]
-                price = pairs["baseToken"],["price"]
+                info = {
+                    "name": pairs["baseToken"]["name"],
+                "symbol" : pairs["baseToken"]["symbol"],
+                "market_cap" : pairs["baseToken"]["fdv"],
+               "price" : pairs["baseToken"]["price"],
+                }
 
-#                self.name = f"Pair name: {pairs["baseToken"]["name"]}"
-#                self.symbol = f"Pair symbol: {pairs["baseToken"]["symbol"]}"
-#                self.mc = f"Pair MarketCap: ${pairs["fdv"]}"
-#                #self.liquidity = f"Pair liquidity: {pairs["liquidity"]["usd"]}"
-#                self.price = f"Pair Current Price: ${pairs["priceUsd"]}"
-
-                data =name,symbol,market_cap,price
-                pair_info.append(data)
+                pair_info.append(info)
         with open("pair_info.json","w") as file:
             json.dump(pair_info,file,indent=2)
 
