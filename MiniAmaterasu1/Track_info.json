@@ -1,0 +1,21 @@
+[
+  {
+    "name": "nutter butter",
+    "symbol": "nutter",
+    "chainId": "solana",
+    "address": "BB3FFqi6VGpDdJKxPBByAXRYGqFB8QocjaXXd4LhNNte",
+    "price": "0.00003789",
+    "market_cap": 37897,
+    "liquidity": {
+      "usd": 0,
+      "base": 0.01415,
+      "quote": 1e-09
+    },
+    "volume": {
+      "h24": 6638.45,
+      "h6": 6638.45,
+      "h1": 6638.45,
+      "m5": 4966.63
+    }
+  }
+]

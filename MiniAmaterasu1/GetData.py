@@ -1,4 +1,5 @@
 #from xml.etree.ElementTree import indent
+from itertools import count
 
 import requests
 
@@ -15,9 +16,10 @@ pair = "https://api.dexscreener.com/latest/dex/search"
 pool = "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
 
 class Api:
-    def __init__(self,chainId,tokenAddress):
+    def __init__(self,chainId,tokenAddress,pairId=None):
         self.chainId = chainId
         self.tokenAddress = tokenAddress
+        self.pairId = pairId
 
     def get_tokens(self):
         url = f"{latest_tokens}"
@@ -25,15 +27,6 @@ class Api:
         data = response.json()
 
         with open("latest_dex.json", "w") as file:
-            json.dump(data, file, indent=2)
-        return data
-
-    def orders(self):
-        url = f"https://api.dexscreener.com/orders/v1/{self.chainId}/{self.tokenAddress}"
-        response = requests.get(url)
-        data =response.json()
-
-        with open("orders.json", "w") as file:
             json.dump(data, file, indent=2)
         return data
 
@@ -51,7 +44,7 @@ class Api:
                     self.pairs.append((chainId,tokenAdress))
                     print(self.pairs)
 
-    def evil_laugh(self):
+    def ids(self):
 
         all_data = []
         for chainId, tokenAddress in self.pairs:
@@ -90,9 +83,8 @@ class Api:
 
     def run_all(self):
         self.get_tokens()
-        self.orders()
         self.loading()
-        self.evil_laugh()
+        self.ids()
         self.pair_name()
 
 

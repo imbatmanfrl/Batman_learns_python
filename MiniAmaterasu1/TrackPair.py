@@ -34,7 +34,7 @@ class Track:
 
 
 track = Track()
-track.particular_asset("solana","E9bBxD7UnrPNdiN7VqaPmrQ1uhVHXHoQoiLQ1usdSccS")
+track.particular_asset("solana","BB3FFqi6VGpDdJKxPBByAXRYGqFB8QocjaXXd4LhNNte")
 track.tracking()
 #tracker = Track("solana","ELQrbSfE9J2xPnxDGGfboGchw8QY7ua7NjsDtJYi4qt9")
 

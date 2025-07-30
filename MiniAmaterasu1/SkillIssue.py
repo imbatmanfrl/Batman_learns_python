@@ -19,3 +19,13 @@ class Track:
 
 track = Track()
 track.start()
+
+
+"""def orders(self):
+    url = f"https://api.dexscreener.com/orders/v1/{self.chainId}/{self.tokenAddress}"
+    response = requests.get(url)
+    data = response.json()
+
+    with open("orders.json", "w") as file:
+        json.dump(data, file, indent=2)
+    return data"""

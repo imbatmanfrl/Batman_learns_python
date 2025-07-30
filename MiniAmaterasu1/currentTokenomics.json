@@ -3,151 +3,115 @@
   "pairs": [
     {
       "chainId": "solana",
-      "dexId": "raydium",
-      "url": "https://dexscreener.com/solana/e9bbxd7unrpndin7vqapmrq1uhvhxhoqoilq1usdsccs",
-      "pairAddress": "E9bBxD7UnrPNdiN7VqaPmrQ1uhVHXHoQoiLQ1usdSccS",
-      "labels": [
-        "CPMM"
-      ],
+      "dexId": "pumpswap",
+      "url": "https://dexscreener.com/solana/bb3ffqi6vgpddjkxpbbyaxrygqfb8qocjaxxd4lhnnte",
+      "pairAddress": "BB3FFqi6VGpDdJKxPBByAXRYGqFB8QocjaXXd4LhNNte",
       "baseToken": {
-        "address": "nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk",
-        "name": "Grok Imagine",
-        "symbol": "Imagine"
+        "address": "Bho1wFVjDWd7o1NCYCP3SFSwGHhX5jBBYbXFBinthKjp",
+        "name": "nutter butter",
+        "symbol": "nutter"
       },
       "quoteToken": {
         "address": "So11111111111111111111111111111111111111112",
         "name": "Wrapped SOL",
         "symbol": "SOL"
       },
-      "priceNative": "0.000003440",
-      "priceUsd": "0.0006247",
+      "priceNative": "0.0000002117",
+      "priceUsd": "0.00003789",
       "txns": {
         "m5": {
-          "buys": 267,
-          "sells": 218
+          "buys": 15,
+          "sells": 8
         },
         "h1": {
-          "buys": 2967,
-          "sells": 2472
+          "buys": 24,
+          "sells": 8
         },
         "h6": {
-          "buys": 14028,
-          "sells": 9804
+          "buys": 24,
+          "sells": 8
         },
         "h24": {
-          "buys": 14028,
-          "sells": 9804
+          "buys": 24,
+          "sells": 8
         }
       },
       "volume": {
-        "h24": 2443192.38,
-        "h6": 2443192.38,
-        "h1": 620875.2,
-        "m5": 39944.89
+        "h24": 6638.45,
+        "h6": 6638.45,
+        "h1": 6638.45,
+        "m5": 4966.63
       },
       "priceChange": {
-        "m5": 5.27,
-        "h1": -2.42,
-        "h6": 733,
-        "h24": 733
+        "m5": -49.58,
+        "h1": -47.81,
+        "h6": -47.81,
+        "h24": -47.81
       },
       "liquidity": {
-        "usd": 94040.26,
-        "base": 75265768,
-        "quote": 258.9499
+        "usd": 0,
+        "base": 0.01415,
+        "quote": 1e-09
       },
-      "fdv": 624721,
-      "marketCap": 624721,
-      "pairCreatedAt": 1753815521000,
-      "info": {
-        "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk.png?key=a8f327",
-        "header": "https://dd.dexscreener.com/ds-data/tokens/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk/header.png?key=a8f327",
-        "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk?timestamp=1753826700000",
-        "websites": [],
-        "socials": [
-          {
-            "type": "twitter",
-            "url": "https://x.com/i/communities/1950267799248499085"
-          }
-        ]
-      },
-      "boosts": {
-        "active": 500
-      }
+      "fdv": 37897,
+      "marketCap": 37897,
+      "pairCreatedAt": 1753886753000
     }
   ],
   "pair": {
     "chainId": "solana",
-    "dexId": "raydium",
-    "url": "https://dexscreener.com/solana/e9bbxd7unrpndin7vqapmrq1uhvhxhoqoilq1usdsccs",
-    "pairAddress": "E9bBxD7UnrPNdiN7VqaPmrQ1uhVHXHoQoiLQ1usdSccS",
-    "labels": [
-      "CPMM"
-    ],
+    "dexId": "pumpswap",
+    "url": "https://dexscreener.com/solana/bb3ffqi6vgpddjkxpbbyaxrygqfb8qocjaxxd4lhnnte",
+    "pairAddress": "BB3FFqi6VGpDdJKxPBByAXRYGqFB8QocjaXXd4LhNNte",
     "baseToken": {
-      "address": "nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk",
-      "name": "Grok Imagine",
-      "symbol": "Imagine"
+      "address": "Bho1wFVjDWd7o1NCYCP3SFSwGHhX5jBBYbXFBinthKjp",
+      "name": "nutter butter",
+      "symbol": "nutter"
     },
     "quoteToken": {
       "address": "So11111111111111111111111111111111111111112",
       "name": "Wrapped SOL",
       "symbol": "SOL"
     },
-    "priceNative": "0.000003440",
-    "priceUsd": "0.0006247",
+    "priceNative": "0.0000002117",
+    "priceUsd": "0.00003789",
     "txns": {
       "m5": {
-        "buys": 267,
-        "sells": 218
+        "buys": 15,
+        "sells": 8
       },
       "h1": {
-        "buys": 2967,
-        "sells": 2472
+        "buys": 24,
+        "sells": 8
       },
       "h6": {
-        "buys": 14028,
-        "sells": 9804
+        "buys": 24,
+        "sells": 8
       },
       "h24": {
-        "buys": 14028,
-        "sells": 9804
+        "buys": 24,
+        "sells": 8
       }
     },
     "volume": {
-      "h24": 2443192.38,
-      "h6": 2443192.38,
-      "h1": 620875.2,
-      "m5": 39944.89
+      "h24": 6638.45,
+      "h6": 6638.45,
+      "h1": 6638.45,
+      "m5": 4966.63
     },
     "priceChange": {
-      "m5": 5.27,
-      "h1": -2.42,
-      "h6": 733,
-      "h24": 733
+      "m5": -49.58,
+      "h1": -47.81,
+      "h6": -47.81,
+      "h24": -47.81
     },
     "liquidity": {
-      "usd": 94040.26,
-      "base": 75265768,
-      "quote": 258.9499
+      "usd": 0,
+      "base": 0.01415,
+      "quote": 1e-09
     },
-    "fdv": 624721,
-    "marketCap": 624721,
-    "pairCreatedAt": 1753815521000,
-    "info": {
-      "imageUrl": "https://dd.dexscreener.com/ds-data/tokens/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk.png?key=a8f327",
-      "header": "https://dd.dexscreener.com/ds-data/tokens/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk/header.png?key=a8f327",
-      "openGraph": "https://cdn.dexscreener.com/token-images/og/solana/nWPwMoa1hodu3QJ3gY6btcy3zG4AtV24CV67YtYbonk?timestamp=1753826700000",
-      "websites": [],
-      "socials": [
-        {
-          "type": "twitter",
-          "url": "https://x.com/i/communities/1950267799248499085"
-        }
-      ]
-    },
-    "boosts": {
-      "active": 500
-    }
+    "fdv": 37897,
+    "marketCap": 37897,
+    "pairCreatedAt": 1753886753000
   }
 }
