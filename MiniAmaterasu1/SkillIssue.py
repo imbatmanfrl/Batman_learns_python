@@ -1,6 +1,6 @@
 import json
 import requests
-
+from  GetData import Api
 #a1cd384b910a4640b5d562d60b9f9d53
 class Track:
     def start(self):
@@ -21,11 +21,12 @@ track = Track()
 track.start()
 
 
-"""def orders(self):
-    url = f"https://api.dexscreener.com/orders/v1/{self.chainId}/{self.tokenAddress}"
-    response = requests.get(url)
-    data = response.json()
+class Age(Api):
+    def orders(self):
+        url = f"https://api.dexscreener.com/token-pairs/v1/{self.chainId}/{self.tokenAddress}"
+        response = requests.get(url)
+        data = response.json()
 
-    with open("orders.json", "w") as file:
-        json.dump(data, file, indent=2)
-    return data"""
+        with open("orders.json", "w") as file:
+            json.dump(data, file, indent=2)
+        return data

@@ -1,480 +1,484 @@
 [
   {
-    "name": "Plebz",
-    "symbol": "PLEB",
+    "name": "ClaudeAI",
+    "symbol": "CLAI",
     "chainId": "solana",
-    "address": "BDv8Sc4KRGa7TEr2w67yyRMcdXAinKQtzhNU2EzP1zpi",
-    "price": "0.00001204",
-    "market_cap": 12043.35,
+    "address": "4inSn87zzdfFo2feHYSAcDMWY8LQHYmj9y7ZN92WmyAF",
+    "price": "0.00001953",
+    "market_cap": 19538.54,
     "liquidity": null,
     "volume": {
-      "h24": 11659.99,
-      "h6": 9641.73,
-      "h1": 8812.56,
-      "m5": 368.39
+      "h24": 65571.73,
+      "h6": 65564.9,
+      "h1": 65564.9,
+      "m5": 5953.84
     }
   },
   {
-    "name": "Memetics",
-    "symbol": "Memetics",
-    "chainId": "solana",
-    "address": "4bS6f6sCo5Z6H8qCGxiu2b3UfuX3A35N88qTgwVLTkKJ",
-    "price": "0.00002651",
-    "market_cap": 26510.14,
-    "liquidity": null,
-    "volume": {
-      "h24": 59272.66,
-      "h6": 59272.66,
-      "h1": 59272.66,
-      "m5": 2855.43
-    }
-  },
-  {
-    "name": "JAPANESE BONK",
-    "symbol": "JBONKU",
-    "chainId": "solana",
-    "address": "7WFjP2RZ7LHgQaoMSVCNLR4ftfUixyDciahrz2vGzXNP",
-    "price": "0.000005886",
-    "market_cap": 5887,
-    "liquidity": {
-      "usd": 11.26,
-      "base": 649880,
-      "quote": 0.04163
-    },
-    "volume": {
-      "h24": 0.16,
-      "h6": 0.16,
-      "h1": 0.16,
-      "m5": 0.16
-    }
-  },
-  {
-    "name": "Worthless Paper Money",
-    "symbol": "wUSD",
-    "chainId": "solana",
-    "address": "ENfqBwG8EFLMr4h16PvcVw251THhoghGVEAZ8aikFDmR",
-    "price": "0.00004587",
-    "market_cap": 45876.11,
-    "liquidity": null,
-    "volume": {
-      "h24": 332629.3,
-      "h6": 332629.3,
-      "h1": 332629.3,
-      "m5": 4671.98
-    }
-  },
-  {
-    "name": "Hand Drawn Memes",
-    "symbol": "HDM",
-    "chainId": "solana",
-    "address": "FCprMMJFWCXWkx6ph4pPjgBKgaVVnRHcJjvcsQQYXYRS",
-    "price": "0.00007338",
-    "market_cap": 73385.94,
-    "liquidity": null,
-    "volume": {
-      "h24": 90083.39,
-      "h6": 90083.39,
-      "h1": 90083.39,
-      "m5": 2269.09
-    }
-  },
-  {
-    "name": "Ghostty CLI",
-    "symbol": "GHOST",
-    "chainId": "solana",
-    "address": "HJRocoiWTaGddYL6tZsQHePoA5KbwGoYX9LHMwsCZGAX",
-    "price": "0.000005383",
-    "market_cap": 5383.88,
-    "liquidity": null,
-    "volume": {
-      "h24": 107039.32,
-      "h6": 107039.32,
-      "h1": 107039.32,
-      "m5": 68.45
-    }
-  },
-  {
-    "name": "and for my next trick",
-    "symbol": "trick",
-    "chainId": "solana",
-    "address": "6JGaUUfACiFhcL5owDWH68tk2aKQgqsuSZsxvktkPxEg",
-    "price": "0.00003320",
-    "market_cap": 33204.12,
-    "liquidity": null,
-    "volume": {
-      "h24": 13759.76,
-      "h6": 6133.36,
-      "h1": 5823.61,
-      "m5": 473.52
-    }
-  },
-  {
-    "name": "Digital Energy",
-    "symbol": "Energy",
-    "chainId": "solana",
-    "address": "Fh3Bq9asFCbdUdPtJheFA4YFEK9cwPT2VBS1CEHRgMHS",
-    "price": "0.000009531",
-    "market_cap": 9531.48,
-    "liquidity": null,
-    "volume": {
-      "h24": 80493.57,
-      "h6": 80493.57,
-      "h1": 80493.57,
-      "m5": 2636.97
-    }
-  },
-  {
-    "name": "Emma Meta Companion",
-    "symbol": "Emma",
-    "chainId": "solana",
-    "address": "D8cdTcYSXeS8Hm4SjW2Suta2u44dnShesJfv6xX1ixoH",
-    "price": "0.00006153",
-    "market_cap": 61533.72,
-    "liquidity": null,
-    "volume": {
-      "h24": 222324.47,
-      "h6": 222324.47,
-      "h1": 126013.24,
-      "m5": 8724.2
-    }
-  },
-  {
-    "name": "What if an actual rug sends?",
-    "symbol": "Rug",
-    "chainId": "solana",
-    "address": "3uGZeykmAEx4TnBZJNyUmvQ1Uk8CLRw2pNJCheyf42nt",
-    "price": "0.00001773",
-    "market_cap": 17733.49,
-    "liquidity": null,
-    "volume": {
-      "h24": 98249.33,
-      "h6": 93268.7,
-      "h1": 18089.14,
-      "m5": 820.35
-    }
-  },
-  {
-    "name": "Rhea",
-    "symbol": "RHEA",
-    "chainId": "bsc",
-    "address": "0x8467D4B34e790BC8E7334bA91bC0E8Bef30257EC",
-    "price": "0.03905",
-    "market_cap": 2904932,
-    "liquidity": {
-      "usd": 822.98,
-      "base": 8349.3462,
-      "quote": 0.6306
-    },
-    "volume": {
-      "h24": 5526.39,
-      "h6": 5526.39,
-      "h1": 5526.39,
-      "m5": 29.16
-    }
-  },
-  {
-    "name": "Sheep herd",
-    "symbol": "Sheep",
-    "chainId": "solana",
-    "address": "DKcDNb6GQQTRMKsEfcM29dEbcLHnJQLBwsNDBZ8hgLok",
-    "price": "0.00001897",
-    "market_cap": 18971.1,
-    "liquidity": null,
-    "volume": {
-      "h24": 159543.16,
-      "h6": 159543.16,
-      "h1": 159543.16,
-      "m5": 10445.85
-    }
-  },
-  {
-    "name": "Meta Superintelligence Labs",
-    "symbol": "MSL",
-    "chainId": "solana",
-    "address": "5XwopPUC5GDkmoEFSwLVD6YiGJaDRLznx6fnnSqR5wgZ",
-    "price": "0.00007288",
-    "market_cap": 72880.62,
-    "liquidity": null,
-    "volume": {
-      "h24": 83148.53,
-      "h6": 83148.53,
-      "h1": 0,
-      "m5": 0
-    }
-  },
-  {
-    "name": "MORE",
-    "symbol": "MORE",
-    "chainId": "solana",
-    "address": "2ACESHtTjUHTHHVt4Vh7h81S2a6GA9vxbJjCL9SkXaXi",
-    "price": "0.00003234",
-    "market_cap": 32344.15,
-    "liquidity": null,
-    "volume": {
-      "h24": 187479.2,
-      "h6": 187479.2,
-      "h1": 137055.35,
-      "m5": 3408.82
-    }
-  },
-  {
-    "name": "Bonkichi Bonk Cat",
-    "symbol": "\u30dc\u30f3\u5409",
-    "chainId": "solana",
-    "address": "9RwK1Gft23nC5U8EHximcLdgckLmeHdmLcpci3xCmTAz",
-    "price": "0.000005475",
-    "market_cap": 5475.72,
-    "liquidity": null,
-    "volume": {
-      "h24": 91357.36,
-      "h6": 91357.36,
-      "h1": 67620.17,
-      "m5": 0
-    }
-  },
-  {
-    "name": "Crunch Ai",
-    "symbol": "CNAI",
-    "chainId": "ethereum",
-    "address": "0xe976Ffc84AF70F5869bb9b8C654E24d820560A60",
-    "price": "0.01123",
-    "market_cap": 1123454,
-    "liquidity": {
-      "usd": 159975.99,
-      "base": 7119830,
-      "quote": 21.1789
-    },
-    "volume": {
-      "h24": 456668.47,
-      "h6": 456668.47,
-      "h1": 430286.2,
-      "m5": 18209.4
-    }
-  },
-  {
-    "name": "flork",
-    "symbol": "flork",
-    "chainId": "solana",
-    "address": "2mEVAbGkcREpEZPfiJXbdbf5sPhh5P2KfvH3qUuGPuDJ",
-    "price": "0.00007282",
-    "market_cap": 72820.29,
-    "liquidity": null,
-    "volume": {
-      "h24": 67873.34,
-      "h6": 67873.34,
-      "h1": 0,
-      "m5": 0
-    }
-  },
-  {
-    "name": "Sol Sensei Bot",
-    "symbol": "SENSEI",
-    "chainId": "solana",
-    "address": "hczHuenT2Mf6tvyHGQay91aKaJmP7KLyCvWxMiNHVqi",
-    "price": "0.00001693",
-    "market_cap": 16930.94,
-    "liquidity": null,
-    "volume": {
-      "h24": 63912.98,
-      "h6": 63912.98,
-      "h1": 18524.27,
-      "m5": 155.66
-    }
-  },
-  {
-    "name": "NEVERPAY",
-    "symbol": "NPAY",
-    "chainId": "solana",
-    "address": "J9TVbBNtFoySCgAVwXiLhLeuzuEXP2CoJoEafCBPyTQC",
-    "price": "0.00007266",
-    "market_cap": 72666.99,
-    "liquidity": null,
-    "volume": {
-      "h24": 71508.51,
-      "h6": 71508.51,
-      "h1": 0,
-      "m5": 0
-    }
-  },
-  {
-    "name": "Valentism Grok Companion",
-    "symbol": "VISM",
-    "chainId": "solana",
-    "address": "149j5nEh6VHQuJky7HhMFMzF1qtUVSP12euzBWdLCtNi",
-    "price": "0.000008849",
-    "market_cap": 8849.19,
-    "liquidity": null,
-    "volume": {
-      "h24": 13505.84,
-      "h6": 13505.84,
-      "h1": 1265.64,
-      "m5": 0
-    }
-  },
-  {
-    "name": "Effortless coin",
-    "symbol": "EFFORTLESS",
-    "chainId": "solana",
-    "address": "FDwVxLqrhv9C8P8kgbNAubTSbUYHrFxNfNEs42pUE7rG",
-    "price": "0.000005748",
-    "market_cap": 5748.54,
-    "liquidity": null,
-    "volume": {
-      "h24": 93585.39,
-      "h6": 93585.39,
-      "h1": 33191.07,
-      "m5": 38.04
-    }
-  },
-  {
-    "name": "believe in somETHing",
-    "symbol": "BIS",
+    "name": "Based Bink",
+    "symbol": "BINK",
     "chainId": "base",
-    "address": "0xD5F121Da8dB7ecF42154bC4c693fC1c2A1352034",
-    "price": "0.0000001473",
-    "market_cap": 14737,
+    "address": "0x28fCE69A80E7618e87A3FbEB9C86BBa2dC06f514",
+    "price": "0.00007592",
+    "market_cap": 75926,
     "liquidity": {
-      "usd": 14533.07,
-      "base": 87693468963,
-      "quote": 0.4259
+      "usd": 20499.62,
+      "base": 134996900,
+      "quote": 2.7247
     },
     "volume": {
-      "h24": 478127.79,
-      "h6": 478127.79,
-      "h1": 220465.47,
-      "m5": 0
+      "h24": 297921,
+      "h6": 90915.26,
+      "h1": 29734.24,
+      "m5": 992.71
     }
   },
   {
-    "name": "FUDDHA",
-    "symbol": "FUDDHA",
+    "name": "@GrokImagine",
+    "symbol": "Imagine",
     "chainId": "solana",
-    "address": "GQh9qzRHreBeMB28vQeDTRwUScCa1gPPNmeh1FVmk1Aj",
-    "price": "0.000003705",
-    "market_cap": 3706,
-    "liquidity": {
-      "usd": 1161.79,
-      "base": 156827934,
-      "quote": 3.254
-    },
-    "volume": {
-      "h24": 5055.47,
-      "h6": 5055.47,
-      "h1": 825.91,
-      "m5": 15.79
-    }
-  },
-  {
-    "name": "nutter butter",
-    "symbol": "nutter",
-    "chainId": "solana",
-    "address": "J57B9s8z8pvgBmCc7UB4PvB572Wfoeb2yckPEBGcusKH",
-    "price": "0.00007159",
-    "market_cap": 71590,
-    "liquidity": {
-      "usd": 19.57,
-      "base": 116238,
-      "quote": 0.06305
-    },
-    "volume": {
-      "h24": 13.73,
-      "h6": 13.73,
-      "h1": 4.52,
-      "m5": 0.02
-    }
-  },
-  {
-    "name": "Everything Looks",
-    "symbol": "CHEAPER",
-    "chainId": "solana",
-    "address": "C3imM5h2VGK2jAurxzTGUDF9XRjk1Xj1A1w2Y5YLoXa",
-    "price": "0.00001129",
-    "market_cap": 11294.93,
+    "address": "DHY1vHQ7a67sc5eGyU9zTf6N342Td3xezkWj5fgYdSAv",
+    "price": "0.00002985",
+    "market_cap": 29858.2,
     "liquidity": null,
     "volume": {
-      "h24": 58006.72,
-      "h6": 58006.72,
-      "h1": 2576.15,
+      "h24": 23854.5,
+      "h6": 23854.5,
+      "h1": 23197.77,
+      "m5": 2102.74
+    }
+  },
+  {
+    "name": "@claudeai",
+    "symbol": "Claude",
+    "chainId": "solana",
+    "address": "31gC8yvRsmKxeCnVRxsYB44L2EYKSVXHhgY7h4GNzHEA",
+    "price": "0.00007222",
+    "market_cap": 72227.4,
+    "liquidity": null,
+    "volume": {
+      "h24": 101337.1,
+      "h6": 101337.1,
+      "h1": 101337.1,
       "m5": 0
     }
   },
   {
-    "name": "Neiro's Brother",
-    "symbol": "Neivil",
+    "name": "@claudeai",
+    "symbol": "Claude",
+    "chainId": "solana",
+    "address": "AdunF3B6GVva5qVbD7GXYnTkmx8X3rYrnkxrcTavEGih",
+    "price": "0.00007231",
+    "market_cap": 72313.68,
+    "liquidity": null,
+    "volume": {
+      "h24": 51390.48,
+      "h6": 51390.48,
+      "h1": 51390.48,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Life Hack",
+    "symbol": "LIFEHACK",
+    "chainId": "solana",
+    "address": "FDZ9JiKsvcRE2J3L2bzBAFBkLfqQJvogCafNo8rxcMJd",
+    "price": "0.00006235",
+    "market_cap": 26191.13,
+    "liquidity": null,
+    "volume": {
+      "h24": 77143.83,
+      "h6": 77143.83,
+      "h1": 77143.83,
+      "m5": 6073.04
+    }
+  },
+  {
+    "name": "somETHing On NASDAQ",
+    "symbol": "sON",
     "chainId": "ethereum",
-    "address": "0x0F705e7CA4431CA00A20642498AB875ad9e56365",
-    "price": "0.005100",
-    "market_cap": 234636,
+    "address": "0x606818007Db2B0dbCfFf4153b939Bc8D501a4191",
+    "price": "0.001178",
+    "market_cap": 1178473,
     "liquidity": {
-      "usd": 63643.67,
-      "base": 6238606,
-      "quote": 8.4307
+      "usd": 164488.82,
+      "base": 69788988,
+      "quote": 21.874
     },
     "volume": {
-      "h24": 241333.08,
-      "h6": 241333.08,
-      "h1": 167761.53,
-      "m5": 3684.1
+      "h24": 233228.35,
+      "h6": 233228.35,
+      "h1": 233228.35,
+      "m5": 25675.78
     }
   },
   {
-    "name": "KEKE",
-    "symbol": "KEKE",
+    "name": "Dolphins Yodel Over Rainbows",
+    "symbol": "DYOR",
     "chainId": "solana",
-    "address": "BmvNuU2NfdfXmCQLm9RvX4QTiAf8TMGCC1VkooKLZYAx",
-    "price": "0.00007302",
-    "market_cap": 73028.52,
+    "address": "JCn9Gbd5yDhKQvZZoh1zDtt5MHLzvGyhqn44fBYTiqaC",
+    "price": "0.000005292",
+    "market_cap": 5292.69,
     "liquidity": null,
     "volume": {
-      "h24": 15300.86,
-      "h6": 15300.86,
+      "h24": 25971.86,
+      "h6": 25971.86,
+      "h1": 25971.86,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Unicorn Spicy Dorito Chicken",
+    "symbol": "USDC",
+    "chainId": "solana",
+    "address": "8bCmS1KoYQ2SLbbuCkn1aqkTv4KAKDMMKcT1M9kN4bdQ",
+    "price": "0.00007205",
+    "market_cap": 72050.75,
+    "liquidity": null,
+    "volume": {
+      "h24": 155767,
+      "h6": 155767,
+      "h1": 72854.85,
+      "m5": 0
+    }
+  },
+  {
+    "name": "bagworker community",
+    "symbol": "bagworkers",
+    "chainId": "solana",
+    "address": "89yhLJusxwHHsDBjTnaG6xCdSoSYGKvRh1sgeZGacfg9",
+    "price": "0.000005827",
+    "market_cap": 5827.69,
+    "liquidity": null,
+    "volume": {
+      "h24": 166297.29,
+      "h6": 166297.29,
+      "h1": 166297.29,
+      "m5": 858.77
+    }
+  },
+  {
+    "name": "The Fat Dog",
+    "symbol": "Bingo",
+    "chainId": "solana",
+    "address": "2X7cFEQ4fRe4jX9vhKtKkUuCnSRog8pvLjhrAqdsPYLZ",
+    "price": "0.00001759",
+    "market_cap": 17598.89,
+    "liquidity": null,
+    "volume": {
+      "h24": 107290.8,
+      "h6": 107290.8,
+      "h1": 96108.28,
+      "m5": 11058.29
+    }
+  },
+  {
+    "name": "A banger coin",
+    "symbol": "ABC",
+    "chainId": "solana",
+    "address": "EKdtQnvZ9KPZ2uiuFCPZRdYVmCeezqTmEvkS4i9AcqLP",
+    "price": "0.000005473",
+    "market_cap": 5473.34,
+    "liquidity": null,
+    "volume": {
+      "h24": 77761.32,
+      "h6": 77761.32,
+      "h1": 60562.24,
+      "m5": 17.46
+    }
+  },
+  {
+    "name": "VENIS",
+    "symbol": "VENIS",
+    "chainId": "solana",
+    "address": "Dt1nfAQuHwhe69TvhSDdk1aSGSGde1Me17g2F5riXu88",
+    "price": "0.00002012",
+    "market_cap": 20124.89,
+    "liquidity": null,
+    "volume": {
+      "h24": 18763.18,
+      "h6": 5079.52,
+      "h1": 2665.4,
+      "m5": 5.88
+    }
+  },
+  {
+    "name": "Alpaca Bitcoin Mascot",
+    "symbol": "ALPACA",
+    "chainId": "ethereum",
+    "address": "0x1Ce6d42AA8CA71057dC9965418ad2BbFDaB3eD81",
+    "price": "0.00001235",
+    "market_cap": 12351,
+    "liquidity": {
+      "usd": 10270.86,
+      "base": 415776488,
+      "quote": 1.366
+    },
+    "volume": {
+      "h24": 28546.82,
+      "h6": 28546.82,
+      "h1": 18768.33,
+      "m5": 1031.29
+    }
+  },
+  {
+    "name": "HEX for Life \ud83c\udfce",
+    "symbol": "HFL",
+    "chainId": "pulsechain",
+    "address": "0xd2D95D8ffA7E705e60834DAea5B76F157128CefF",
+    "price": "0.000001283",
+    "market_cap": 1283,
+    "liquidity": {
+      "usd": 5.68,
+      "base": 2213687,
+      "quote": 213.4662
+    },
+    "volume": {
+      "h24": 160.39,
+      "h6": 160.39,
+      "h1": 160.39,
+      "m5": 0
+    }
+  },
+  {
+    "name": "ApedIn",
+    "symbol": "APED",
+    "chainId": "apechain",
+    "address": "0x5B97284aD9e3E7bf007A6D88a303a706e45d2f1f",
+    "price": "0.00003576",
+    "market_cap": 35770,
+    "liquidity": {
+      "usd": 16088.4,
+      "base": 229059854,
+      "quote": 13406
+    },
+    "volume": {
+      "h24": 140761.18,
+      "h6": 140761.18,
+      "h1": 121931.65,
+      "m5": 794.69
+    }
+  },
+  {
+    "name": "Venis ",
+    "symbol": "Venis",
+    "chainId": "solana",
+    "address": "EMExbrHwf4A3NNstf7jbtLNHoVuVGWvFSEk8LUPNi1nn",
+    "price": "0.0001072",
+    "market_cap": 107245.06,
+    "liquidity": null,
+    "volume": {
+      "h24": 50716.65,
+      "h6": 50716.65,
       "h1": 0,
       "m5": 0
     }
   },
   {
-    "name": "techless coin",
-    "symbol": "TECHLESS",
+    "name": "Bankless Coin",
+    "symbol": "BANKLESS",
     "chainId": "solana",
-    "address": "BpakyFz5i7eX1zNqaXwhLNXMsASBGx69Eotr39LLd6M5",
-    "price": "0.00009280",
-    "market_cap": 92809.21,
+    "address": "FXaSCckXHUg9XtGGMqaDSqFJZhpa49yVtcByKjXS29Na",
+    "price": "0.00007228",
+    "market_cap": 72280.81,
     "liquidity": null,
     "volume": {
-      "h24": 165178.27,
-      "h6": 165178.27,
+      "h24": 122739.55,
+      "h6": 110738.5,
+      "h1": 47869.05,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Kitsu",
+    "symbol": "KITSU",
+    "chainId": "katana",
+    "address": "0x8ab12bfB374dD52a47E48246a4dd8650d96153d8",
+    "price": "0.0005829",
+    "market_cap": 582972,
+    "liquidity": {
+      "usd": 84300.46,
+      "base": 72302825,
+      "quote": 11.2305
+    },
+    "volume": {
+      "h24": 145374.24,
+      "h6": 145374.24,
+      "h1": 8490.01,
+      "m5": 1195.53
+    }
+  },
+  {
+    "name": "FOREVER ALONE",
+    "symbol": "ALONE",
+    "chainId": "solana",
+    "address": "F5Ri9iBCDLFLPjxjeeRD9koTvdZwx3UQZLEPiHP6RmS5",
+    "price": "0.00007237",
+    "market_cap": 72372.43,
+    "liquidity": null,
+    "volume": {
+      "h24": 40388.07,
+      "h6": 40388.07,
       "h1": 0,
       "m5": 0
     }
   },
   {
-    "name": "jeancoin",
-    "symbol": "jean",
+    "name": "Pay Dex",
+    "symbol": "Bro",
     "chainId": "solana",
-    "address": "8Qpv5GSv53RoHhJCMHKCyZnW9XNFpmkv8edxexdsD7oH",
-    "price": "0.00007267",
-    "market_cap": 72675.21,
+    "address": "mTLzwn14ZXHx5mLu9iXMmxapZ5KT4QiZrM6M58QjCC9",
+    "price": "0.00005956",
+    "market_cap": 59560.14,
     "liquidity": null,
     "volume": {
-      "h24": 129696.7,
-      "h6": 129696.7,
+      "h24": 111547.23,
+      "h6": 111547.23,
+      "h1": 66783.16,
+      "m5": 4052.56
+    }
+  },
+  {
+    "name": "poolanger",
+    "symbol": "poolanger",
+    "chainId": "base",
+    "address": "0xd49d08f8f719193ae7c319bd2024386f1e52f705965cbfa32e40047985f3144f",
+    "price": null,
+    "market_cap": null,
+    "liquidity": null,
+    "volume": {
+      "h24": 0,
+      "h6": 0,
       "h1": 0,
       "m5": 0
     }
   },
   {
-    "name": "women stock",
-    "symbol": "Divorce",
+    "name": "Deflation Coin",
+    "symbol": "DEFCOIN",
     "chainId": "solana",
-    "address": "HtM3w8uwqdou2oJWesfASCtKH1zmpTRJb6wVy2Jcx7NE",
-    "price": "0.000005716",
-    "market_cap": 5716.27,
+    "address": "CkoW9VUgTsJGjTxPt2NdUxHzoAB3vYoXyz35TbhhXVac",
+    "price": "0.00007239",
+    "market_cap": 72392.98,
     "liquidity": null,
     "volume": {
-      "h24": 122026.9,
-      "h6": 122026.9,
-      "h1": 1113.56,
-      "m5": 27.96
+      "h24": 63706.02,
+      "h6": 63706.02,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Sydney Sweeney's Dog",
+    "symbol": "SULLY",
+    "chainId": "solana",
+    "address": "J5a34w2geDnTZ1kHrkd1wBBixa7NcXkZ2Phi6GekzDYD",
+    "price": "0.00001813",
+    "market_cap": 18135.89,
+    "liquidity": null,
+    "volume": {
+      "h24": 171410.41,
+      "h6": 171410.41,
+      "h1": 49060.64,
+      "m5": 2110.62
+    }
+  },
+  {
+    "name": "Dunkin Donuts Gavin Casalegno",
+    "symbol": "Dunkin",
+    "chainId": "solana",
+    "address": "FLbEwT4GJ4oLQPvK1hA5jksAxXbFhB4cvoXKAsBwNH1w",
+    "price": "0.00007199",
+    "market_cap": 71997.34,
+    "liquidity": null,
+    "volume": {
+      "h24": 201886.38,
+      "h6": 201886.38,
+      "h1": 23550.53,
+      "m5": 0
+    }
+  },
+  {
+    "name": "MUSEUM OF COMPANIONS",
+    "symbol": "MOC",
+    "chainId": "solana",
+    "address": "ALfy2vsxz6PqoArQTcMZCc7AhTxxf3S7yyu211nkFopx",
+    "price": "0.00007218",
+    "market_cap": 72182.21,
+    "liquidity": null,
+    "volume": {
+      "h24": 36876.02,
+      "h6": 36876.02,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Phil",
+    "symbol": "Phil",
+    "chainId": "base",
+    "address": "0x9f09121910050f5f8feeb072838ddd2be40e4b87255d2b9c930be01ce5cb0d7f",
+    "price": null,
+    "market_cap": null,
+    "liquidity": null,
+    "volume": {
+      "h24": 0,
+      "h6": 0,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "RICH JEW SEASON",
+    "symbol": "RICH",
+    "chainId": "solana",
+    "address": "8HSiUCsCS8AvAXo2zaz9eu7rp49GaaSUeiFGLT6S78qY",
+    "price": "0.00007235",
+    "market_cap": 72354.76,
+    "liquidity": null,
+    "volume": {
+      "h24": 36419.34,
+      "h6": 36419.34,
+      "h1": 0,
+      "m5": 0
+    }
+  },
+  {
+    "name": "Billy's Wife",
+    "symbol": "MILLY",
+    "chainId": "base",
+    "address": "0x9d3181B64D801cB18F2095CBc5B7Ec20aE27842B",
+    "price": "0.00006830",
+    "market_cap": 68307,
+    "liquidity": {
+      "usd": 27241.92,
+      "base": 224301165,
+      "quote": 3.1688
+    },
+    "volume": {
+      "h24": 68816.92,
+      "h6": 68816.92,
+      "h1": 23516.62,
+      "m5": 4676.4
+    }
+  },
+  {
+    "name": "Bundle",
+    "symbol": "\u6346  ",
+    "chainId": "solana",
+    "address": "6e2BshMhMbJ2gqfidfPurE3Eo5oyAKCP5Nf7pLkSRwNc",
+    "price": "0.00004982",
+    "market_cap": 49830,
+    "liquidity": {
+      "usd": 5.64,
+      "base": 56641,
+      "quote": 0.01602
+    },
+    "volume": {
+      "h24": 9558.9,
+      "h6": 9558.9,
+      "h1": 0,
+      "m5": 0
     }
   }
 ]

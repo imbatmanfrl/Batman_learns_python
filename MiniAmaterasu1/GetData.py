@@ -3,7 +3,7 @@ from itertools import count
 
 import requests
 
-import time
+from datetime import datetime
 
 import json
 
@@ -81,12 +81,35 @@ class Api:
         with open("pair_info.json","w") as file:
             json.dump(pair_info,file,indent=2)
 
+    def age(self):
+        url = f"https://api.dexscreener.com/token-pairs/v1/{self.chainId}/{self.tokenAddress}"
+        response = requests.get(url)
+        data = response.json()
+
+        with open("find_age.json", "w") as file:
+            json.dump(data, file, indent=2)
+
+        timestamp_ms = data.get("pairCreatedAt")
+
+        if timestamp_ms:
+            timestamp = int(timestamp_ms) / 1000
+            readable_time = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+            print("Pair created at:", readable_time)
+        else:
+            print("pairCreatedAt not found in response")
+
+
+
+
+
+
     def run_all(self):
         self.get_tokens()
         self.loading()
+        self.age()
         self.ids()
         self.pair_name()
 
 
-api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk")
+api = Api("solana","2FduXi5zPSyxWpvcxBNsu9NcukhKmXaRpy4RLv5obonk",pairId="BB3FFqi6VGpDdJKxPBByAXRYGqFB8QocjaXXd4LhNNte")
 api.run_all()
