@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "name": "Grok Imagine",
+    "symbol": "Imagine",
+    "chainId": "solana",
+    "address": "E9bBxD7UnrPNdiN7VqaPmrQ1uhVHXHoQoiLQ1usdSccS",
+    "price": "0.0006247",
+    "market_cap": 624721,
+    "liquidity": {
+      "usd": 94040.26,
+      "base": 75265768,
+      "quote": 258.9499
+    },
+    "volume": {
+      "h24": 2443192.38,
+      "h6": 2443192.38,
+      "h1": 620875.2,
+      "m5": 39944.89
+    }
+  }
+]

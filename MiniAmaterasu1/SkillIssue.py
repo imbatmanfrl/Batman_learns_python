@@ -1,15 +1,21 @@
 import json
 import requests
 
+#a1cd384b910a4640b5d562d60b9f9d53
 class Track:
-    def particular_asset(self,chainId,tokenAddress,pairedwith):
-        url = f"https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
-        response = requests.get(url)
+    def start(self):
+        url = f"https://public-api.birdeye.so/defi/v2/tokens/new_listing"
+
+        headers = {
+            "X-API-KEY": "a1cd384b910a4640b5d562d60b9f9d53"
+        }
+
+        response = requests.get(url, headers=headers)
         data = response.json()
         print(data)
 
-        with open("currentTokenomics.json","w") as file:
+        with open ("more_tokens.json","w") as file:
             json.dump(data,file,indent=2)
 
 track = Track()
-track.particular_asset("solana","6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump")
+track.start()

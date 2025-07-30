@@ -1,0 +1,107 @@
+{
+  "success": true,
+  "data": {
+    "items": [
+      {
+        "address": "5Y5SsyWnqpabK65V5YFB6huyjvYfEYFiGoXLAdpQbonk",
+        "symbol": "ZORU",
+        "name": "Zoru",
+        "decimals": 6,
+        "source": "raydium_launchlab",
+        "liquidityAddedAt": "2025-07-30T01:48:22",
+        "logoURI": "https://ipfs.io/ipfs/bafkreiemf3z763so6cu2xicy7ffjljjlontjarzcfe45nn6ar4wvccwbdm",
+        "liquidity": 44.83210191334349
+      },
+      {
+        "address": "E3dobvSDZQLXZ3SYmdt28xeM286hrLHXoTwXejipBAGS",
+        "symbol": "NENE",
+        "name": "Nene",
+        "decimals": 9,
+        "source": "meteora_dynamic_bonding_curve",
+        "liquidityAddedAt": "2025-07-30T01:48:20",
+        "logoURI": "https://ipfs.io/ipfs/QmUepV9ciDkP9CAWd4bw6qDxvVqaZtcDXGodFfEtjUkXSf",
+        "liquidity": 0
+      },
+      {
+        "address": "8kpX7Ja8LxuNop5h7mTPNafRho11qEHPBCvpYTSoBAGS",
+        "symbol": "BOLIVIAN",
+        "name": "Mr BoIivian",
+        "decimals": 9,
+        "source": "meteora_dynamic_bonding_curve",
+        "liquidityAddedAt": "2025-07-30T01:48:19",
+        "logoURI": "https://ipfs.io/ipfs/QmesXmRCvo5WAYTf1zhoJZtzsj5hj4UC3h8H86UWAn6SnX",
+        "liquidity": 0
+      },
+      {
+        "address": "33SUXQSu4jJLTkudhzP3mEH8WMrY3zmkMm72pQoP6fBi",
+        "symbol": "SpaceX",
+        "name": "SpaceX ",
+        "decimals": 9,
+        "source": "fluxbeam",
+        "liquidityAddedAt": "2025-07-30T01:48:15",
+        "logoURI": "https://dd.dexscreener.com/ds-data/tokens/solana/2TCKFxG3sb9oStyK8j93MKUynwt5QomjnFA72tXkXsy8.png?claimId=My9UfG4xBtAToiQT",
+        "liquidity": 363.38931195043926
+      },
+      {
+        "address": "Bc8b8tLC5B6nZwCW47YQNAHe9A7Y7pSVwWPWezmcBAGS",
+        "symbol": "SBDILKS",
+        "name": "Ejjdidikz",
+        "decimals": 9,
+        "source": "meteora_dynamic_bonding_curve",
+        "liquidityAddedAt": "2025-07-30T01:48:11",
+        "logoURI": "https://ipfs.io/ipfs/QmX6Xjgm3qqg3qpexnJiEhuWz4hJ42yWpZDeSYCBdWVAqi",
+        "liquidity": 363.35993107176535
+      },
+      {
+        "address": "GdPpm7VVFFPJQvcoC39ULMmTjwyU5RGbtak8Aw3mbonk",
+        "symbol": "ZORU",
+        "name": "Zoru",
+        "decimals": 6,
+        "source": "raydium_launchlab",
+        "liquidityAddedAt": "2025-07-30T01:48:07",
+        "logoURI": "https://ipfs.io/ipfs/bafkreiemf3z763so6cu2xicy7ffjljjlontjarzcfe45nn6ar4wvccwbdm",
+        "liquidity": 180.52285233319446
+      },
+      {
+        "address": "FfzE2rYickzPCV3WGAQn2uMweZDfAB7BuQ7PuDvrbonk",
+        "symbol": "Uni",
+        "name": "\u3046\u306b",
+        "decimals": 6,
+        "source": "raydium_launchlab",
+        "liquidityAddedAt": "2025-07-30T01:48:05",
+        "logoURI": "https://ipfs.io/ipfs/bafybeigzupivxegjzxqyzcyob42vlsgsqutkgafebxtw7etglg2dqpccta",
+        "liquidity": 2327.9626880670457
+      },
+      {
+        "address": "9HBR6u5nYdt3F5KRuqgf3h1JkcgTPbvpBQqxr5QDbonk",
+        "symbol": "MEOWL",
+        "name": "meowl",
+        "decimals": 6,
+        "source": "raydium_launchlab",
+        "liquidityAddedAt": "2025-07-30T01:48:04",
+        "logoURI": "https://ipfs.io/ipfs/bafkreifdm7zbrcquaztvmyca45ho5bgksliwzgt2tctaslcdommxfke2gy",
+        "liquidity": 874.1874741109323
+      },
+      {
+        "address": "3GsFEXYV99XamTLRgBaTtcpVjhTt9sTZ53L3nhpabonk",
+        "symbol": "Reichspfen",
+        "name": "Hitler Coin",
+        "decimals": 6,
+        "source": "raydium_launchlab",
+        "liquidityAddedAt": "2025-07-30T01:48:02",
+        "logoURI": "https://ipfs.io/ipfs/bafkreie3hsowsowyf5u4onlu6jaoyqparhxeqmv7fdu6g2v4qyrnsbertm",
+        "liquidity": 628.4716611645907
+      },
+      {
+        "address": "5UonFRx3NrAKia8TvqaCLNyBRNR9J1khSqAVJehFC3s4",
+        "symbol": "\u0500I\u02e5\u2132",
+        "name": "\u0183u\u1d09\u0265\u0287\u028e\u0279\u01dd\u028c\u01dd d\u1d09l\u025f",
+        "decimals": 6,
+        "source": "fluxbeam",
+        "liquidityAddedAt": "2025-07-30T01:48:02",
+        "logoURI": "https://ipfs.io/ipfs/bafybeibi3qakp2l5txwiyscvv2c657azowfogjgntkaugj565v4gfhyulq",
+        "liquidity": 3632.784168581449
+      }
+    ]
+  }
+}

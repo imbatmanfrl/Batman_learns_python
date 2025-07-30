@@ -12,7 +12,7 @@ def get_profile():
 
 get_prof = get_profile()
 
-with open ("Asset_on_dex.json","w") as file:
+with open ("Asset_on_dex.json", "w") as file:
     json.dump(get_prof,file,indent=2)
 
 for item in get_prof:
