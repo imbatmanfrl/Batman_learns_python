@@ -99,7 +99,15 @@ class Api:
             print("pairCreatedAt not found in response")
 
 
-#lets put the url that can get paircreates at #inside the same function as the one that pulls #chain I'd and token address so we'll be able to #loop through chain Id and pair address as well #then we'll put both inside the pool.json, so #pool.json will contain literally all info #including when the pair was created then we start #filtering, and if it doesn't work, we start #filtering either way
+#lets put the url that can get paircreates at 
+#inside the same function as the one that pulls 
+#chain I'd and token address so we'll be able to 
+#loop through chain Id and pair address as well 
+#then we'll put both inside the pool.json, so 
+#pool.json will contain literally all info 
+#including when the pair was created then we start 
+#filtering, and if it doesn't work, we start 
+#filtering either way
 
 
 
