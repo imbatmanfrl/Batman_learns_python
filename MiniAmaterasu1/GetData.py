@@ -16,10 +16,11 @@ pair = "https://api.dexscreener.com/latest/dex/search"
 pool = "https://api.dexscreener.com/token-pairs/v1/{chainId}/{tokenAddress}"
 
 class Api:
-    def __init__(self,chainId,tokenAddress,pairId=None):
+    def __init__(self,chainId,tokenAddress,pairId=None,chainId2=None):
         self.chainId = chainId
         self.tokenAddress = tokenAddress
         self.pairId = pairId
+        self.chainId2 = chainId2
 
     def get_tokens(self):
         url = f"{latest_tokens}"
@@ -65,6 +66,12 @@ class Api:
 
             for group in data:
                 for pairs in group:
+                    timestamp_ms = pairs.get("pairCreatedAt")
+
+                    if timestamp_ms:
+                        timestamp = int(timestamp_ms) / 1000
+                        readable_time = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
+                        print(readable_time)
                     info = {
                         "name": pairs["baseToken"]["name"],
                         "symbol": pairs["baseToken"]["symbol"],
@@ -73,40 +80,19 @@ class Api:
                         "price": pairs.get("priceUsd"),
                         "market_cap": pairs.get("fdv"),
                         "liquidity": pairs.get("liquidity"),
-                        "volume": pairs.get("volume")
-                    }
+                        "volume": pairs.get("volume"),
+                        "created_at": readable_time
 
+                    }
 
                 pair_info.append(info)
         with open("pair_info.json","w") as file:
             json.dump(pair_info,file,indent=2)
 
-    def age(self):
-        url = f"https://api.dexscreener.com/token-pairs/v1/{self.chainId}/{self.tokenAddress}"
-        response = requests.get(url)
-        data = response.json()
-
-        with open("find_age.json", "w") as file:
-            json.dump(data, file, indent=2)
-
-        timestamp_ms = data.get("pairCreatedAt")
-
-        if timestamp_ms:
-            timestamp = int(timestamp_ms) / 1000
-            readable_time = datetime.fromtimestamp(timestamp).strftime('%Y-%m-%d %H:%M:%S')
-            print("Pair created at:", readable_time)
-        else:
-            print("pairCreatedAt not found in response")
-
-
-
-
-
 
     def run_all(self):
         self.get_tokens()
         self.loading()
-        self.age()
         self.ids()
         self.pair_name()
 
