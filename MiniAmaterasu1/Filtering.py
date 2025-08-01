@@ -4,21 +4,46 @@ from datetime import datetime,timedelta
 #from GetData import Api
 
 class Filter:
-    with open("pair_info.json","r")as file:
-        data = json.load(file)
+        def okay(self):
+            with open("pair_info.json", "r") as file:
+                data = json.load(file)
 
-        for item in data:
-            timestamp_ms = item.get("created_at")  # Replace with your actual timestamp
-            timestamp_sec = timestamp_ms / 1000
-            pair_time = datetime.fromtimestamp(timestamp_sec)
-            now = datetime.now()
-            if now - pair_time <= timedelta(hours=4):
-                print("This pair is less than 3 hours")
+                for item in data:
+                    timestamp_ms = item.get("created_at")
+                    pair_time = datetime.strptime(timestamp_ms, "%Y-%m-%d %H:%M:%S")
+                    now = datetime.now()
+                    liquidity = 1000 <= item.get("liquidity" or {}).get("usd", 0) <= 25000
+                    volume = 10000 <= item.get("volume",{}).get("h24",0) <= 50000
+                    market_cap = 10000 <= item.get("market_cap") <= 50000
+                    price_change = item.get("priceChange",{}).get("h1",0) > 10
+                    chain_Id = item.get("chainId") == "solana"
+                    check_age = now - pair_time <= timedelta(hours=4)
+
+                    if liquidity and volume and market_cap and price_change and chain_Id and check_age:
+                        filtered_info = [item]
+                        print(filtered_info)
+                    else:
+                        print("Not working properly")
+#                        new_info = {
+#                            "name": item.get("name"),
+#                            "symbol": item.get["baseToken"]["symbol"],
+#                            "chainId": item.get("chainId"),
+#                            "address": item.get("pairAddress"),
+#                            "price": item.get("priceUsd"),
+#                            "market_cap": item.get("fdv"),
+#                            "liquidity": item.get("liquidity"),
+#                            "volume": item.get("volume"),
+#                            "created_at": readable_time
+#                        }
+
+filters = Filter()
+filters.okay()
+
+
 
 
 #        age = data.get("created_at")
 #        liquidity = data.get["liquidity"]["usd"]
-#        market_cap = data.get("market_cap")
-#        chain_Id = data.get("chainId")
+#
 
 
