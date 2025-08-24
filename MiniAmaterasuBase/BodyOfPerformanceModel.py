@@ -1,11 +1,12 @@
 from miniPerformanceModel import BudgetModel,WeeksPassed,Spending,Calc
 
-calc = Calc(10000,800,3000,3000)
+calc = Calc()
+#calc.input(10000,800,3000,3000)
 calc.re_occurring("Data","Transport","Spotify","F")
 calc.price(1500,800,0,0)
 #calc.one_time_purchases(random=["FIFA","Workbook","Bread"],cost=[500,4250,500])
 calc.one_time_purchases(random=[""],cost=[0])
-calc.starting_date()
+calc.starting_date(2025,8,3)
 calc.time_since_last_update()
 calc.store("yes")
 calc.weekly_leftover()

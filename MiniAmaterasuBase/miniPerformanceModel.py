@@ -7,18 +7,47 @@ I'm starting to see the importance of flowchart and pseudocode"""
 
 class BudgetModel:
 
-    def __init__(self,weekly_earnings,weekly_expenditure,weekly_savings,weekly_investments,):
-        self.weekly_earnings = weekly_earnings
-        self.weekly_expenditure = weekly_expenditure
-        self.weekly_savings = weekly_savings
-        self.weekly_investments = weekly_investments
+    def earn_daily(self, *args):
+        self.weekly_earnings = []
+        earned = list(args)
+        earned_today = sum(earned)
+        print(f"You earned #{earned_today} today")
+        self.weekly_earnings.append(earned_today)
+
+    def spent_today(self, name, cost):
+        item_name = list(name)
+        item_cost = list(cost)
+        the_zip = zip(item_name, item_cost)
+        self.weekly_expenditure = dict(the_zip)
+        print(self.weekly_expenditure)
+
+    def save_today(self,*args):
+        self.weekly_savings = []
+        saved = list(args)
+        saved_today = sum(saved)
+        print(f"You Saved #{saved_today} today")
+        self.weekly_savings.append(saved_today)
+
+    def invest(self,name,cost):
+        item_name = list(name)
+        item_cost = list(cost)
+        the_zip = zip(item_name, item_cost)
+        self.weekly_investments = dict(the_zip)
+
 
 import datetime
 class WeeksPassed:
 
-    def starting_date(self):
+    def starting_date(self,year,month,day):
+        self.year = int(input("Enter starting year!: "))
+        self.month = int(input("Enter starting month!: "))
+        self.day = int(input("Enter starting date!: "))
+
+        year = self.year
+        month = self.month
+        day = self.day
         try:
-            self.beginning_date = datetime.date(2025,7,7) #maybe I should write this date manually
+            self.beginning_date = datetime.date(year,month,day) #maybe I should write this date manually
             with open("StartDate.txt","w")as file:
                 file.write(str(self.beginning_date))
                 print(self.beginning_date)
@@ -58,33 +87,9 @@ class WeeksPassed:
         elif self.update == "no":
             print("Have a great day then!")
 
-class Spending:
-
-    def re_occurring(self, *args):
-        self.weekly = list(args)
-        print(self.weekly)
-
-    def price(self, *args):
-        self.cost = list(args)
-
-    def expenses(self):
-        self.compiled = dict(zip(self.weekly, self.cost))
-        print(self.compiled)
-
-    def one_time_purchases(self, random=None, cost=None):
-        self.random = list(random)
-        self.tag = list(cost)
-        the_zip = zip(self.random, self.tag)
-        miscelieous = dict(the_zip)
-        print(f"one-time purchases {miscelieous}")
-
-
-class Calc(BudgetModel,WeeksPassed,Spending):
-#now we want to calculate how much we have at the end of each week, how much we've saved so far,
-# how much money we actually earned before expenses
-#how much money we've spent on expenses up until now
-#how much we'll have earned after x number of years, only problem is
-# i want this part to be dynamic as spending and earning frequency may vary
+class Calc(BudgetModel,WeeksPassed):
+#now we redo the calculatons, this since things like weekly expenditure are dictionaries now
+# were going to have to seperate the values needed fir arithmetic operations
     def weekly_leftover(self):
         weekly_value = sum(self.cost)
         print(f"You spent #{weekly_value} on {self.weekly} this week")
