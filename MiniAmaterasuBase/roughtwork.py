@@ -1,18 +1,33 @@
-class Daily:
+def spent_today(self, name, cost):
+    item_date = datetime.date.today().isoformat()
 
-    def earn_daily(self,*args):
-        self.weekly_earn = []
-        earned = list(args)
-        earned_today = sum(earned)
-        print(f"You earned #{earned_today} today")
+    # Handle both single items and lists
+    if isinstance(name, list) and isinstance(cost, list):
+        # Multiple items
+        total_spent_today = 0
+        for item_name, item_cost in zip(name, cost):
+            spent = {
+                "item": item_name,
+                "cost": item_cost,
+                "date": item_date
+            }
+            self.weekly_expenditure.append(item_cost)
+            self.all_expenditure.append(spent)
+            total_spent_today += item_cost
 
-    def spent_today(self, name, cost):
-        self.item_name = list(name)
-        self.item_cost = list(cost)
-        the_zip = zip(self.item_name, self.item_cost)
-        self.weekly_expenditure = dict(the_zip)
-        print(self.weekly_expenditure)
+        # Print once with total
+        print(f"You spent #{total_spent_today} today")
 
-daily = Daily()
-daily.earn_daily(300,67767,766737,5662626,2726252,7782782)
-daily.spent_today(name=["rice","garri","beans"],cost=[234,23456,12345])
+    else:
+        # Single item
+        spent = {
+            "item": name,
+            "cost": cost,
+            "date": item_date
+        }
+        self.weekly_expenditure.append(cost)
+        self.all_expenditure.append(spent)
+        print(f"You spent #{cost} today")
+
+    with open("all_expenditure.json", "w") as file:
+        json.dump(self.all_expenditure, file, indent=2)

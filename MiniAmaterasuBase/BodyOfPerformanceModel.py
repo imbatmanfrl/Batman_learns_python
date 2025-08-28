@@ -1,18 +1,20 @@
-from miniPerformanceModel import BudgetModel,WeeksPassed,Spending,Calc
+from miniPerformanceModel import BudgetModel,WeeksPassed,Calc
 
 calc = Calc()
 #calc.input(10000,800,3000,3000)
-calc.re_occurring("Data","Transport","Spotify","F")
-calc.price(1500,800,0,0)
-#calc.one_time_purchases(random=["FIFA","Workbook","Bread"],cost=[500,4250,500])
-calc.one_time_purchases(random=[""],cost=[0])
-calc.starting_date(2025,8,3)
-calc.time_since_last_update()
-calc.store("yes")
+calc.earn_daily(2500)
+calc.spent_today("phone keep", 200)
+calc.spent_today("puff puff", 300)
+calc.spent_today("transport", 400)
+calc.save_today(0)
+calc.invest(name="",cost=0)
+calc.starting_date(2025,8,28)
+calc.weekly_amounts()
 calc.weekly_leftover()
-calc.total_earned()
-calc.total_spent()
-calc.total_saved()
+calc.tottal_earned()
+calc.tottal_spent()
+calc.tottal_saved()
+calc.tottal_invested()
 calc.projections(6)
 
 
