@@ -1,4 +1,4 @@
-from MiniAmaterasuBase.MA0_5 import Trade
+from miniFinanceTrackingBot.MA0_5 import Trade
 
 while True:
     trade = Trade()

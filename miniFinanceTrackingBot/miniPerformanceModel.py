@@ -136,8 +136,7 @@ class Calc(BudgetModel,WeeksPassed):
 
     def weekly_leftover(self):
         arith = self.earn_total - self.spend_total
-        whats_left = (f"you earned #{self.earn_total} this week and spent #{self.spend_total} this week,"
-                      f"\n you have #{arith} left this week")
+        whats_left = arith
         with open("WeeklySpent.json", "a") as file:
             json.dump(whats_left, file, indent=2)
 
