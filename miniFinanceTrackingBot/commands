@@ -1,0 +1,12 @@
+start- Displays strat menu
+help-Displays help menu
+startdate - enter the date which you start using this pot
+earnings - enter how much you earned today
+expenses - enter what you spent on and how much it cost today
+savings - enter how much you saved today
+investments - enter how much and what you invested in today
+weekly - view how much you spent,earned and have leftover for the week
+totals - view how much you spent,earned,saved since start
+projection - view how much you'd have earned spent, saved in a deined number of weeks
+developer - incase you want to talk to the developer
+support - incase you wish to bless the developer

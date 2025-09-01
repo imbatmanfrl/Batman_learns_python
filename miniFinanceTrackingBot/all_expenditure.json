@@ -1,17 +1,22 @@
 [
   {
-    "item": "phone keep",
-    "cost": 200,
-    "date": "2025-08-28"
+    "item": "car",
+    "cost": 100000.0,
+    "date": "2025-09-01"
   },
   {
-    "item": "puff puff",
-    "cost": 300,
-    "date": "2025-08-28"
+    "item": "real estate",
+    "cost": 500000.0,
+    "date": "2025-09-01"
   },
   {
-    "item": "transport",
-    "cost": 400,
-    "date": "2025-08-28"
+    "item": "mac book",
+    "cost": 4000.0,
+    "date": "2025-09-01"
+  },
+  {
+    "item": "food 600 books",
+    "cost": 4000.0,
+    "date": "2025-09-01"
   }
 ]

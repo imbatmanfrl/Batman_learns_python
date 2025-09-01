@@ -27,15 +27,20 @@ class BudgetModel:
         print(f"You earned #{earned_today} today")
         self.weekly_earnings.append(earned_today)
 
+
         earning_entry = {
             "amount": earned_today,
             "date": today,
             "breakdown": earned
         }
         self.all_earnings.append(earning_entry)
+        today_total = sum(entry['amount'] for entry in self.all_earnings if entry['date'] == today)
 
         with open ("all_earnings.json",'w') as file:
             json.dump(self.all_earnings,file,indent=2)
+
+        return today_total
+
 
     def spent_today(self, name, cost):
         item_date = datetime.date.today().isoformat()
@@ -44,14 +49,15 @@ class BudgetModel:
             "cost": cost,
             "date": item_date
         }
-        total = 0
-        total += cost
+        today_date = datetime.date.today()
         self.weekly_expenditure.append(cost)
         print(f"you spent #{total} this week")
         self.all_expenditure.append(spent)
+        total = sum(cost for cost in self.all_expenditure if item_date == today_date)
 
         with open("all_expenditure.json", "w") as file:
             json.dump(self.all_expenditure, file, indent=2)
+        return total
 
     def save_today(self, *args):
         saved = list(args)
